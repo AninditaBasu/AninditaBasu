@@ -1,8 +1,85 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
+
+<head>
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/south-street/jquery-ui.css">
+<link rel="stylesheet" href="main.css">
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+<script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+</script>
+
+<title>Anindita Basu's GitHub pages</title>
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<p><a href = "https://github.com/AninditaBasu/vedic-gods/blob/master/vedic_gods.html">..</a></p>
+
+<div>
+
+<p>These projects are maintained at GitHub by <a href="https://github.com/AninditaBasu" target = "_blank">AninditaBasu</a>.</p>
+
+</div>
+
+<div id="tabs">
+  <ul>
+    <li><a href="#javascript">Javascript</a></li>
+    <li><a href="#python">Python</a></li>
+    <li><a href="#noncode">Non-code</a></li>
+  </ul>
+
+<div id = "javascript">
+<h1>Javascript</h1>
+<p>
+These are javascript code for HTML files in your online help documents.
+</p>
+
+<p>If the final output of your online help files is HTML, you can include these code snippets in your HTML transforms. The files use the jQuery and the jQuery UI libraries, and are implemented through the "class" attribute of HTML elements. Therefore, the code will work on any element that takes a "class" attribute.</p>
+
+<p>See <a href = "http://aninditabasu.github.io/onlineHelp-javascript/" target = "_blank">Javascript for your online help files</a>.</p>
+
+
+</div>
+
+<div id = "python">
+<h1>Python</h1>
+<p>
+The script reports links that occur more than once in  any DITA topic file. For any specified directory, the script checks all links in a DITA file, and all links in DITA maps. It identifies cross-references that occur more than once, and reports them. Relationship tables, topicref collections, inline Xrefs, links in the related-links tag are all reckoned.</p>
+
+<p>To run the script, you need Python 2.7.5.</p>
+
+<h3>Usage instructions</h3>
+
+<ol>
+<li>Download the script to any folder on your computer. Double-click the script.</li>
+<li>When prompted, enter the full path of the directory to be scanned, for example, c:\documentation.</li>
+<li>When the checking is complete, you see a message on the console: "Press any key to exit." Press any key.</li>
+<li>Go to the folder where you saved the script. You see a file called RepeatedLinks.html. This is the report file for you to read and act upon. </li>
+</ol>
+
+<h3>Limitations</h3>
+
+<p>The script assumes that all DITA topic files have the .dita extension and all DITA map files have the .ditamap extension. If your files are .xml files, this script will not work.</p>
+
+</div>
+
+<div id = "noncode">
+<h1>Non-code</h1>
+<p>These are artifacts that are not related to my bread and butter.</p>
+
+<ul>
+<li>Vedic gods and their adversaries, <a href = "http://aninditabasu.github.io/vedic-gods/" target = "_blank">on GitHub Pages</a></li>
+<li>Of words and all that, <a href = "https://alfaazi.blogspot.com" target = "_blank">on Blogspot</a>.</li>
+</div>
+
+</div>
+
 </body>
+
 </html>

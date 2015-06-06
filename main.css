@@ -1,0 +1,32 @@
+p, div {
+	line-height: 200%;
+	padding-left: 5px;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+blockquote {
+    font-family: monospace;
+	background-color:#E6E6E6;
+	padding-left: 5px;
+}
+
+a.download {
+    font-family: monospace;
+	background-color:#CEE3F6;
+	padding: 10px 22px 10px 22px;
+	height: 30px;
+	border-color: #08088A;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+p.footer {
+	line-height: 200%;
+	padding-left: 5px;
+	font-family: Times, serif;
+	font-weight: normal;
+	font-size: 16px;
+}
