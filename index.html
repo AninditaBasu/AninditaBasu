@@ -61,6 +61,7 @@ These are javascript code for HTML files in your online help documents.
   <li><a href = "#wordlist">Word list scan:</a> A script that reports the occurences of an entire list of words in DITA topic files in a directory</li>
   <li><a href = "#replink">Repeated links scan:</a> A script that reports links that occur more than once in DITA topic files in a directory</li>
 </ul>
+<p>To run these scripts, you need Python 2.7.5. Download and install Python from www.python.org. Doing so neither takes too long nor is difficult. You need it only to run the script; you don't need to know Python to run the scripts.</p>
 <hr>
 <a name = "wordlist"></a>
 <h2>Word list scan</h2>
@@ -71,14 +72,14 @@ These are javascript code for HTML files in your online help documents.
 <ol>
 <li>Download the script to any folder on your computer.</li>
 <li>Open the wordlist.txt file in Notepad and enter the words and phrases to be searched for. Each word or phrase should be on a new line. Do not enter a new line after the last item in this file. Save and close the file.</li>
-<li>Double-click the script. When prompted, enter the full path of the directory to be scanned, for example, c:\documentation. Do not forget to enter teh trailing \ for the directory.</li>
+<li>Double-click the script. When prompted, enter the full path of the directory to be scanned, for example, c:\documentation\. Do not forget to enter the trailing \ for the directory.</li>
 <li>When the checking is complete, you see a message on the console: "Press any key to exit." Press any key.</li>
-<li>Go to the folder where you saved the script. You see a file called ..... This is the report file for you to read and act upon. </li>
+<li>Go to the folder where you saved the script. You see a file called wordListScan.html. This is the report file for you to read and act upon. </li>
 </ol>
 
 <h4>Limitations</h4>
 
-<p>The script assumes that all DITA topic files have the .dita extension and all DITA map files have the .ditamap extension. If your files use the .xml extension, this script will not work.</p>
+<p>The script assumes that all DITA topic files have the .dita extension. If your files use the .xml extension, this script will not work.</p>
 
 <h4>Download</h4>
 <p>See <a href = "https://github.com/AninditaBasu/word-list-scan" target = "_blank">word-list-scan</a>.</p>
@@ -110,7 +111,7 @@ The script reports links that occur more than once in  any DITA topic file. For 
 
 <div id = "noncode">
 <h1>Non-code</h1>
-<p>These artifacts are not at all related to technical writing.</p>
+<p>These artifacts are not related to technical writing.</p>
 
 <ul>
 <li>Vedic gods and their adversaries, <a href = "http://aninditabasu.github.io/vedic-gods/" target = "_blank">on GitHub Pages</a></li>
