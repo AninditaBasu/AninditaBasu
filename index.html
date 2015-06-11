@@ -58,20 +58,20 @@ These are javascript code for HTML files in your online help documents.
 <div id = "python">
 <h1>Python</h1>
 <ul>
-  <li><a href = "#wordlist">Word list scan:</a> A script that reports the occurences of an entire list of words in DITA topic files in a directory</li>
-  <li><a href = "#replink">Repeated links scan:</a> A script that reports links that occur more than once in DITA topic files in a directory</li>
+  <li><a href = "#wordlist">Word list scanner:</a> A script that reports the occurrences of a <b>list</b> of words and phrases in DITA topic files in a directory</li>
+  <li><a href = "#replink">Extra links scanner:</a> A script that reports links that occur more than once in DITA topic files in a directory</li>
 </ul>
 <p>To run these scripts, you need Python 2.7.5. Download and install Python from www.python.org. Doing so neither takes too long nor is difficult. You need it only to run the script; you don't need to know Python to run the scripts.</p>
 <hr>
 <a name = "wordlist"></a>
 <h2>Word list scan</h2>
-<p>The script that scans all DITA files in a directory, recursively, for occurences of an entire list of words that you specify. A DITA tag can be a word too.</p>
+<p>The script scans all DITA files in a directory, recursively, for occurrences of an entire list of words and phrases that you specify. A DITA tag can be a word too. You can specify phrases as well.</p>
 <p>To run the script, you need Python 2.7.5.</p>
 <h4>Usage instructions</h4>
 
 <ol>
 <li>Download the script to any folder on your computer.</li>
-<li>Open the wordlist.txt file in Notepad and enter the words and phrases to be searched for. Each word or phrase should be on a new line. Do not enter a new line after the last item in this file. Save and close the file.</li>
+<li>Open the wordlist.txt file in Notepad, and enter the words and phrases to be searched for. Each word or phrase should be on a new line. Do not enter a new line after the last item in this file. Save and close the file.</li>
 <li>Double-click the script. When prompted, enter the full path of the directory to be scanned, for example, c:\documentation\. Do not forget to enter the trailing \ for the directory.</li>
 <li>When the checking is complete, you see a message on the console: "Press any key to exit." Press any key.</li>
 <li>Go to the folder where you saved the script. You see a file called wordListScan.html. This is the report file for you to read and act upon. </li>
