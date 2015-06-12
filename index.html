@@ -65,8 +65,16 @@ These are javascript code for HTML files in your online help documents.
 <hr>
 <a name = "wordlist"></a>
 <h2>Word list scan</h2>
+
 <p>The script scans all DITA files in a directory, recursively, for occurrences of an entire list of words and phrases that you specify. A DITA tag can be a word too. You can specify phrases as well.</p>
+
 <p>To run the script, you need Python 2.7.5.</p>
+
+<h4>Usage scenario</h4>
+<p>You want to scan all files in a directory for several words, all at once. Maybe these words are a list of do-not-use words that your style guide specifies, but you don't have an automated word checker to look for such occurences. Maybe you want to know if you've used certain DITA tags in your files but do not want to run a system search for each tag, one by one. This script handles multiple words at one go. The script also handles not only words but phrases as well.</p>
+
+<p>You specify a list of words and phrases, and tell the script which directory it should scan. The script runs the checks and gives you a report that you can read and act upon.</p>
+
 <h4>Usage instructions</h4>
 
 <ol>
@@ -90,6 +98,26 @@ These are javascript code for HTML files in your online help documents.
 The script reports links that occur more than once in  any DITA topic file. For any specified directory, the script checks all links in a DITA file, and all links in DITA maps. It identifies cross-references that occur more than once, and reports them. Relationship tables, topicref collections, inline Xrefs, links in the related-links tag are all reckoned.</p>
 
 <p>To run the script, you need Python 2.7.5.</p>
+
+<h4>Usage scenario</h4>
+
+<p>When DITA topics are transformed to HTML, the following links are auto-generated and inserted inside the topic:</p>
+
+<ul>
+  <li>Links to nested topicref elements in a DITA map file</li>
+  <li>Links to topics in the same row in a relationship table</li>
+</ul>
+
+<p>Additionally, DITA topics might have the following links inserted manually in the topic:</p>
+
+<ul>
+  <li>through an xref element</li>
+  <li>through the related-links element</li>
+</ul>
+
+<p>The net effect is, after the transforms, a topic might contain a link to the same target more than once. Maybe yours is a multi-writer team, maybe you inherited the files and haven't done a link check, maybe you yourself linked to a topic twice: once through a .ditamap file and once again through an in-topic related link.</p>
+
+<p>This script will find all such links: links that occur more than once in a topic. The script will, then, generate a report for you. Read the report and delete the extra insertions.</p>
 
 <h4>Usage instructions</h4>
 
