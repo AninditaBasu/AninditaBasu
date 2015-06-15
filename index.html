@@ -59,6 +59,7 @@ These are javascript code for HTML files in your online help documents.
 <h1>Python</h1>
 <ul>
   <li><a href = "#wordlist">Word list scanner:</a> A script that reports the occurrences of a <b>list</b> of words and phrases in DITA topic files in a directory</li>
+  <li><a href = "#orphan">Orphan files scanner: A script that reports the files that are not called by the DITA files in a directory</a></li>
   <li><a href = "#replink">Extra links scanner:</a> A script that reports links that occur more than once in DITA topic files in a directory</li>
 </ul>
 <p>To run these scripts, you need Python 2.7.5. Download and install Python from www.python.org. Doing so neither takes too long nor is difficult. You need it only to run the script; you don't need to know Python to run the scripts.</p>
@@ -91,6 +92,36 @@ These are javascript code for HTML files in your online help documents.
 
 <h4>Download</h4>
 <p>See <a href = "https://github.com/AninditaBasu/word-list-scan" target = "_blank">word-list-scan</a>.</p>
+
+<hr>
+<a name = "orphan"></a>
+<h2>Orphan files scan</h2>
+
+<p>The script scans all files in a directory, recursively, and reports the files that are not called by any DITA file in the directory.</p>
+
+<p>To run the script, you need Python 2.7.5.</p>
+
+<h4>Usage scenario</h4>
+<p>You have several image files, topic files, and other files in the directory but hesitate to delete them because you are not sure if any of these files are referenced by the DITA files in that directory.</p>
+
+<p>You tell the script which directory it should scan. The script runs the checks and gives you a report that you can read and act upon to clean up your workspace.</p>
+
+<h4>Usage instructions</h4>
+
+<ol>
+<li>Download the script to any folder on your computer.</li>
+<li>Double-click the script. When prompted, enter the full path of the directory to be scanned, for example, c:\documentation\. Do not forget to enter the trailing \ for the directory.</li>
+<li>When the checking is complete, you see a message on the console: "Press any key to exit." Press any key.</li>
+<li>Go to the folder where you saved the script. You see a file called orphanScan.html. This is the report file for you to read and act upon. </li>
+</ol>
+
+<h4>Limitations</h4>
+
+<p>The script assumes that all DITA topic files have the .dita extension. If your files use the .xml extension, this script will not work.</p>
+
+<h4>Download</h4>
+<p>See <a href = "https://github.com/AninditaBasu/orphan-scan" target = "_blank">orphan-scan</a>.</p>
+
 <hr>
 <a name = "replink"></a>
 <h2>Repeated links scan</h2>
