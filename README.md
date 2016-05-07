@@ -9,7 +9,7 @@
 
 ## Work experience
 
-(Deliverables for each area is listed in no particular order.)
+(Deliverables for each area are listed in no particular order.)
 
 ### Writing
 
