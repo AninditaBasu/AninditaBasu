@@ -9,7 +9,7 @@
 
 ## Work experience
 
-Can write, edit, design, and code.
+(Deliverables for each area is listed in no particular order.)
 
 ### Writing
 
@@ -17,11 +17,12 @@ Can write, edit, design, and code.
 - Quick start guides
 - Context-sensitive help
 - Tutorials
+- Product videos
 - API documentation
 
 ### Editing
 
-- Product documentation
+- Product documentation and multimedia
 - UI message strings
 - Style guide rules
 
@@ -33,7 +34,6 @@ Can write, edit, design, and code.
 ### Coding
 
 - API sample code
-- Process-improvement code
 
 ## Tools and technologies
 
