@@ -1,6 +1,6 @@
 # Anindita Basu
 
-- Can write, edit, and design. Can also code.
+- Writes, edits, and designs user documentation and user interfaces. Can also code.
 - Works with minimal supervision.
 - Has implemented documentation improvements that resulted in reducing file and word counts, and in enhancing reader experience.
 - Has implemented process improvements that resulted in reducing time of routine activities. Examples [here](https://github.com/AninditaBasu/orphan-scan), [here](https://github.com/AninditaBasu/word-list-scan), and [here](https://github.com/AninditaBasu/linkchecker-third-twin).
@@ -9,7 +9,7 @@
 
 ## Work experience
 
-(Deliverables for each area are listed in no particular order.)
+(Deliverables are listed in no particular order.)
 
 ### Writing
 
@@ -31,10 +31,6 @@
 - User scenarios
 - UI wireframes
 
-### Coding
-
-- API sample code
-
 ## Tools and technologies
 
 (Proficiency level, on an increasing scale of 1 to 10, is indicated by the number.)
@@ -53,8 +49,8 @@
 - DITA: 8
 - Markdown: 8
 - HTML, CSS, JS: 7
-- XML, XSL, DTD: 3
-- Python: 5
+- XML, XSL, DTD: 2
+- Python: 4
 
 
 ## Employment history
@@ -68,3 +64,7 @@
 
 - B\. Sc, 1989
 - MBA, 1992
+
+## Contact
+
+ab.techwriter@gmail.com
