@@ -54,6 +54,10 @@ A technical communicator since 2006.
 - XML, XSL, DTD: 2
 - Python: 4
 
+## Code samples
+
+A collection is on this page: [Code bits and other pieces](index.html)
+
 
 ## Employment history
 
