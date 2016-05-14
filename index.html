@@ -17,15 +17,26 @@
   });
 </script>
 
-<title>Anindita Basu's GitHub pages: Code for technical writers</title>
+<title>Anindita Basu's page: Codes and samples for technical writers</title>
 
 </head>
 
 <body>
 
 <div>
-  <h1>Code for technical writers</h1>
-<p>Here are some code bits that are expected to make the everyday life of a technical writer a little bit simpler.</p>
+
+  <h1>Codes and samples</h1>
+  
+<p>For technical communication, mainly, but any communication, really.  All of the scripts and code snippets are in freely downloadable public repositories on Github.</p>
+
+<ul>
+<li>Javascript: Reusable code snippets for HTML and DITA files in product documentation</li>
+<li>Python: Scripts to make the everyday life of a technical writer a wee bit easier</li>
+<li>Infographics: Code to generate basic infographics from large data sets</li>
+<li>Implementation examples: Websites that use these Javascript snippets</li>
+</ul>
+
+<p>Click the tabs to read further, and to get the Github repository links.</p>
 
 </div>
 
@@ -33,155 +44,202 @@
   <ul>
     <li class = "tsection"><a href="#javascript">JavaScript</a></li>
     <li class = "tsection"><a href="#python">Python</a></li>
-    <li class = "tsection"><a href="#noncode">Others</a></li>
+	<li class = "tsection"><a href="#infographics">Infographics</a></li>
+    <li class = "tsection"><a href="#websites">Implementation examples</a></li>    	
   </ul>
 
 <div id = "javascript">
-<h1>JavaScript</h1>
+<h2>JavaScript</h2>
 <p>
 These are JavaScript code for HTML files in your online help documents.
 </p>
 
-<p>If the final output of your online help files is HTML, you can include these code snippets in your HTML transforms. The files use the jQuery and the jQuery UI libraries, and are implemented through the "class" attribute of HTML elements. Therefore, the code will work on any element that takes a "class" attribute.</p>
-<p>The following effects are ready for your use at the moment:</p>
+<p>If the final output of your online help files is HTML, you can include these code snippets in your HTML transforms. The files use the jQuery and the jQuery UI libraries, and are implemented through the <code>class</code> attribute of HTML elements. Therefore, the code will work on any HTML or DITA element that takes a <code>class</code> attribute.</p>
+<p>The following effects are ready for your use:</p>
 <ul>
-  <li>For getting rid of copy-paste, using content referencing in HTML.</li>
-  <li>For progressive disclosure, showing or hiding blocks of content on demand</li>
-  <li>For usability, showing the content of a footnote on hover rather than on click (though click is still an option if preferred by the reader).</li>
-  <li>For consumability, displaying the sections on a page in horizontal tabs instead of vertical sections</li>  
+  <li>For getting rid of copy-paste, use content referencing in HTML</li>
+  <li>For progressive disclosure, show or hide blocks of content on demand</li>
+  <li>For usability, show the content of a footnote on hover rather than on click (though click is retained as an option)</li>
+  <li>For consumability, display the sections on a page in horizontal tabs instead of vertical sections</li>  
 </ul>
-<p>See <a href = "http://aninditabasu.github.io/onlineHelp-javascript/" target = "_blank">JavaScript for your online help files</a>.</p>
+<p>See <a href = "https://github.com/AninditaBasu/onlineHelp-javascript" target = "_blank">JavaScript for your online help files</a>. The entire repository is downloadable as a <code>.zip</code> file. Each JavaScript effect has its own modular set and can, therefore, be used separately or together.</p>
 
 
 </div>
 
 <div id = "python">
-<h1>Python</h1>
+
+<h2>Python</h2>
+
+<p>These are scripts to make the everyday life of a technical writer a wee bit easier.</p>
+
 <ul>
   <li><a href = "#wordlist">Word list scanner:</a> A script that reports the occurrences of a <b>list</b> of words and phrases in DITA topic files in a directory</li>
   <li><a href = "#orphan">Orphan files scanner:</a> A script that reports the files that are not called by the DITA files in a directory</li>
   <li><a href = "#replink">Extra links scanner:</a> A script that reports links that occur more than once in DITA topic files in a directory</li>
 </ul>
-<p>To run these scripts, you need Python 2.7.5. Download and install Python from www.python.org. Doing so neither takes too long nor is difficult. You need it only to run the script; you don't need to know Python to run the scripts.</p>
+
+<p>To run these scripts, you need Python 2.7.5. Download and install Python from www.python.org. You need Python only to run the script; you don't need to know Python to run the scripts.</p>
+
 <hr>
+
 <a name = "wordlist"></a>
-<h2>Word list scan</h2>
 
-<p>The script scans all DITA files in a directory, recursively, for occurrences of an entire list of words and phrases that you specify. A DITA tag can be a word too. You can specify phrases as well.</p>
+<h3>Word list scan</h3>
 
-<p>To run the script, you need Python 2.7.5.</p>
+<p>The script scans all DITA files in a directory, recursively, for occurrences of an entire list of words and phrases that you specify.</p>
 
 <h4>Usage scenario</h4>
-<p>You want to scan all files in a directory for several words, all at once. Maybe these words are a list of do-not-use words that your style guide specifies, but you don't have an automated word checker to look for such occurences. Maybe you want to know if you've used certain DITA tags in your files but do not want to run a system search for each tag, one by one. This script handles multiple words at one go. The script also handles not only words but phrases as well.</p>
 
-<p>You specify a list of words and phrases, and tell the script which directory it should scan. The script runs the checks and gives you a report that you can read and act upon.</p>
+<p>You want to scan all files in a directory for several words, all at once. Maybe these words are a list of do-not-use words that your style guide specifies, but you don't have an automated word checker to look for such occurences. Maybe you want to know if you've used certain DITA tags in your files but do not want to run a system search for each tag, one by one. This script searches for multiple words at one go, and also phrases and DITA tags. You specify a list of words and phrases, and tell the script which directory it should scan. The script runs the checks and gives you a report that you can read and act upon.</p>
 
-<h4>Usage instructions</h4>
+<h4>Download and installation</h4>
 
-<ol>
-<li>Download the script to any folder on your computer.</li>
-<li>Open the wordlist.txt file in Notepad, and enter the words and phrases to be searched for. Each word or phrase should be on a new line. Do not enter a new line after the last item in this file. Save and close the file.</li>
-<li>Double-click the script. When prompted, enter the full path of the directory to be scanned, for example, c:\documentation\. Do not forget to enter the trailing \ for the directory.</li>
-<li>When the checking is complete, you see a message on the console: "Press any key to exit." Press any key.</li>
-<li>Go to the folder where you saved the script. You see a file called wordListScan.html. This is the report file for you to read and act upon. </li>
-</ol>
-
-<h4>Limitations</h4>
-
-<p>The script assumes that all DITA topic files have the .dita extension. If your files use the .xml extension, this script will not work.</p>
-
-<h4>Download</h4>
 <p>See <a href = "https://github.com/AninditaBasu/word-list-scan" target = "_blank">word-list-scan</a>.</p>
 
 <hr>
+
 <a name = "orphan"></a>
-<h2>Orphan files scan</h2>
+
+<h3>Orphan files scan</h3>
 
 <p>The script scans all files in a directory, recursively, and reports the files that are not called by any DITA file in the directory.</p>
 
-<p>To run the script, you need Python 2.7.5.</p>
-
 <h4>Usage scenario</h4>
-<p>You have several image files, topic files, and other files in the directory but hesitate to delete them because you are not sure if any of these files are referenced by the DITA files in that directory.</p>
 
-<p>You tell the script which directory it should scan. The script runs the checks and gives you a report that you can read and act upon to clean up your workspace.</p>
+<p>You have several image files, topic files, and other files in the directory but hesitate to delete them because you are not sure if any of these files are referenced by the DITA files in that directory.  You tell the script which directory it should scan. The script runs the checks and gives you a report that you can read and act upon to clean up your workspace.</p>
 
-<h4>Usage instructions</h4>
-
-<ol>
-<li>Download the script to any folder on your computer.</li>
-<li>Double-click the script. When prompted, enter the full path of the directory to be scanned, for example, c:\documentation\. Do not forget to enter the trailing \ for the directory.</li>
-<li>When the checking is complete, you see a message on the console: "Press any key to exit." Press any key.</li>
-<li>Go to the folder where you saved the script. You see a file called orphanScan.html. This is the report file for you to read and act upon. </li>
-</ol>
-
-<h4>Limitations</h4>
-
-<p>The script assumes that all DITA topic files have the .dita extension. If your files use the .xml extension, this script will not work.</p>
-
-<h4>Download</h4>
+<h4>Download and installation</h4>
 <p>See <a href = "https://github.com/AninditaBasu/orphan-scan" target = "_blank">orphan-scan</a>.</p>
 
 <hr>
-<a name = "replink"></a>
-<h2>Repeated links scan</h2>
-<p>
-The script reports links that occur more than once in  any DITA topic file. For any specified directory, the script checks all links in a DITA file, and all links in DITA maps. It identifies cross-references that occur more than once, and reports them. Relationship tables, topicref collections, inline Xrefs, links in the related-links tag are all reckoned.</p>
 
-<p>To run the script, you need Python 2.7.5.</p>
+<a name = "replink"></a>
+
+<h3>Repeated links scan</h3>
+
+<p>The script reports links that occur more than once in  any DITA topic file. For any specified directory, the script checks all links in a DITA file, and all links in DITA maps. It identifies cross-references that occur more than once, and reports them. Relationship tables, <code>topicref</code> collections, inline <code>xref</code> tags, and links in the <code>related-links</code> tag are all reckoned.</p>
 
 <h4>Usage scenario</h4>
 
 <p>When DITA topics are transformed to HTML, the following links are auto-generated and inserted inside the topic:</p>
 
 <ul>
-  <li>Links to nested topicref elements in a DITA map file</li>
+  <li>Links to nested <code>topicref</code> elements in a DITA map file</li>
   <li>Links to topics in the same row in a relationship table</li>
 </ul>
 
 <p>Additionally, DITA topics might have the following links inserted manually in the topic:</p>
 
 <ul>
-  <li>through an xref element</li>
-  <li>through the related-links element</li>
+  <li>Through an <code>XREF</code> tag</li>
+  <li>Through the <code>related-links</code> tag</li>
 </ul>
 
-<p>The net effect is, after the transforms, a topic might contain a link to the same target more than once. Maybe yours is a multi-writer team, maybe you inherited the files and haven't done a link check, maybe you yourself linked to a topic twice: once through a .ditamap file and once again through an in-topic related link.</p>
+<p>The net effect is, after the transforms, a topic might contain a link to the same target more than once. Maybe yours is a multi-writer team, maybe you inherited the files and haven't done a link check, maybe you yourself linked to a topic twice: once through a <code>.ditamap</code> file and once again through an in-topic related link.</p>
 
 <p>This script will find all such links: links that occur more than once in a topic. The script will, then, generate a report for you. Read the report and delete the extra insertions.</p>
 
-<h4>Usage instructions</h4>
+<h4>Download and installation</h4>
 
-<ol>
-<li>Download the script to any folder on your computer. Double-click the script.</li>
-<li>When prompted, enter the full path of the directory to be scanned, for example, c:\documentation.</li>
-<li>When the checking is complete, you see a message on the console: "Press any key to exit." Press any key.</li>
-<li>Go to the folder where you saved the script. You see a file called RepeatedLinks.html. This is the report file for you to read and act upon. </li>
-</ol>
-
-<h4>Limitations</h4>
-
-<p>The script assumes that all DITA topic files have the .dita extension and all DITA map files have the .ditamap extension. If your files use the .xml extension, this script will not work.</p>
-
-<h4>Download</h4>
 <p>See <a href = "https://github.com/AninditaBasu/linkchecker-third-twin" target = "_blank">linkchecker-thirdtwin</a>.</p>
 
 </div>
 
-<div id = "noncode">
-<h1>Others</h1>
-<p>Here's a partial collection of some more of my other non-office-hours work.</p>
+<div id = "infographics">
+
+<h2>Infographics</h2>
+
+<p>Sometimes, the inbuilt functions of Microsoft Excel and OpenOfficeCalc are sufficient for number crunching and chart drawing. At other times, data needs to be processed first before it can be processed further, for example where Twitter-returned <code>JSON</code> objects are turned into a word cloud by running a Python scripts.
+<div class="dropdown">
+  <button onclick="TitanicFunction()" class="dropbtn">Click for spreadsheet infographic</button>
+  <div id="TitanicDropdown" class="dropdown-content">
+    <img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/titanic.png"/>
+  </div>
+</div>
+<div class="dropdown">
+  <button onclick="CloudFunction()" class="dropbtn">Click for Python infographic</button>
+  <div id="CloudDropdown" class="dropdown-content">
+    <img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/tweet_cloud.png"/>
+  </div>
+</div>
+</p>
+
+<p>For data-processing scripts to use for infographics, see <a href = "https://github.com/AninditaBasu/visualisations" target = "_blank">Visualisations</a>.</p>
+
+</div>
+
+<div id = "websites">
+
+<h2>Implementation examples</h2>
+
+<p>These websites use the JavaScript snippets mentioned elsewhere on this page.</p>
 
 <ul>
-<li><a href = "http://udaanstc.github.io/GutsAndGlory/index.html" target = "_blank">Udaan</a>, the publication of the STC India annual conference 2015. Implements, inter alia, content referencing with <i>plain</i> HTML and JS.</li>
-<li><a href = "https://github.com/AninditaBasu/visualisations" target = "_blank">Simple infographics</a></li>
+<li><a href = "http://udaanstc.github.io/GutsAndGlory/index.html" target = "_blank">Udaan</a>, the publication of the STC India annual conference 2015. Implements the following JavaScript effects:
+<ul>
+<li>The header and footer is boilerplate text that is content-referenced.</li>
+<li>The home page shows a person's picture and social profile link on mouseover.</li>
+<li>Topic pages show author information on mouseover on the author's picture.</li>
+<li>Topic footnotes are displayed on hover.</li>
+</ul> The entire code of the website is at <a href = "https://github.com/UdaanSTC/GutsAndGlory/tree/gh-pages" target = "_blank">Udaan STC: Guts &amp; Glory</a>.
+</li>
+<li><a href = "http://afsanapodcast.github.io/afsana/index.html" target = "_blank">Afsana Podcast</a>, an audio story site with a bare-bones design. Uses content referencing for header and footer text.</li>
 <!--<li>Vedic gods and their adversaries, <a href = "http://aninditabasu.github.io/vedic-gods/" target = "_blank">on GitHub Pages</a></li>-->
 <!--<li>Of words and all that, <a href = "https://alfaazi.blogspot.com" target = "_blank">on Blogspot</a></li>-->
+</ul>
+
 </div>
 
 </div>
 
 <p>&copy; <a href="README.html" target = "_blank">Anindita Basu</a></p>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function TitanicFunction() {
+    document.getElementById("TitanicDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function CloudFunction() {
+    document.getElementById("CloudDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 
 </body>
 
