@@ -1,5 +1,7 @@
 # Anindita Basu
 
+A technical communicator since 2006.
+
 - Writes, edits, and designs user documentation and user interfaces. Can also code.
 - Works with minimal supervision.
 - Has implemented documentation improvements that resulted in reducing file and word counts, and in enhancing reader experience.
