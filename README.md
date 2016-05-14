@@ -3,7 +3,7 @@
 - Writes, edits, and designs user documentation and user interfaces. Can also code.
 - Works with minimal supervision.
 - Has implemented documentation improvements that resulted in reducing file and word counts, and in enhancing reader experience.
-- Has implemented process improvements that resulted in reducing time of routine activities. Examples [here](https://github.com/AninditaBasu/orphan-scan), [here](https://github.com/AninditaBasu/word-list-scan), and [here](https://github.com/AninditaBasu/linkchecker-third-twin).
+- Has implemented process improvements that resulted in reducing time of routine activities.
 - Holds a defensive patent disclosure.
 - Helps, mentors, and trains team members.
 
