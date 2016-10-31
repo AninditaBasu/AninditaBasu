@@ -48,7 +48,25 @@
 
 <h1>Podcast website design</h1>
 
-<p>This is a design for a podcast website. A live and responsive implementation of this design is at <a href = "https://afsanapodcast.github.io/afsana/" target = "_blank">https://afsanapodcast.github.io/afsana/</a>.</p>
+<p>This is a design for a podcast website.</p>
+
+<p>The website has the following structure, which shows 1-level of nesting:</p>
+
+<ul>
+<li>Home page
+<ul>
+<li>Language 1 page</li>
+<li>Language 2 page</li>
+<li>... </li>
+<li>Storyteller 1 page</li>
+<li>Storyteller 2 page</li>
+<li>...</li>
+</ul>
+</li>
+</ul>
+
+<p>This structure can be adapted to any podcast site, by replacing 'language' and 'storyteller' with appropriate categories like 'genre' and 'narrator', 'theme' and 'composer', and such pairings. I kept the categories to only two so that the structure remains simple: my logic is that it should be possible to give *any* podcast in this world just two broad attributes.</p>
+
 
 <h2>Home page</h2>
 
@@ -83,8 +101,17 @@
 
 <img src = "./images/p_storyteller1.png">
 <img src = "./images/p_storyteller2.png">
+
+<p>Navigation between the subsidiary pages (language pages and storyteller pages) is by means of a menu revealed on clicking the Person icon or the Language icon. The menu options are the same for all of the language pages and storyteller pages.</p>
+
 <img src = "./images/p_navigation.PNG"/>
 
+<p>I debated whether to give a Search option on the language pages and storyteller pages, and did not because the intention is to make you browse through all of the podcasts on a page. The podcast list is displayed as an endless-scroll list. I did not include a Search option on the home page either because, again, the intention is to encourage you to explore the podcasts.</p>
+
+<h2>Live implementation</h2>
+
+<p>A live and responsive implementation of this design is at <a href = "https://afsanapodcast.github.io/afsana/" target = "_blank">https://afsanapodcast.github.io/afsana/</a>.</p>
+   
 <hr/>
 
 </div><!-- / "content-main" -->
