@@ -2,9 +2,9 @@
 
 A technical communicator since 2006.
 
-- Writes, edits, and designs user documentation and user interfaces. Can also code.
+- Writes, edits, and designs user documentation and user interfaces. Can understand some code.
 - Works with minimal supervision.
-- Has implemented documentation improvements that resulted in reducing file and word counts, and in enhancing reader experience.
+- Has implemented documentation improvements that resulted in reducing file and word counts, and in enhancing user experience.
 - Has implemented process improvements that resulted in reducing time of routine activities.
 - Holds a defensive patent disclosure.
 - Helps, mentors, and trains team members.
@@ -43,8 +43,7 @@ A technical communicator since 2006.
 - oXygen XML Editor: 8
 - Madcap Flare: 5
 - Viewlet Builder: 8
-- Camtasia: 3
-- Adobe Framemaker: 2
+- Camtasia: 4
 
 ### Languages
 
@@ -54,6 +53,9 @@ A technical communicator since 2006.
 - XML, XSL, DTD: 2
 - Python: 4
 
+## Writing samples
+The only by-lined article in the public domain is this one:  _Ask Watson what Twitter is telling you, Part 1_ ([online HTML](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html)) ([downloadable PDF](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/cc-ask-watson-part1-bluemix-trs-pdf.pdf))
+
 ## Code samples
 
 A collection is on this page: [Code bits and other pieces](index.html)
@@ -61,7 +63,10 @@ A collection is on this page: [Code bits and other pieces](index.html)
 
 ## Employment history
 
-- IBM, 2008 - present
+- Oracle, 2018 - present
+- OpenText Technologies, 2017 - 2018
+- HCL Infotech, 2016 - 2017
+- IBM, 2008 - 2016
 - Integra Microsystems, 2006 - 2008
 - Bharatiya Reserve Bank Note Mudran Ltd, 1996 - 2005
 - Taxmann Publications, 1995 - 1996
