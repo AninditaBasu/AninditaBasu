@@ -25,7 +25,7 @@ A technical communicator since 2006.
 ### Editing
 
 - Product documentation and multimedia
-- UI message strings
+- UI messages and strings
 - Style guide rules
 
 ### Designing
@@ -33,32 +33,27 @@ A technical communicator since 2006.
 - User scenarios
 - UI wireframes
 
-## Tools and technologies
+## Tools and languages
 
-(Proficiency level, on an increasing scale of 1 to 10, is indicated by the number.)
+(Proficiency level is indicated as Expert, Intermediate, and Beginner)
 
 ### Tools
 
-- Arbortext Editor: 8
-- oXygen XML Editor: 8
-- Madcap Flare: 5
-- Viewlet Builder: 8
-- Camtasia: 4
+- **Expert:** Arbortext Editor, oXygen XML Editor, Viewlet Builder, Swagger
+- **Intermediate:** Madcap Flare, Camtasia
 
 ### Languages
 
-- DITA: 8
-- Markdown: 8
-- HTML, CSS, JS: 7
-- XML, XSL, DTD: 2
-- Python: 4
+- **Expert:** DITA, Markdown, HTML
+- **Intermediate:** DocBook, CSS, JS
+- **Beginner:** XML, XSL, DTD, Python
 
 ## Writing samples
 The only by-lined article in the public domain is this one:  _Ask Watson what Twitter is telling you, Part 1_ ([online HTML](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html)) ([downloadable PDF](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/cc-ask-watson-part1-bluemix-trs-pdf.pdf))
 
 ## Code samples
 
-A collection is on this page: [Code bits and other pieces](index.html)
+A collection is on this page: [Code bits and other pieces](http://aninditabasu.github.io/index.html). Also, on [Github](https://github.com/AninditaBasu).
 
 
 ## Employment history
