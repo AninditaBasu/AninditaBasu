@@ -1,17 +1,18 @@
 # Anindita Basu
 
+ab.techwriter@gmail.com 
+
+---
 A technical communicator since 2006.
 
 - Writes, edits, and designs user documentation and user interfaces. Can understand some code.
-- Works with minimal supervision.
-- Has implemented documentation improvements that resulted in reducing file and word counts, and in enhancing user experience.
-- Has implemented process improvements that resulted in reducing time of routine activities.
+- Is keen on design thinking, minimalism, user experience, and content strategy. Also, DITA.
+- Has implemented process and documentation improvements that resulted in reducing file and word counts, enhancing user experience, and reducing time of routine activities.
 - Holds a defensive patent disclosure.
-- Helps, mentors, and trains team members.
+- Helps, mentors, and trains team members. Works with minimal supervision. Volunteers for STC.
 
-## Work experience
-
-(Deliverables are listed in no particular order.)
+## Deliverables
+(Listed in no particular order)
 
 ### Writing
 
@@ -19,7 +20,7 @@ A technical communicator since 2006.
 - Quick start guides
 - Context-sensitive help
 - Tutorials
-- Product videos
+- Videos
 - API documentation
 
 ### Editing
@@ -33,44 +34,41 @@ A technical communicator since 2006.
 - User scenarios
 - UI wireframes
 
-## Tools and languages
+## Tools
+(Expertise indicated by the following levels: Novice < Intermediate < Advanced < Expert)
 
-(Proficiency level is indicated as Expert, Intermediate, and Beginner)
 
-### Tools
+ Software | Expertise |
+| --- | --- |
+| Arbortext Editor, oXygen XML Editor, Viewlet Builder | Expert |
+| Madcap Flare, Camtasia, Swagger | Advanced |
+| DITA, Markdown, HTML | Expert |
+| DocBook, CSS, JS | Advanced |
+| XML, XSL, DTD, Python | Intermediate |
+| Maqetta, Pencil, JustInMind | Advanced |
 
-- **Expert:** Arbortext Editor, oXygen XML Editor, Viewlet Builder, Swagger
-- **Intermediate:** Madcap Flare, Camtasia
 
-### Languages
 
-- **Expert:** DITA, Markdown, HTML
-- **Intermediate:** DocBook, CSS, JS
-- **Beginner:** XML, XSL, DTD, Python
+## Samples
 
-## Writing samples
-The only by-lined article in the public domain is this one:  _Ask Watson what Twitter is telling you, Part 1_ ([online HTML](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html)) ([downloadable PDF](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/cc-ask-watson-part1-bluemix-trs-pdf.pdf))
+__Writing:__ The only by-lined article in the public domain is this one:  _Ask Watson what Twitter is telling you, Part 1_ ([online HTML](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html)) ([downloadable PDF](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/cc-ask-watson-part1-bluemix-trs-pdf.pdf))
 
-## Code samples
-
-A collection is on this page: [Code bits and other pieces](http://aninditabasu.github.io/index.html). Also, on [Github](https://github.com/AninditaBasu).
+__Code:__ A collection is on this page: [Code bits and other pieces](http://aninditabasu.github.io/index.html). Also, on [Github](https://github.com/AninditaBasu).
 
 
 ## Employment history
+(Last 10 years here; full history at [LinkedIn](www.linkedin.com/in/aninditabasu))
 
 - Oracle, 2018 - present
 - OpenText Technologies, 2017 - 2018
 - HCL Infotech, 2016 - 2017
 - IBM, 2008 - 2016
-- Integra Microsystems, 2006 - 2008
-- Bharatiya Reserve Bank Note Mudran Ltd, 1996 - 2005
-- Taxmann Publications, 1995 - 1996
+
+## Community
+
+Speaker and volunteer at STC India events. [Conference magazine](https://udaanstc.github.io/GutsAndGlory/index.html), [slide decks](https://www.slideshare.net/AninditaBasu7/presentations). 
 
 ## Education
 
-- B\. Sc, 1989
+- B\.Sc\, 1989
 - MBA, 1992
-
-## Contact
-
-ab.techwriter@gmail.com
