@@ -51,13 +51,18 @@ A technical communicator since 2006.
 
 ## Samples
 
-__Writing:__ The only by-lined article in the public domain is this one:  _Ask Watson what Twitter is telling you, Part 1_ ([online HTML](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html)) ([downloadable PDF](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/cc-ask-watson-part1-bluemix-trs-pdf.pdf))
+__Writing__ 
+- _Ask Watson what Twitter is telling you, Part 1_ ([online HTML](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html?ca=drs-)) ([downloadable PDF](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/cc-ask-watson-part1-bluemix-trs-pdf.pdf)).
+A 4-part series with step-by-step instructions on how to build an app that gets data from Twitter and uses that data for cognitive insights through these IBM Watson services: Tone Analyzer, Visual Recognition, and Alchemy. Part 1 has links to the remaining parts.
+- An [interactive walkthrough](https://mybinder.org/repo/AninditaBasu/indica) of a public API. 
+Written in a question-and-answer format, to show what data the API is capable of serving, and what could be the possible uses of that data.
 
-__Code:__ A collection is on this page: [Code bits and other pieces](http://aninditabasu.github.io/index.html). Also, on [Github](https://github.com/AninditaBasu).
+__Code__ 
+- A collection is at: [Code bits and other pieces](http://aninditabasu.github.io/index.html). Also, on [Github](https://github.com/AninditaBasu).
 
 
 ## Employment history
-(Last 10 years here; full history at [LinkedIn](www.linkedin.com/in/aninditabasu))
+(Last 10 years here; full history is at [LinkedIn](www.linkedin.com/in/aninditabasu))
 
 - Oracle, 2018 - present
 - OpenText Technologies, 2017 - 2018
