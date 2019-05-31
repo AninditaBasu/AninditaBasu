@@ -29,4 +29,4 @@ For example, a task to calculate the distance between atoms. Use the existing do
 
 I'd like to give beginners a sense of what else they can do. Therefore, for every tutorial, I propose to include links to other tutorials that take them to the next two levels (intermediate and advanced). I am hoping other GSoD writers would be creating those tutorials and I can link to them.
 
-I estimate this project to be a standard-length project. I can commit to a minimum of 10 hours a week (if not more) to this project, and am open to the possibility of a longer-duration project if you think my reduced working hours will need it.
+I estimate this project to be a standard-length project. Since I am already employed full time, I would be able to work only part of the day on this project. I am open to the possibility of a longer-duration project if you think my reduced working hours will need it.
