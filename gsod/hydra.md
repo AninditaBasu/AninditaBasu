@@ -1,4 +1,4 @@
-# GSoD proposal
+# GSoD proposal for Hydra Ecosystem
 
 (work-in-progress, in discussion with GSoD mentors)
 
@@ -37,3 +37,8 @@ For point #4, the deliverable would be an YAML file or...
 
 I estimate this project to be slightly longer than a standard-length project, mainly because point at #4 is a mini project in itself. But I am not sure at this point if this project could become a long-running one.
 
+##### Other information
+
+- [Link to short CV](http://aninditabasu.github.io/README.html) and to [LinkedIn profile]( https://www.linkedin.com/in/aninditabasu/)
+- [Link to writing sample](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html?ca=drs-) (Part 1 has links to the remaining 3 parts)
+- [Link to another sample](https://mybinder.org/repo/AninditaBasu/indica) (the .ipynb files)
