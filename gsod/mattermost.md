@@ -11,7 +11,9 @@ Identify which of the [strings](https://github.com/mattermost/mattermost-webapp/
 
 ## Create a style guide for the strings
 
-Define styles for capitalization, length, and word usage for strings used in menu items, action buttons, labels, headings, tooltips, errors, warnings, validations, notifications, and confirmations. Also, create guidance around the use of tokens (placeholders) in strings, especially composite strings. Aim to keep this guidance to one page of an A4-sized sheet, shorter if possible. Intention being, developers who actually write these strings should find the guidance quick and easy to use, plus, when followed, UI text will show consistency across all screens.
+Define styles for capitalization, length, and word usage for strings used in menu items, action buttons, labels, headings, tooltips, errors, warnings, validations, notifications, and confirmations (see an example styleguide [screenshot](https://github.com/AninditaBasu/AninditaBasu.github.io/blob/master/gsod/Capture7.PNG)). Also, create guidance around the use of tokens (placeholders) in strings, especially composite strings. 
+
+Aim to keep this guidance to one page of an A4-sized sheet, shorter if possible. Intention being, developers who actually write these strings should find the guidance quick and easy to use, plus, when followed, UI text will show consistency across all screens.
 
 ---
 
