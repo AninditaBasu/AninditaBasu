@@ -1,4 +1,4 @@
-# GSoD proposal
+# GSoD proposal for MDAnalytics
 
 Name of the project: Quick Start Guide plus Beginner tutorials
 (work-in-progress, in discussion with GSoD mentors)
@@ -30,3 +30,13 @@ For example, a task to calculate the distance between atoms. Use the existing do
 I'd like to give beginners a sense of what else they can do. Therefore, for every tutorial, I propose to include links to other tutorials that take them to the next two levels (intermediate and advanced). I am hoping other GSoD writers would be creating those tutorials and I can link to them.
 
 I estimate this project to be a standard-length project. Since I am already employed full time, I would be able to work only part of the day on this project. I am open to the possibility of a longer-duration project if you think my reduced working hours will need it.
+
+---
+
+##### Other information
+
+- [Link to short CV](http://aninditabasu.github.io/README.html) and to [LinkedIn profile]( https://www.linkedin.com/in/aninditabasu/)
+- [Link to writing sample](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html?ca=drs-) (Part 1 has links to the remaining 3 parts)
+- [Link to another sample](https://mybinder.org/repo/AninditaBasu/indica) (the .ipynb files)
+
+
