@@ -11,6 +11,8 @@ With a contents table to the left, and the contents page to the right. For this,
 ## Reorganize the content into a task-based scenario 
 
 The current documentation is a mix of concepts and tasks). The chapters would mainly be answering questions like “How do I do <task>” or “What do I need for doing <task>”. I’d like to have the concepts (the explanations) within the task chapters themselves (so that every chapter is more or less self-contained and can stand alone.) See a [wireframe](https://github.com/AninditaBasu/AninditaBasu.github.io/blob/master/gsod/Capture6.PNG).
+  
+I understand that there would be otehr writers working under teh GSoD program to write conceptual or overview topics, and task topics. All of these, in addition to the existing material, would go into this help system.
 
 ## Recast the Getting Started chapter
 
