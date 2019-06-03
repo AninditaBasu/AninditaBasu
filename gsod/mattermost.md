@@ -1,4 +1,4 @@
-# GSoD proposal
+# GSoD proposal for Mattermost
 
 Name of the project: Review and Refine In-Product Text
 (work-in-progress, in discussion with GSoD mentors)
@@ -27,3 +27,9 @@ Aim to keep this guidance to one page of an A4-sized sheet, shorter if possible.
 I cannot estimate it as of now. I don’t know how many of the strings are user-facing strings (which is what I propose to take up for review in this project). I estimate that creating the style guide would take about 4 weeks (from draft to approval), and this work can be done simultaneously with categorizing strings as system strings or user facing. Thereafter, I’ll have a better idea of how much time the strings would need for review. I propose to start with the assumption that project will be a standard-length project (3 months), where I take up only so many strings for review as can be possible within this time frame. 
 
 Since I am already employed full time, I would be able to work only part of the day on this project. I am open to the possibility of a longer-duration project if you think my reduced working hours will need it.
+
+##### Other information
+
+- [Link to short CV](http://aninditabasu.github.io/README.html) and to [LinkedIn profile]( https://www.linkedin.com/in/aninditabasu/)
+- [Link to writing sample](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html?ca=drs-) (Part 1 has links to the remaining 3 parts)
+- [Link to another sample](https://mybinder.org/repo/AninditaBasu/indica) (the .ipynb files)
