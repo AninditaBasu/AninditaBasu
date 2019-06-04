@@ -1,7 +1,5 @@
 # GSoD proposal for Hydra Ecosystem
 
-(work-in-progress, in discussion with GSoD mentors)
-
 ---
 
 ## 1. Recast the [current documentation](https://www.hydraecosystem.org/ ) into a bi-pane one
