@@ -21,9 +21,9 @@ Are there any more profiles I should be considering?
 
 I would use the material already present [MDAnalysis Docs Overview](https://www.mdanalysis.org/docs/documentation_pages/overview.html#examples) and [MDAnalysis Tutorial](http://www.mdanalysis.org/MDAnalysisTutorial/) to create a Jupyter notebook as well as a static HTML page.  See a sample [QuickStart for an administrator](https://github.com/AninditaBasu/AninditaBasu.github.io/blob/master/gsod/Capture.PNG) and [QuickStart for a scientist](https://github.com/AninditaBasu/AninditaBasu.github.io/blob/master/gsod/Capture2.PNG). The samples are very very skeletal, but am inlcuding them to give a sense of what I intend to develop.
 
-## 3. Create titorials from user stories for at least 5 beginner tasks
+## 3. Create tutorials from user stories for at least 5 beginner tasks
 
-For example, I could create a tutorial for a task that could be: calculate the distance between atoms. The tutorial would have three sections: (i) why do I need to do this task (ii) what are the steps to do this task (iii) what next can I do after this task is over.
+For example, I could create a tutorial for a task that could be: Calculate the distance between atoms. The tutorial would have three sections: (i) why do I need to do this task (ii) what are the steps to do this task (iii) what next can I do after this task is over.
 
 Because the tutorial is targetted at beginners, I would explain the concepts and try to include conceptual diagrams as far as possible ([example diagram](https://github.com/AninditaBasu/AninditaBasu.github.io/blob/master/gsod/Capture3.PNG)). I would include code snippets, and include explanatory comments in those snippets so that users can, if they want to, change the values of variables in that code before they run it on their own. I would inlcude pictures of expected results, and, if feasible, include a troubleshooting section so that users can figure out where they went wrong and how to correct the errors.
 
