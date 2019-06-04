@@ -60,7 +60,7 @@ __Code__
 - A collection is at [Code bits and other pieces](http://aninditabasu.github.io/index.html). Also, on [Github](https://github.com/AninditaBasu).
 
 ## Employment history
-(Only the last 10 years are here; full history is at [LinkedIn](www.linkedin.com/in/aninditabasu))
+(Only the last 10 years are here; full history is at [LinkedIn](https://www.linkedin.com/in/aninditabasu/))
 
 - Oracle, 2018 - present
 - OpenText Technologies, 2017 - 2018
