@@ -39,5 +39,6 @@ I estimate this project to be slightly longer than a standard-length project, ma
 ##### Other information
 
 - [Link to short CV](http://aninditabasu.github.io/README.html) and to [LinkedIn profile]( https://www.linkedin.com/in/aninditabasu/)
-- [Link to writing sample](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html?ca=drs-) (Part 1 has links to the remaining 3 parts)
-- [Link to another sample](https://mybinder.org/repo/AninditaBasu/indica) (the .ipynb files)
+- [Link to a writing sample](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html?ca=drs-) (Part 1 has links to the remaining 3 parts)
+- [Link to an API documentation sample](https://aninditabasu.github.io/indica/index.html)
+- [Link to an example of an interactive demo](https://mybinder.org/repo/AninditaBasu/indica) (the .ipynb files)
