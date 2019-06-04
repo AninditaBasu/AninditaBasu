@@ -4,13 +4,13 @@
 
 ## 1. Recast the [current documentation](https://www.hydraecosystem.org/ ) into a bi-pane one
 
-With a contents table to the left, and the contents page to the right. For this, I propose to use a free, standard style (such as the CSS framework provided by either Bootstrap or w3schools). See a [wireframe](https://github.com/AninditaBasu/AninditaBasu.github.io/blob/master/gsod/Capture6.PNG) of the proposed bi-pane solution. For this help system, the deliverable will be a fileset consisting of HTML files, together with their required CSS and JS files. This entire fileset can be deployed on a public-facing Hydra machine, or through GitHub pages (if Hydra has a GitHub account).
+I propose a help system with a contents table to the left, and the contents page to the right. For this, I propose to use a free, standard style (such as the CSS framework provided by either Bootstrap or w3schools). See a [wireframe](https://github.com/AninditaBasu/AninditaBasu.github.io/blob/master/gsod/Capture6.PNG) of the proposed bi-pane solution. For this help system, the deliverable will be a fileset consisting of HTML files, together with their required CSS and JS files. This entire fileset can be deployed on a public-facing Hydra machine, or through GitHub pages (if Hydra has a GitHub account).
 
 To make the maintenance of this help system easier, I propose to create the documentation in HTML itself (which can be edited with any help authoring system that Hydra chooses, or even with Notepad). I also propose to use the system of HTML transclusion for common items that are displayed on every page, such as headers, footer, and the table of contents.
 
 ## 2. Reorganize the content into a task-based scenario 
 
-The current documentation is a mix of concepts and tasks). The chapters would mainly be answering questions like “How do I do <task>” or “What do I need for doing <task>”. I’d like to have the concepts (the explanations) within the task chapters themselves (so that every chapter is more or less self-contained and can stand alone.) 
+The current documentation is a mix of concepts and tasks). In the reorganized documentation, I propose that the chapters answer questions such as “How do I do <task>” or “What do I need for doing <task>”. I’d like to have the concepts (the explanations) within the task chapters themselves (so that every chapter is more or less self-contained and can stand alone.) 
   
 I understand that there would be other writers working under the GSoD program to write conceptual or overview topics, and task topics. All of these, in addition to the existing material, would go into this help system. I am assuming that the writers would be authoring their topics in HTML. If required, I can also provide an annotated HTML template that follows the look and feel of the solution discussed at #1. 
 
