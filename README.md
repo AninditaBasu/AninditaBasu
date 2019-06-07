@@ -62,7 +62,7 @@ A technical communicator since 2006.
 
 ## Community
 
-Speaker and volunteer at STC India events. [Implementation notes for STC conference magazine](http://writing-technical.blogspot.com/2015/12/udaan-publishing-story.html), [slide decks for STC sessions](https://www.slideshare.net/AninditaBasu7/presentations). 
+Speaker and volunteer at STC-India events (see [implementation notes](http://writing-technical.blogspot.com/2015/12/udaan-publishing-story.html) for an STC-India conference magazine and [some slide decks](https://www.slideshare.net/AninditaBasu7/presentations) for STC-India sessions). 
 
 ## Education
 
