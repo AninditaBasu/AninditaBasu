@@ -37,7 +37,6 @@ A technical communicator since 2006.
 ## Tools
 (Expertise indicated by the following levels: Novice < Intermediate < Advanced < Expert)
 
-
  Software | Expertise |
 | --- | --- |
 | Arbortext Editor, oXygen XML Editor, Viewlet Builder | Expert |
@@ -47,17 +46,11 @@ A technical communicator since 2006.
 | XML, XSL, DTD, Python | Intermediate |
 | Maqetta, Pencil, JustInMind | Advanced |
 
+## Writing samples
 
-
-## Samples
-
-__Writing__ 
 - _Ask Watson what Twitter is telling you, Part 1_ ([online HTML](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html?ca=drs-)) ([downloadable PDF](https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/cc-ask-watson-part1-bluemix-trs-pdf.pdf)). A 4-part series with step-by-step instructions on how to build an app that gets data from Twitter and uses that data for cognitive insights through IBM Watson services. Part 1 has links to the remaining parts.
 - An [API documentation sample](https://aninditabasu.github.io/indica/index.html) of a public API.
 - An [interactive walkthrough](https://mybinder.org/repo/AninditaBasu/indica) of a public API. Written in a question-and-answer format, to show what data the API is capable of serving, and what could be the possible uses of that data. To see the demo, click the `.ipynb` files.
-
-__Code__ 
-- A collection is at [Code bits and other pieces](http://aninditabasu.github.io/index.html). Also, on [Github](https://github.com/AninditaBasu).
 
 ## Employment history
 (Only the last 10 years are here; full history is at [LinkedIn](https://www.linkedin.com/in/aninditabasu/))
@@ -69,7 +62,7 @@ __Code__
 
 ## Community
 
-Speaker and volunteer at STC India events. [Conference magazine](https://udaanstc.github.io/GutsAndGlory/index.html), [slide decks](https://www.slideshare.net/AninditaBasu7/presentations). 
+Speaker and volunteer at STC India events. [Implementation notes for STC conference magazine](http://writing-technical.blogspot.com/2015/12/udaan-publishing-story.html), [slide decks for STC sessions](https://www.slideshare.net/AninditaBasu7/presentations). 
 
 ## Education
 
