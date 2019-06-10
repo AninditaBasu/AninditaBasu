@@ -40,7 +40,7 @@ I propose to keep these descriptions short (1-2 sentences), and to describe what
 
 ---
 
-I realise that the project idea is titled "Developing User Friendly **_Github Documentation_** for REST API" and this, essentially, means that \#3 that I outlined in a previous paragraph is not exactly in scope when OpenMRS.org listed this project idea. However, I feel it is a good-to-add point when I think about the overall API documentation.
+I realise that the project idea is titled **"Developing User Friendly _Github Documentation_ for REST API"** and this, essentially, means that \#3 that I outlined in a previous paragraph is not exactly in scope when OpenMRS.org listed this project idea. However, I feel it is a good-to-add point when I think about the overall API documentation.
 
 I propose to deliver \#1 and \#2 through a GitHub branch (`gh-pages` or `docs`, depending on how OpenMRS.org has its GitHub repos set up) that will contain the HTML, CSS, and JS files needed to make a complete online-help-doc-set. It would be easier to deliver Markdown files (instead of HTML) but Markdown has lesser flexibility with regard to user friendliness. For example, it is difficult to include navigation panes (whether at the top or to the left) in Markdown pages. Also, it would be easier to integrate auto-generated API content into an HTML file set rather than a Markdown one (if OpenMRS.org wants to have both the document sets at one place, that is). 
 
