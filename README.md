@@ -66,5 +66,5 @@ Speaker and volunteer at STC-India events (see [implementation notes](http://wri
 
 ## Education
 
-- B\.Sc\, 1989
-- MBA, 1992
+- Bachelor of Science, 1989
+- Master of Business Administration, 1992
