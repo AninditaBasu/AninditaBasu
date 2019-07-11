@@ -55,7 +55,7 @@ A technical communicator since 2006.
 ## Design samples
 
 - Wireframes for an enterprise-level [report generation software](http://aninditabasu.github.io/ui/ui_docgen.html).
-- Mockups for the [emplate-making feature](http://aninditabasu.github.io/ui/ui_doctemplate.html) of an enterprise-level software.
+- Mockups for the [template-making feature](http://aninditabasu.github.io/ui/ui_doctemplate.html) of an enterprise-level software.
 
 ## Employment history
 (Only the last 10 years are here; full history is at [LinkedIn](https://www.linkedin.com/in/aninditabasu/))
