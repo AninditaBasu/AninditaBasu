@@ -52,6 +52,11 @@ A technical communicator since 2006.
 - An [API documentation sample](https://aninditabasu.github.io/indica/index.html) of a public API.
 - An [interactive walkthrough](https://mybinder.org/repo/AninditaBasu/indica) of a public API. Written in a question-and-answer format, to show what data the API is capable of serving, and what could be the possible uses of that data. To see the demo, click the `.ipynb` files.
 
+## Design samples
+
+- Wireframes for an enterprise-level [report generation software](http://aninditabasu.github.io/ui/ui_docgen.html).
+- Mockups for the [emplate-making feature](http://aninditabasu.github.io/ui/ui_doctemplate.html) of an enterprise-level software.
+
 ## Employment history
 (Only the last 10 years are here; full history is at [LinkedIn](https://www.linkedin.com/in/aninditabasu/))
 
