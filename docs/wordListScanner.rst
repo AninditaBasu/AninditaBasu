@@ -11,7 +11,7 @@ It is assumed that all DITA topic files have the ``.dita`` extension. If your fi
 Steps: If you have Python 3.7
 ------------------------------
 
-#. Download this repository as a ``.zip`` file and extract the contents to any directory.Download the `word-list-scan <https://github.com/AninditaBasu/word-list-scan>`_ repository as a ``.zip`` file and extract the contents to any directory on your computer.
+#. Download the `word-list-scan <https://github.com/AninditaBasu/word-list-scan>`_ repository as a ``.zip`` file and extract the contents to any directory on your computer.
 
 #. Open the ``wordlist.txt`` file in a notepad. It contains some example words. Delete them, and enter the words and phrases to be searched for. Put each word or phrase on a new line. Do not enter a new line after the last item in this file. Save the file and close it.
 
