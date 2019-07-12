@@ -7,10 +7,10 @@ These are scripts for your DITA files.
     Scan all DITA files in a directory recursively for occurrences of an entire list of words and phrases. See :doc:`Word List Scanner <wordListScanner>`.
 
 - **Third Twin Scanner**
-    Scan a directory recursively to identify duplicate, triplicate, or n-cate topic-to-topic links in DITA files. See :doc:`Word List Scanner <thirdTwinScanner>`.
+    Scan a directory recursively to identify duplicate, triplicate, or n-cate topic-to-topic links in DITA files. See :doc:`Third Twin Scanner <thirdTwinScanner>`.
 
 - **Orphan Scanner**
-    Scan a directory recursively to identify files that are not referenced by any DITA file in that directory. See :doc:`Word List Scanner <orphanScanner>`.
+    Scan a directory recursively to identify files that are not referenced by any DITA file in that directory. See :doc:`Orphan Scanner <orphanScanner>`.
 
 
 .. toctree::
