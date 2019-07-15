@@ -19,31 +19,24 @@ The net effect is, after the transforms, a topic might contain a link to the sam
 
 This script will find all such links: links that occur more than once in a topic. The script will, then, generate a report for you. Read the report and delete the extra links.
 
-
 Limitations
 ------------------
 It is assumed that all DITA topic files have the ``.dita`` extension. If your files use the ``.xml`` extension, this script will not work in its present form.
 
-How to use (you have Python 3.7)
----------------------------------
+How to use
+------------
 
 #. Download the `linkchecker-third-twin <https://github.com/AninditaBasu/linkchecker-third-twin>`_ repository as a ``.zip`` file and extract the contents to any directory on your computer.
 
-#. Double-click ``third_twin.py``. 
+#. Depending on whether you have Python 3.7 on your computer:
 
-#. When prompted, enter the full path of the directory to be scanned, for example, c:\\documentation\\myProduct\\. Do not forget to enter the trailing \\ for the directory. The script will scan all of the subfolders of the specified directory. When the scan is complete, you see a message on the console: ``Press any key to exit.`` Press any key.
+   - If you have Python, go to the ``source`` directory of the extracted contents, and double-click ``third_twin.py``.
+   - If you don't have Python, go the ``output`` directory of the extracted contents, and double-click ``third_twin.exe``.
 
-#. Go to the directory where the script resides. You see a file called ``RepeatedLinks.html``. This is the report file for you to read and act upon.
+#. When prompted, enter the full path of the directory to be scanned, for example, ``c:\documentation\myProduct\``. Do not forget to enter the trailing ``\`` for the directory. The script will scan all of the subdirectories of the specified directory. When the scan is complete, you see a message on the console: ``Press any key to exit.`` Press any key.
 
-How to use (you don't have Python 3.7)
----------------------------------------
+#. Go to the directory that contains the script you used. Depending on your choice at a previous step, this directory is either ``source`` or ``output``. You see a file called ``RepeatedLinks.html`` in that directory. This is the report file for you to read and act upon.
 
-**Prerequisite**:  Windows operating system
-
-#. Download the `linkchecker-third-twin <https://github.com/AninditaBasu/linkchecker-third-twin>`_ repository as a ``.zip`` file and extract the contents to any directory on your computer.
-
-#. Use Windows Explorer to go the ``output`` folder of the extracted contents.
-
-#. Double-click ``third_twin.exe``. When prompted, enter the full path of the directory to be scanned, for example, c:\\documentation\\myProduct\\. Do not forget to enter the trailing \\ for the directory. The script will scan all of the subfolders of the specified directory. When the scan is complete, you see a message on the console: ``Press any key to exit.`` Press any key.
-
-#. Go back to the ``output`` folder. You see a file called ``RepeatedLinks.html``. This is the report file for you to read and act upon.
+Troubleshooting
+----------------
+Raise an `issue <https://github.com/AninditaBasu/linkchecker-third-twin/issues>`_.
