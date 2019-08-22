@@ -18,9 +18,8 @@ UI elements
      - Capitalization
      - Phrasing
      - Examples
-   * - Menu 
-       .. image:: ../images/menu.png
-         :alt:
+     
+   * - Menu |menu.png|    
      - Headline
      - - Noun, noun phrase, or verb
        - No punctuation
@@ -29,59 +28,46 @@ UI elements
        - Account Preferences
        - Log Out
    * - Tooltip
-       .. image:: ../images/tooltip.png
-         :alt:
      - Sentence
      - - Sentence fragment or sentence
        - No punctuation
-       - Include articles (a, an, the)
+       - Include articles (*a*, *an*, *the*)
      - - Start a Zoom meeting
        - Flag for following up
-       - Remove from list
-   * - In-field text
-        .. image:: ../images/field.png
-         :alt:
+       - Remove from this list
+   * - In-field text        
      - Sentence
      - - Sentence fragment, sentence, or word
        - No punctuation
-       - Include articles (a, an, the)
+       - Include articles (*a*, *an*, *the*)
      - - Add a comment
        - Search
-   * - Action button
-       .. image:: ../images/action.png
-         :alt:
+   * - Action button       
      - Headline
      - - Verb or verb phrase
-       - No articles (a, an, the)
+       - No articles (*a*, *an*, *the*)
+       - Exceptions: *OK*, *Yes*, *No*
      - - Add Comment
        - Edit
-   * - Label
-        .. image:: ../images/label.png
-         :alt:
+   * - Labels before a UI element        
      - Sentence
      - - Noun, verb, verb phrase, or sentence fragment
        - End with a colon
-       - Include articles (a, an, the)
+       - Include articles (*a*, *an*, *the*)
      - - Sign in with:
-       - Channels grouped by type
+       - Other words, separated by commas:
+   * - Labels after a UI element     
+     - Sentence
+     - - Noun, verb, verb phrase, or sentence fragment
+       - No punctuation
+     - - Channels grouped by type
        - Alphabetically
-   * - Main help text
-      .. image:: ../images/help_main.png
-         :alt:
+   * - Help text
      - Sentence
      - Complete sentences, with punctuation
      - - You can add 20 more people.
        - People are invited automatically to join the channel.
-   * - Additional help text
-      .. image:: ../images/help_addl.png
-         :alt:
-     - Sentence
-     - Noun, verb, verb phrase, or sentence fragment
-     - - Channels grouped by type
-       - Alphabetically
-   * - Title
-      .. image:: ../images/title.png
-         :alt:
+   * - Title      
      - Headline
      - - Sentence fragment or sentence
        - No punctuation
@@ -103,3 +89,20 @@ Alerts
 Error messages
 ~~~~~~~~~~~~~~~
 ...
+
+.. |menu.png| image:: ./images/menu.png
+  :alt: alt text
+.. |tooltip.png| image:: ./images/tooltip.png
+  :alt: alt text
+  .. |field.png| image:: ./images/field.png
+  :alt: alt text
+  .. |action.png| image:: ./images/action.png
+  :alt: alt text
+  .. |label_before.png| image:: ./images/label_before.png
+  :alt: alt text
+  .. |label_after.png| image:: ./images/label_after.png
+  :alt: alt text
+  .. |help.png| image:: ./images/help.png
+  :alt: alt text
+  .. |title.png| image:: ./images/title.png
+  :alt: alt text
