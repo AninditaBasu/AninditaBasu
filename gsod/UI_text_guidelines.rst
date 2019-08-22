@@ -74,19 +74,19 @@ UI elements
 Messages
 --------
 
-.. |menu| image:: ../images/menu.png
+.. |menu| images:: ../images/menu.png
   :alt: a menu example
-.. |tooltip| image:: ../images/tooltip.png
+.. |tooltip| images:: ../images/tooltip.png
   :alt: a tooltip example
-.. |field| image:: ../images/field.png
+.. |field| images:: ../images/field.png
   :alt: a field example
-.. |action| image:: ../images/action.png
+.. |action| images:: ../images/action.png
   :alt: an action button example
-.. |label| image:: ../images/label.png
+.. |label| images:: ../images/label.png
   :alt: a label example
-.. |help_addl| image:: ../images/help_addl.png
+.. |help_addl| images:: ../images/help_addl.png
   :alt: an additional information example
-.. |help_main| image:: ../images/help_main.png
+.. |help_main| images:: ../images/help_main.png
   :alt: a help text example
-.. |title| image:: ../images/title.png
+.. |title| images:: ../images/title.png
   :alt: a window title example
