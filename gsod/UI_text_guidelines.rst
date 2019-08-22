@@ -8,7 +8,6 @@ These guidelines are not intended to slow down or otherwise impede contributions
 
 UI elements
 -----------
-...
 
 .. list-table::
    :widths: 40 10 15 35
@@ -27,7 +26,7 @@ UI elements
      - - Members
        - Account Preferences
        - Log Out
-   * - Tooltip
+   * - Tooltip |tooltip.png|
      - Sentence
      - - Sentence fragment or sentence
        - No punctuation
@@ -35,39 +34,39 @@ UI elements
      - - Start a Zoom meeting
        - Flag for following up
        - Remove from this list
-   * - In-field text        
+   * - In-field text |field.png|        
      - Sentence
      - - Sentence fragment, sentence, or word
        - No punctuation
        - Include articles (*a*, *an*, *the*)
      - - Add a comment
        - Search
-   * - Action button       
+   * - Action button |action.png|       
      - Headline
      - - Verb or verb phrase
        - No articles (*a*, *an*, *the*)
        - Exceptions: *OK*, *Yes*, *No*
      - - Add Comment
        - Edit
-   * - Labels before a UI element        
+   * - Labels before a UI element |label_before.png|        
      - Sentence
      - - Noun, verb, verb phrase, or sentence fragment
        - End with a colon
        - Include articles (*a*, *an*, *the*)
      - - Sign in with:
        - Other words, separated by commas:
-   * - Labels after a UI element     
+   * - Labels after a UI element |label_after.png|     
      - Sentence
      - - Noun, verb, verb phrase, or sentence fragment
        - No punctuation
      - - Channels grouped by type
        - Alphabetically
-   * - Help text
+   * - Help text |help.png|
      - Sentence
      - Complete sentences, with punctuation
      - - You can add 20 more people.
        - People are invited automatically to join the channel.
-   * - Title      
+   * - Title |title.png|   
      - Headline
      - - Sentence fragment or sentence
        - No punctuation
@@ -86,7 +85,7 @@ Alerts
 ~~~~~~
 ...
 
-Error messages
+Errors
 ~~~~~~~~~~~~~~~
 ...
 
