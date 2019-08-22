@@ -1,13 +1,14 @@
 In-Code Text Guidelines
 ============================
-This is the Mattermost style guide for in-code text. It acts as a reference for writers and editors to ensure that the text on the Mattermost UI is consistent and clear.
+This is the Mattermost style guide for in-code text. Use it as a reference to ensure that the text on the Mattermost user interface is consistent and clear.
 
 Note
 
-The style guide is not intended to slow down or otherwise impede contributions, which are always welcome. No contribution will be rejected due to non-conforming style, although it might be edited.
+These guidelines are not intended to slow down or otherwise impede contributions, which are always welcome. No contribution will be rejected due to non-conforming style, although it might be edited.
 
 UI elements
 -----------
+...
 
 .. list-table::
    :widths: 40 10 15 35
@@ -17,7 +18,9 @@ UI elements
      - Capitalization
      - Phrasing
      - Examples
-   * - menu |menu|
+   * - Menu 
+       .. image:: ../images/menu.png
+         :alt:
      - Headline
      - - Noun, noun phrase, or verb
        - No punctuation
@@ -25,7 +28,9 @@ UI elements
      - - Members
        - Account Preferences
        - Log Out
-   * - tooltip |tooltip|
+   * - Tooltip
+       .. image:: ../images/tooltip.png
+         :alt:
      - Sentence
      - - Sentence fragment or sentence
        - No punctuation
@@ -33,20 +38,26 @@ UI elements
      - - Start a Zoom meeting
        - Flag for following up
        - Remove from list
-   * - in-field text |field|
+   * - In-field text
+        .. image:: ../images/field.png
+         :alt:
      - Sentence
      - - Sentence fragment, sentence, or word
        - No punctuation
        - Include articles (a, an, the)
      - - Add a comment
        - Search
-   * - action button |action|
+   * - Action button
+       .. image:: ../images/action.png
+         :alt:
      - Headline
      - - Verb or verb phrase
        - No articles (a, an, the)
      - - Add Comment
        - Edit
-   * - labels |label|
+   * - Label
+        .. image:: ../images/label.png
+         :alt:
      - Sentence
      - - Noun, verb, verb phrase, or sentence fragment
        - End with a colon
@@ -54,17 +65,23 @@ UI elements
      - - Sign in with:
        - Channels grouped by type
        - Alphabetically
-   * - main help |help_main|
+   * - Main help text
+      .. image:: ../images/help_main.png
+         :alt:
      - Sentence
      - Complete sentences, with punctuation
      - - You can add 20 more people.
        - People are invited automatically to join the channel.
-   * - additional help |help_addl|
+   * - Additional help text
+      .. image:: ../images/help_addl.png
+         :alt:
      - Sentence
      - Noun, verb, verb phrase, or sentence fragment
      - - Channels grouped by type
        - Alphabetically
-   * - title |title|
+   * - Title
+      .. image:: ../images/title.png
+         :alt:
      - Headline
      - - Sentence fragment or sentence
        - No punctuation
@@ -73,20 +90,16 @@ UI elements
 
 Messages
 --------
+...
 
-.. |menu| images:: ../images/menu.png
-  :alt: a menu example
-.. |tooltip| images:: ../images/tooltip.png
-  :alt: a tooltip example
-.. |field| images:: ../images/field.png
-  :alt: a field example
-.. |action| images:: ../images/action.png
-  :alt: an action button example
-.. |label| images:: ../images/label.png
-  :alt: a label example
-.. |help_addl| images:: ../images/help_addl.png
-  :alt: an additional information example
-.. |help_main| images:: ../images/help_main.png
-  :alt: a help text example
-.. |title| images:: ../images/title.png
-  :alt: a window title example
+Notifications
+~~~~~~~~~~~~~~
+...
+
+Alerts
+~~~~~~
+...
+
+Error messages
+~~~~~~~~~~~~~~~
+...
