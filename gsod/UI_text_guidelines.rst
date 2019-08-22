@@ -93,15 +93,15 @@ Errors
   :alt: alt text
 .. |tooltip.png| image:: ./images/tooltip.png
   :alt: alt text
-  .. |field.png| image:: ./images/field.png
+.. |field.png| image:: ./images/field.png
   :alt: alt text
-  .. |action.png| image:: ./images/action.png
+.. |action.png| image:: ./images/action.png
   :alt: alt text
-  .. |label_before.png| image:: ./images/label_before.png
+.. |label_before.png| image:: ./images/label_before.png
   :alt: alt text
-  .. |label_after.png| image:: ./images/label_after.png
+.. |label_after.png| image:: ./images/label_after.png
   :alt: alt text
-  .. |help.png| image:: ./images/help.png
+.. |help.png| image:: ./images/help.png
   :alt: alt text
-  .. |title.png| image:: ./images/title.png
+.. |title.png| image:: ./images/title.png
   :alt: alt text
