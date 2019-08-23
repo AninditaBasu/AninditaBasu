@@ -1,16 +1,20 @@
 In-Code Text Guidelines
 ============================
-This is the Mattermost style guide for in-code text. Use it as a reference to ensure that the text on the Mattermost user interface is consistent and clear.
+This is the Mattermost style guide for in-code text. Use it as a reference to ensure that the text on the Mattermost user interface (UI) is consistent and clear.
 
 Note
 
 These guidelines are not intended to slow down or otherwise impede contributions, which are always welcome. No contribution will be rejected due to non-conforming style, although it might be edited.
 
-.. contents:: Table of Contents
+....
+
+.. contents:: 
    :depth: 2
 
+....
+
 UI elements
------------
+-----------------------------
 Use this table when writing the text for UI elements such as windows and dialog boxes.
 
 .. list-table::
@@ -27,7 +31,7 @@ Use this table when writing the text for UI elements such as windows and dialog 
      - Headline
      - - Noun, noun phrase, or verb
        - No punctuation
-       - Not more than 3 words
+       - Not more than three words
      - - *Members*
        - *Account Preferences*
        - *Log Out*
@@ -94,7 +98,7 @@ If a message contains variables (tokens):
 
 - Do not use verbs or adjectives as variables.
 - Do not create plurals of variables by adding an *s*.
-- If the variable is a noun, use a qualifier after the variable. For example, say *The {channel_name} channel was created.* instead of saying *The {channel_name} was created.*
+- If the variable is a noun, use a qualifier after the variable. For example, say *The {channel_name} channel was created* instead of saying *The {channel_name} was created*
 
 Notifications
 ~~~~~~~~~~~~~~
@@ -140,7 +144,7 @@ Errors
 An error message is for telling somebody that something went wrong. Errors prevent a user from doing a task or accessing a feature till the error is resolved.
 
 - Use complete sentences.
-- If it isn't obvious what went wrong, explain in 1 sentence.
+- If what went wrong isn't obvious, explain in one sentence.
 - If a solution or workaround isn't obvious, suggest one.
 - Examples:
 
