@@ -103,7 +103,7 @@ If a message contains variables (tokens):
 Notifications
 ~~~~~~~~~~~~~~
 
-A notification message is for informing somebody about something that happened. Such messages do not need any user input, and do not prevent a user from continuing to use MatterMost.
+A notification message is for informing somebody about something that happened. Such messages do not need any user input, and do not prevent a user from continuing to use Mattermost.
 
 - Use either a complete sentence or a sentence phrase. 
 - If using a complete sentence, end it with a period.
@@ -115,7 +115,7 @@ A notification message is for informing somebody about something that happened. 
 Confirmations
 ~~~~~~~~~~~~~~
 
-A confirmation message is for asking somebody to confirm whether the immediately preceding command should be proceeded with. The user cannot use MatterMost until a confirmation is given or denied.
+A confirmation message is for asking somebody to confirm whether the immediately preceding command should be proceeded with. The user cannot use Mattermost until a confirmation is given or denied.
 
 - Use complete sentences.
 - Include a question that has a Yes/No answer.
@@ -127,7 +127,7 @@ A confirmation message is for asking somebody to confirm whether the immediately
 Warnings
 ~~~~~~~~~
 
-A warning message is for alerting somebody about something that might go wrong. The user can continue using MatterMost unless the warning message needs an explicit user input.
+A warning message is for alerting somebody about something that might go wrong. The user can continue using Mattermost unless the warning message needs an explicit user input.
 
 - Use complete sentences.
 - Explain what has happened or can happen, and what can go wrong as a consequence.
