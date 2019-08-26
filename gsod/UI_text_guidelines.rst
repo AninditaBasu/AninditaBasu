@@ -8,13 +8,13 @@ These guidelines are not intended to slow down or otherwise impede contributions
 
 ....
 
-.. contents:: 
+.. contents:: Guidelines for
    :depth: 2
 
 ....
 
 UI elements
------------------------------
+------------
 Use this table when writing the text for UI elements such as windows and dialog boxes.
 
 .. list-table::
@@ -22,10 +22,10 @@ Use this table when writing the text for UI elements such as windows and dialog 
    :header-rows: 1
 
    * - Element
-     - Image 
+     - Example Image 
      - Capitalization
      - Phrasing
-     - Examples     
+     - Example Text     
    * - Menu
      - |menu.png|
      - Headline
@@ -34,7 +34,7 @@ Use this table when writing the text for UI elements such as windows and dialog 
        - Not more than three words
      - - *Members*
        - *Account Preferences*
-       - *Log Out*
+       - *Log Out*       
    * - Tooltip
      - |tooltip.png|
      - Sentence
@@ -43,7 +43,7 @@ Use this table when writing the text for UI elements such as windows and dialog 
        - Include articles (*a*, *an*, *the*)
      - - *Start a Zoom meeting*
        - *Flag for following up*
-       - *Remove from this list*
+       - *Remove from this list*       
    * - In-field text
      - |field.png|  
      - Sentence
@@ -54,11 +54,11 @@ Use this table when writing the text for UI elements such as windows and dialog 
        - *Search*
    * - Action button
      - |action.png|
-     - Headline
+     - Sentence
      - - Verb or verb phrase
        - No articles (*a*, *an*, *the*)
        - Exceptions: *OK*, *Yes*, *No*
-     - - *Add Comment*
+     - - *Add comment*
        - *Edit*
    * - Label before a UI element
      - |label_before.png|
@@ -67,7 +67,7 @@ Use this table when writing the text for UI elements such as windows and dialog 
        - End with a colon
        - Include articles (*a*, *an*, *the*)
      - - *Sign in with:*
-       - *Other words, separated by commas:*
+       - *Other words, separated by commas:*       
    * - Label after a UI element
      - |label_after.png|
      - Sentence
@@ -150,7 +150,11 @@ An error message is for telling somebody that something went wrong. Errors preve
 
   - *This message is too long. Shorten it to 120 characters.*
   - *The passwords do not match.*
-   
+
+Cheatsheet
+-----------
+|cheatsheet.png|
+
 
 .. |menu.png| image:: ./images/menu.png
   :alt: menu
@@ -167,4 +171,6 @@ An error message is for telling somebody that something went wrong. Errors preve
 .. |help.png| image:: ./images/help.png
   :alt: help text
 .. |title.png| image:: ./images/title.png
-  :alt: title
+  :alt: title text
+.. |cheatsheet.png| image:: ./images/cheatsheet.png
+  :alt: cheatsheet for capitalization and punctuation
