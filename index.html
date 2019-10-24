@@ -1,282 +1,142 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>
-<link rel="stylesheet" type="text/css" href="./css/common.css"/>
+<link rel="stylesheet" href="./css/bootstrap.min.css">
 
 <script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-<title>Anindita Basu's page: Code bits and other pieces for technical writers</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<title>Anindita Basu: Technical writer, technical editors, and sundry other things</title>
 
 </head>
 
 <body>
 
-<div class="wrapper">
-
 <div class="container">
+  
+<h1>Anindita Basu</h1>
 
-<div class = "page-header">
-
-<h1>Code bits and other pieces <br/>
-<small>For technical communication, mainly, but any communication, really.</small>
-</h1>
-
-</div>
-
-<ul>
-<li>Javascript: Reusable code snippets for HTML and DITA files in product documentation</li>
-<li>Python: Scripts to make the everyday life of a technical writer a wee bit easier</li>
-<li>Infographics: Code to generate basic infographics from data</li>
-<li>UI portfolio: User interaction, user interface, and wireframes</li>
-<li>Fun projects: Or, what I do in my free time with words and images</li>
-
-</ul>
-
-<p>All of the scripts and code snippets are in freely downloadable public repositories on GitHub. To read further, and to get the GitHub repository links, click these tabs.</p>
+<p>Technical writer, technical editor, interaction designer, and sundry other hats</p>
 
 <hr/>
 
-<ul class="nav nav-pills">
-    <li class = "active"><a href="#javascript">JavaScript</a></li>
-    <li><a href="#python">Python</a></li>
-	<li><a href="#infographics">Infographics</a></li>
-	<li><a href="./ui/ui_home.html">UI portfolio</a></li>  
-    <li><a href="#projects">Fun projects</a></li> 	
-</ul>
+<h2>Work</h2>
 
-<hr/>
-
-<div class = "container-fluid">
-
-<div id = "javascript">
-
-<h2>JavaScript</h2>
-
-<p>These are JavaScript code for HTML files in online help documents.</p>
-
-<p>If the final output of your online help files is HTML, you can include these code snippets in your HTML transforms. The files use the jQuery and the jQuery UI libraries, and are implemented through the <code>class</code> attribute of HTML elements. Therefore, the code will work on any HTML or DITA element that takes a <code>class</code> attribute.</p>
-<p>The following effects are ready for your use:</p>
-<ul>
-  <li>For getting rid of copy-paste, use content referencing in HTML</li>
-  <li>For progressive disclosure, show or hide blocks of content on demand</li>
-  <li>For usability, show the content of a footnote on hover rather than on click (though click is retained as an option)</li>
-  <li>For consumability, display the sections on a page in horizontal tabs instead of vertical sections</li>  
-</ul>
-<p>See <a href = "http://aninditabasu.github.io/onlineHelp-javascript/" target = "_blank">JavaScript for online help files</a>. The entire repository is downloadable as a <code>.zip</code> file. Each JavaScript effect has its own modular set and can, therefore, be used separately or together.</p>
-
-</div>
-
-<hr/>
-
-<div id = "python">
-
-<h2>Python</h2>
-
-<p>These are scripts to make the everyday life of a technical writer a wee bit easier.</p>
-
-<ul>
-  <li><a href = "#wordlist">Word list scanner:</a> A script that reports the occurrences of a <b>list</b> of words and phrases in DITA topic files in a directory</li>
-  <li><a href = "#orphan">Orphan files scanner:</a> A script that reports the files that are not called by the DITA files in a directory</li>
-  <li><a href = "#replink">Extra links scanner:</a> A script that reports links that occur more than once in DITA topic files in a directory</li>
-</ul>
-
-<ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#wordlist">Word list scanner</a></li>
-    <li><a data-toggle="tab" href="#orphan">Orphan files scanner</a></li>
-    <li><a data-toggle="tab" href="#replink">Extra links scanner</a></li>
-</ul>
-
-<div class="tab-content">
-
-<div id = "wordlist"  class="tab-pane fade in active">
-
-<h3>Word list scan</h3>
-
-<p>The script scans all DITA files in a directory, recursively, for occurrences of an entire list of words and phrases that you specify.</p>
-
-<h4>Usage scenario</h4>
-
-<p>You want to scan all files in a directory for several words, all at once. Maybe these words are a list of do-not-use words that your style guide specifies, but you don't have an automated word checker to look for such occurences. Maybe you want to know if you've used certain DITA tags in your files but do not want to run a system search for each tag, one by one. This script searches for multiple words at one go, and also phrases and DITA tags. You specify a list of words and phrases, and tell the script which directory it should scan. The script runs the checks and gives you a report that you can read and act upon.</p>
-
-<h4>Download</h4>
-
-<p>See <a href = "https://doc-tools.readthedocs.io/en/latest/wordListScanner.html" target = "_blank">Word List Scanner</a>.</p>
-
-</div>
-
-<div id = "orphan" class="tab-pane fade">
-
-<h3>Orphan files scan</h3>
-
-<p>The script scans all files in a directory, recursively, and reports the files that are not called by any DITA file in the directory.</p>
-
-<h4>Usage scenario</h4>
-
-<p>You have several image files, topic files, and other files in the directory but hesitate to delete them because you are not sure if any of these files are referenced by the DITA files in that directory.  You tell the script which directory it should scan. The script runs the checks and gives you a report that you can read and act upon to clean up your workspace.</p>
-
-<h4>Download</h4>
-<p>See <a href = "https://doc-tools.readthedocs.io/en/latest/orphanScanner.html" target = "_blank">Orphan Scanner</a>.</p>
-
-</div>
-
-<div id = "replink" class="tab-pane fade">
-
-<h3>Repeated links scan</h3>
-
-<p>The script reports links that occur more than once in  any DITA topic file. For any specified directory, the script checks all links in a DITA file, and all links in DITA maps. It identifies cross-references that occur more than once, and reports them. Relationship tables, <code>topicref</code> collections, inline <code>xref</code> tags, and links in the <code>related-links</code> tag are all reckoned.</p>
-
-<h4>Usage scenario</h4>
-
-<p>When DITA topics are transformed to HTML, the following links are auto-generated and inserted inside the topic:</p>
-
-<ul>
-  <li>Links to nested <code>topicref</code> elements in a DITA map file</li>
-  <li>Links to topics in the same row in a relationship table</li>
-</ul>
-
-<p>Additionally, DITA topics might have the following links inserted manually in the topic:</p>
-
-<ul>
-  <li>Through an <code>xref</code> tag</li>
-  <li>Through the <code>related-links</code> tag</li>
-</ul>
-
-<p>The net effect is, after the transforms, a topic might contain a link to the same target more than once. Maybe yours is a multi-writer team, maybe you inherited the files and haven't done a link check, maybe you yourself linked to a topic twice: once through a <code>.ditamap</code> file and once again through an in-topic related link.</p>
-
-<p>This script will find all such links: links that occur more than once in a topic. The script will, then, generate a report for you. Read the report and delete the extra insertions.</p>
-
-<h4>Download</h4>
-
-<p>See <a href = "https://doc-tools.readthedocs.io/en/latest/thirdTwinScanner.html" target = "_blank">Third Twin Scanner</a>.</p>
-
-</div>
-
-</div>
-
-</div>
-
-<hr/>
-
-<div id = "infographics">
-
-<h2>Infographics</h2>
-
-<p>Sometimes, a diagram is the best way to convey information. Complicated task flows, for example, or large data sets often make more sense if presented visually.</p>
-
-<p>Sometimes, the inbuilt functions of Microsoft Excel and OpenOfficeCalc are sufficient for drawing charts ( <button type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#titanic">Example 1</button> ). At other times, data needs to be processed first before it can be fed into a spreadsheet ( <button type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#earthquake">Example 2</button> ). At still other times, data needs be run through a script ( <button type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#taskflow">Example 3</button> ). At all of these times, the data becomes more appealing and understandable when presented as an image. See <a href = "http://aninditabasu.github.io/visualisations/" target = "_blank">Turn data into stories</a>.
-
-<!-- Titanic modal -->
-  <div class="modal fade" id="titanic" role="dialog">
-    <div class="modal-dialog modal-lg">
-    
-      <!-- Titanic content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Survivors of the Titanic mishap</h4>
-        </div>
-        <div class="modal-body">
-          <p><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/titanic.png"/></p>
-		  <p>Simple case: Numeric data was in a spreadsheet.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
+<div class="card-deck">
+  <div class="card bg-light text-dark">
+    <div class="card-body">
+	  <ul class="list-unstyled">
+	  <li><i class="material-icons">done</i> Online help</li>
+	  <li><i class="material-icons">done</i> Context-sensitive help</li>
+	  <li><i class="material-icons">done</i> UI text</li>
+	  <li><i class="material-icons">done</i> Tutorials</li>	  
+	  <li><i class="material-icons">done</i> Videos</li>
+	  <li><i class="material-icons">done</i> API documents</li>
+	  <li><i class="material-icons">done</i> User scenarios</li>
+	  <li><i class="material-icons">done</i> UI wireframes</li>
+	  <li><i class="material-icons">directions_run</i> ...whatever's next...</li>
+	  </ul>
     </div>
   </div>
-<!-- end of Titanic modal -->
-
-<!-- Earthquake modal -->
-  <div class="modal fade" id="earthquake" role="dialog">
-    <div class="modal-dialog modal-lg">
-    
-      <!-- Earthquake content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Earthquakes on earth</h4>
-        </div>
-        <div class="modal-body">
-          <p><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/earthquakes.png"/></p>
-		  <p>Moderately non-simple case: Numbers were stored in text format in a tab-delimited file, and had to be programmatically converted to numeric format.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
+  <div class="card bg-light text-dark">
+    <div class="card-body">
+      <p class="card-text"><a href = "https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html?ca=drs-">Writing sample: Tutorial</a></p>
+	  <p class="card-text"><i class="material-icons">link</i> <i class="material-icons">arrow_upward</i> A 4-part series on how to build an app that gets data from Twitter and uses that data for cognitive insights through IBM Watson services</p><hr/>
+	  <p class="card-text">Wireframes for an enterprise-level report generation software <i class="material-icons">link</i> <i class="material-icons">arrow_downward</i></p>
+	  <p class="card-text"><a href = "http://aninditabasu.github.io/ui/ui_docgen.html">Design sample: Wireframe</a></p>
     </div>
   </div>
-<!-- end of Earthquake modal -->
-
-<!-- Taskflow modal -->
-  <div class="modal fade" id="taskflow" role="dialog">
-    <div class="modal-dialog modal-lg">
-    
-      <!-- Taskflow content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Task flow with branching and merging</h4>
-        </div>
-        <div class="modal-body">
-          <p><img src = "https://raw.githubusercontent.com/AninditaBasu/visualisations/master/images/#.png"/></p>
-		  <p>Under construction...</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
+  <div class="card bg-light text-dark">
+    <div class="card-body">
+	<div class="progress"><div class="progress-bar progress-bar-striped" style="width:85%">85</div></div>
+    <p class="card-text">DITA, Markdown, HTML, Arbortext Editor, oXygen XML Editor, Viewlet Builder</p><br/>
+	<div class="progress"><div class="progress-bar progress-bar-striped" style="width:60%">60</div></div>
+	<p class="card-text">Madcap Flare, Camtasia, Pencil, JustInMind, Maqetta</p><br/>
+	<div class="progress"><div class="progress-bar progress-bar-striped" style="width:40%">40</div></div>
+	<p class="card-text">Swagger, XML, XSL, Python</p><br/>
     </div>
   </div>
-<!-- end of Taskflow modal -->
+</div><!-- ./div class="card-deck for Work" -->
 
-<p>The data-processing scripts (and the data source files) are in this GitHub repository: <a href = "https://github.com/AninditaBasu/visualisations" target = "_blank">Visualisations repo</a>.</p>
+<hr/>
+  
+<h2>Fun</h2>
 
-</div>
+<div class="card-deck">
+  <div class="card bg-light text-dark">
+    <div class="card-body">
+	<p class="card-text">Built an API around the <a href="#" data-toggle="popover" data-trigger="hover" title="What are the Vedas?" data-content="Any of the four collections forming the earliest body of Indian scripture, consisting of the Rig Veda, Sama Veda, Yajur Veda, and Atharva Veda, which codified the ideas and practices of Vedic religion and laid down the basis of classical Hinduism. They were probably composed between 1500 and 700 BC, and contain hymns, philosophy, and guidance on ritual.">Vedas</a> <span class = "small">(free to use)</span></p>
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+	<p class="card-text"><i class="material-icons">book</i> <a href = "https://aninditabasu.github.io/indica/index.html">Documentation</a></p>
+	<p class="card-text"><i class="material-icons">directions_walk</i> <a href = "https://aninditabasu.github.io/indica/index.html">Interactive walkthrough</a></p>
+    </div>
+  </div>
+  <div class="card bg-light text-dark">
+    <div class="card-body">
+      <p class="card-text">Coded some tools <span class = "small">(copyleft licence)</span></p>
+	  <p class="card-text"><i class="material-icons">book</i> <a href = "https://doc-tools.readthedocs.io/en/latest/index.html">Anin's documentation tools</a></p>
+    </div>
+  </div>
+  <div class="card bg-light text-dark">
+    <div class="card-body">
+	<p class="card-text">Signed up for Google Season of Docs 2019</p>
+	<p class = "card-text"><a href = "https://github.com/mattermost/docs/pull/2949">Style guide for UI text</a> <span class = "small">(under review)</span></p>
+    </div>
+  </div>
+</div><!-- ./div class="card-deck for Fun" -->
 
 <hr/>
 
-<div id = "projects">
+<h2>Life</h2>
 
-<h2>Fun projects</h2>
-
-<p>Playing with words and images</p>
-
-<ul>
-	<li><a href = "https://aninditabasu.github.io/indica/" target = "_blank">The Vedic APIs</a>: Open APIs with data from vedic literature.</li>
-<li><a href = "https://www.amazon.in/dp/B0753JKTMV/ref=rdr_kindle_ext_tmb" target = "_blank">What-If Tales from Mahabharat</a>: A Kindle book, of ~15 one-page chapters, written along the lines of Yun Hota To Kya Hota.</li>
-<li><a href = "https://www.amazon.in/dp/B075D1PSLN" target = "_blank">Vedic Gods: Part 1</a>: A Kindle book that portrays six of the gods of the vedic pantheon.</li>
-<li><a href = "https://twitter.com/_alfaaz_" target = "_blank">_@alfaaz_</a>: A bot that tweets the meanings of Urdu-Hindi words and, sometimes, bot-generated stories.</li>
-<li><a href = "http://aninditabasu.github.io/puzzles/" target = "_blank">Picture puzzles</a>: A drag-and-drop picture puzzle game. Photos, mine; javascript code, borrowed.</li>
-<li>The Mahabharat project: Also an open API; still under construction.</li>
-<!--<li><a href = "http://aninditabasu.github.io/vedic-gods/" target = "_blank">Vedic gods and their adversaries</a>: The gods and non-gods, condensed from the thousands of words of the Rig Veda into one not-too-lengthy web page. Because, that's what technical communicators do.</li>-->
-<!--<li><a href = "http://udaanstc.github.io/GutsAndGlory/index.html" target = "_blank">Udaan</a>, the publication of the STC India annual conference 2015. Several JavaScript effects are implemented.</li>-->
-<!--<li><a href = "http://afsanapodcast.github.io/afsana/index.html" target = "_blank">Afsana Podcast</a>, an audio story site with a bare-bones design. Uses content referencing for header and footer text.</li>-->
-<!--<li>Vedic gods and their adversaries, <a href = "http://aninditabasu.github.io/vedic-gods/" target = "_blank">on GitHub Pages</a></li>-->
-<!--<li>Of words and all that, <a href = "https://alfaazi.blogspot.com" target = "_blank">on Blogspot</a></li>-->
-</ul>
-
-</div>
+<div class="card-deck">
+  <div class="card bg-light text-dark">
+    <div class="card-body">
+	<p class="card-text">Poke around with <a href = "http://aninditabasu.github.io/visualisations/">infographics</a></p>
+	<hr/>
+	<p class="card-text">Write some <a href="https://www.goodreads.com/author/show/17123055.Anindita_Basu">books</a></p>
+	<hr/>
+	<p class="card-text"><a href="https://twitter.com/anindita_basu/status/1180721977524289536">Wander</a></p>
+    </div>
+  </div>
+  <div class="card bg-light text-dark">
+    <div class="card-body">
+	<p class="card-text">The all-consuming Mahabharat project</p>
+	<p class="card-text"><a href="https://dev.to/aninditabasu">
+    <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Anindita Basu's DEV Profile" height="30" width="30"></a> <a href = "https://dev.to/aninditabasu/building-a-chatbot-with-the-ramp-stack-part-2-designing-the-database-131e">...what, how, where...</a></p>
+	<hr/>
+	<p class="card-text">See, Shoot, Puzzle: <a href = "https://aninditabasu.github.io/puzzles/">Play?</a></a></p>
+    </div>
+  </div>
+  <div class="card bg-light text-dark">
+    <div class="card-body">
+	<p class="card-text"><i class="material-icons">school</i> Bachelor of Science &#127800; &#129347; &#128008;</p>
+	<p class="card-text"><i class="material-icons">school</i> Master of Business Administration &#x1F4B0;</p>
+    </div>
+  </div>
+</div><!-- ./div class="card-deck for Life" -->
 
 <hr/>
 
-</div>
+<footer>
+  <p class = "small text-right">&copy; Anindita Basu  <a href = "mailto:ab.techwriter@gmail.com"><i class="material-icons" style="font-size:24px">email</i></a>&nbsp;&nbsp;<a href = "https://github.com/AninditaBasu"><img src="./images/GitHub-Mark-32px.png" alt="GitHub logo"/></a>&nbsp;&nbsp;<a href = "https://www.linkedin.com/in/aninditabasu/"><img src="./images/LI-In-Bug.png" alt="GitHub logo"></a></p>
+</footer>
 
-<p>&copy; <a href="README.html" target = "_blank">Anindita Basu</a></p>
-
-</div><!-- ./container -->
-
-</div><!-- ./wrapper -->
+</div><!-- ./div class="container" -->
 
 </body>
 
