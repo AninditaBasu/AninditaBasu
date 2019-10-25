@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/common.css">
 
 <script src="./js/jquery.min.js"></script>
 <script src="./js/popper.min.js"></script>
@@ -15,6 +16,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <title>Anindita Basu: Technical writer, technical editors, and sundry other things</title>
 
@@ -36,33 +38,34 @@
   <div class="card bg-light text-dark">
     <div class="card-body">
 	  <ul class="list-unstyled">
-	  <li><i class="material-icons">done</i> Online help</li>
-	  <li><i class="material-icons">done</i> Context-sensitive help</li>
-	  <li><i class="material-icons">done</i> UI text</li>
-	  <li><i class="material-icons">done</i> Tutorials</li>	  
-	  <li><i class="material-icons">done</i> Videos</li>
-	  <li><i class="material-icons">done</i> API documents</li>
-	  <li><i class="material-icons">done</i> User scenarios</li>
-	  <li><i class="material-icons">done</i> UI wireframes</li>
-	  <li><i class="material-icons">directions_run</i> ...whatever's next...</li>
+	  <li><i class="material-icons" style="color:#336600;">done_all</i> Online help</li>
+	  <li><i class="material-icons" style="color:#336600;">done_all</i> Context-sensitive help</li>
+	  <li><i class="material-icons" style="color:#336600;">done_all</i> UI text</li>
+	  <li><i class="material-icons" style="color:#336600;">done_all</i> Tutorials</li>	  
+	  <li><i class="material-icons" style="color:#336600;">done_all</i> Videos</li>
+	  <li><i class="material-icons" style="color:#336600;">done_all</i> API documents</li>
+	  <li><i class="material-icons" style="color:#336600;">done_all</i> User scenarios</li>
+	  <li><i class="material-icons" style="color:#336600;">done_all</i> UI wireframes</li>
+	  <li><i class="material-icons" style="color:#336600;">directions_run</i> ...whatever's next...</li>
 	  </ul>
     </div>
   </div>
   <div class="card bg-light text-dark">
     <div class="card-body">
       <p class="card-text"><a href = "https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/index.html?ca=drs-">Writing sample: Tutorial</a></p>
-	  <p class="card-text"><i class="material-icons">link</i> <i class="material-icons">arrow_upward</i> A 4-part series on how to build an app that gets data from Twitter and uses that data for cognitive insights through IBM Watson services</p><hr/>
+	  <p class="card-text"><i class="material-icons">link</i> <i class="material-icons">arrow_upward</i> A 4-part series on how to build an app that gets data from Twitter and uses that data for cognitive insights through IBM Watson services</p>
+	  <hr/>
 	  <p class="card-text">Wireframes for an enterprise-level report generation software <i class="material-icons">link</i> <i class="material-icons">arrow_downward</i></p>
 	  <p class="card-text"><a href = "http://aninditabasu.github.io/ui/ui_docgen.html">Design sample: Wireframe</a></p>
     </div>
   </div>
   <div class="card bg-light text-dark">
     <div class="card-body">
-	<div class="progress"><div class="progress-bar progress-bar-striped" style="width:85%">85</div></div>
+	<div class="progress"><div class="progress-bar progress-bar-striped bg-success" style="width:85%">85</div></div>
     <p class="card-text">DITA, Markdown, HTML, Arbortext Editor, oXygen XML Editor, Viewlet Builder</p><br/>
-	<div class="progress"><div class="progress-bar progress-bar-striped" style="width:60%">60</div></div>
+	<div class="progress"><div class="progress-bar progress-bar-striped bg-success" style="width:60%">60</div></div>
 	<p class="card-text">Madcap Flare, Camtasia, Pencil, JustInMind, Maqetta</p><br/>
-	<div class="progress"><div class="progress-bar progress-bar-striped" style="width:40%">40</div></div>
+	<div class="progress"><div class="progress-bar progress-bar-striped bg-success" style="width:40%">40</div></div>
 	<p class="card-text">Swagger, XML, XSL, Python</p><br/>
     </div>
   </div>
@@ -81,20 +84,22 @@ $(document).ready(function(){
   $('[data-toggle="popover"]').popover();   
 });
 </script>
-	<p class="card-text"><i class="material-icons">book</i> <a href = "https://aninditabasu.github.io/indica/index.html">Documentation</a></p>
-	<p class="card-text"><i class="material-icons">directions_walk</i> <a href = "https://mybinder.org/repo/AninditaBasu/indica">Interactive walkthrough</a></p>
+	<p class="card-text m-3"><i class="material-icons">book</i> <a href = "https://aninditabasu.github.io/indica/index.html">Documentation</a></p>
+	<p class="card-text m-3"><i class="material-icons">directions_walk</i> <a href = "https://mybinder.org/repo/AninditaBasu/indica">Interactive walkthrough</a> <span class = "small">(click the <code>.ipynb</code> files)</span></p>
     </div>
   </div>
   <div class="card bg-light text-dark">
     <div class="card-body">
       <p class="card-text">Coded some tools <span class = "small">(copyleft licence)</span></p>
-	  <p class="card-text"><i class="material-icons">book</i> <a href = "https://doc-tools.readthedocs.io/en/latest/index.html">Anin's documentation tools</a></p>
+	  <p class="card-text m-3"><i class="material-icons">book</i> <a href = "https://doc-tools.readthedocs.io/en/latest/index.html">Anin's documentation tools</a> <span class = "small">(these work on <code>.dita</code> files)</span></p>
     </div>
   </div>
   <div class="card bg-light text-dark">
     <div class="card-body">
 	<p class="card-text">Signed up for Google Season of Docs 2019</p>
-	<p class = "card-text"><a href = "https://github.com/mattermost/docs/pull/2949">Style guide for UI text</a> <span class = "small">(under review)</span></p>
+	<p class = "card-text m-3"><a href = "https://github.com/mattermost/docs/pull/2949">Style guide for UI text</a> <span class = "small">(under review)</span></p>
+	<hr/>
+	<p class="card-text">Also, Hacktoberfest2019 swag is on its way &#x1F483;</p>
     </div>
   </div>
 </div><!-- ./div class="card-deck for Fun" -->
@@ -106,25 +111,22 @@ $(document).ready(function(){
 <div class="card-deck">
   <div class="card bg-light text-dark">
     <div class="card-body">
-	<p class="card-text">Poke around with <a href = "http://aninditabasu.github.io/visualisations/">infographics</a></p>
-	<hr/>
-	<p class="card-text">Write some <a href="https://www.goodreads.com/author/show/17123055.Anindita_Basu">books</a></p>
-	<hr/>
-	<p class="card-text"><a href="https://twitter.com/anindita_basu/status/1180721977524289536">Wander</a></p>
+	<p class="card-text">&#x1F3A8; Poke around with <a href = "http://aninditabasu.github.io/visualisations/">infographics</a></p>
+	<p class="card-text">&#x1F4D6; Write some <a href="https://www.goodreads.com/author/show/17123055.Anindita_Basu">books</a></p>
+	<p class="card-text">&#x1F6B6; <a href="https://twitter.com/anindita_basu/status/1180721977524289536">Wander</a> and stare</p>
+	<p class="card-text"><i class="material-icons">photo_camera</i> See, Shoot, <a href = "https://aninditabasu.github.io/puzzles/">Puzzle</a></p>
     </div>
   </div>
   <div class="card bg-light text-dark">
     <div class="card-body">
-	<p class="card-text">The all-consuming Mahabharat project</p>
-	<p class="card-text"><a href="https://dev.to/aninditabasu">
-    <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Anindita Basu's DEV Profile" height="30" width="30"></a> <a href = "https://dev.to/aninditabasu/building-a-chatbot-with-the-ramp-stack-part-2-designing-the-database-131e">...what, how, where...</a></p>
-	<hr/>
-	<p class="card-text">See, Shoot, Puzzle: <a href = "https://aninditabasu.github.io/puzzles/">Play?</a></a></p>
+	<p class="card-text">The all-consuming <a href="#" data-toggle="popover" data-trigger="hover" title="What is the Mahabharat?" data-content="One of the two great Sanskrit epics. It describes a civil war between two branches of a noble family. It also contains the Bhagvad Gita, a mini-book that's sacred to the Hindus.">Mahabharat</a> project (see the <a href = "https://dev.to/aninditabasu/building-a-chatbot-with-the-ramp-stack-part-2-designing-the-database-131e">...what, how, where...</a> on <a href="https://dev.to/aninditabasu">
+    <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Anindita Basu's DEV Profile" height="30" width="30"></a>)</p>
+	<p class="card-text text-center">&#x1F4DA; <i class="material-icons">arrow_right_alt</i> <i class="fa fa-database"></i> <i class="material-icons">arrow_right_alt</i> <i class="material-icons">chat</i> + <i class="material-icons">lock_open</i> API</p>
     </div>
   </div>
   <div class="card bg-light text-dark">
     <div class="card-body">
-	<p class="card-text"><i class="material-icons">school</i> Bachelor of Science &#127800; &#129347; &#128008;</p>
+	<p class="card-text"><i class="material-icons">school</i> Bachelor of Science &#127800; &#x1F9EA; &#128008;</p>
 	<p class="card-text"><i class="material-icons">school</i> Master of Business Administration &#x1F4B0;</p>
     </div>
   </div>
@@ -132,8 +134,16 @@ $(document).ready(function(){
 
 <hr/>
 
-<footer>
-  <p class = "small text-right">&copy; Anindita Basu  <a href = "mailto:ab.techwriter@gmail.com"><i class="material-icons" style="font-size:24px">email</i></a>&nbsp;&nbsp;<a href = "https://github.com/AninditaBasu"><img src="./images/GitHub-Mark-32px.png" alt="GitHub logo"/></a>&nbsp;&nbsp;<a href = "https://www.linkedin.com/in/aninditabasu/"><img src="./images/LI-In-Bug.png" alt="GitHub logo"></a></p>
+<footer class = "small">
+<div class="row">
+  <div class="col text-right"><a href = "mailto:ab.techwriter@gmail.com"><i class="material-icons" style="font-size:24px">email</i></a></div>
+  <div class="col text-center"><a href = "https://github.com/AninditaBasu"><img src="./images/GitHub-Mark-32px.png" alt="GitHub logo"/></a></div>
+  <div class="col"><a href = "https://www.linkedin.com/in/aninditabasu/"><img src="./images/LI-In-Bug.png" alt="GitHub logo"></a></div>
+</div>
+<p>&nbsp;</p>
+<div class="row">
+  <div class="col text-center">Made with the Bootstrap 4 framework, and Google Material Design and Font Awesome icons.<br/>&copy; Anindita Basu</div>
+</div>
 </footer>
 
 </div><!-- ./div class="container" -->
