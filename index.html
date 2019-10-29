@@ -78,12 +78,25 @@
 <div class="card-deck">
   <div class="card bg-light text-dark">
     <div class="card-body">
-	<p class="card-text">Built an API around the <a href="#" data-toggle="popover" data-trigger="hover" title="What are the Vedas?" data-content="Any of the four collections forming the earliest body of Indian scripture, consisting of the Rig Veda, Sama Veda, Yajur Veda, and Atharva Veda, which codified the ideas and practices of Vedic religion and laid down the basis of classical Hinduism. They were probably composed between 1500 and 700 BC, and contain hymns, philosophy, and guidance on ritual.">Vedas</a> <span class = "small">(free to use)</span></p>
-<script>
-$(document).ready(function(){
-  $('[data-toggle="popover"]').popover();   
-});
-</script>
+	<p class="card-text">Built an API around the <a href="#" data-toggle="modal" data-target="#vedasModal" title="What are the Vedas?">Vedas</a> <span class = "small">(free to use)</span></p>
+		<!-- The Vedas Modal -->
+		<div class="modal" id="vedasModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">What are the Vedas?</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<!-- Modal body -->
+				<div class="modal-body">Any of the four collections forming the earliest body of Indian scripture, consisting of the Rig Veda, Sama Veda, Yajur Veda, and Atharva Veda, which codified the ideas and practices of Vedic religion and laid down the basis of classical Hinduism. They were probably composed between 1500 and 700 BC, and contain hymns, philosophy, and guidance on ritual.</div>
+				<!-- Modal footer -->
+				<div class="modal-footer">
+				<button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
 	<p class="card-text m-3"><i class="material-icons">book</i> <a href = "https://aninditabasu.github.io/indica/index.html">Documentation</a></p>
 	<p class="card-text m-3"><i class="material-icons">directions_walk</i> <a href = "https://mybinder.org/repo/AninditaBasu/indica">Interactive walkthrough</a> <span class = "small">(click the <code>.ipynb</code> files)</span></p>
     </div>
@@ -119,8 +132,26 @@ $(document).ready(function(){
   </div>
   <div class="card bg-light text-dark">
     <div class="card-body">
-	<p class="card-text">The all-consuming <a href="#" data-toggle="popover" data-trigger="hover" title="What is the Mahabharat?" data-content="One of the two great Sanskrit epics. It describes a civil war between two branches of a noble family. It also contains the Bhagvad Gita, a mini-book that's sacred to the Hindus.">Mahabharat</a> project (see the <a href = "https://dev.to/aninditabasu/building-a-chatbot-with-the-ramp-stack-part-2-designing-the-database-131e">...what, how, where...</a> on <a href="https://dev.to/aninditabasu">
+	<p class="card-text">The all-consuming <a href="#" data-toggle="modal" title="What is the Mahabharat?" data-target="#mbModal">Mahabharat</a> project (see the <a href = "https://dev.to/aninditabasu/building-a-chatbot-with-the-ramp-stack-part-2-designing-the-database-131e">...what, how, where...</a> on <a href="https://dev.to/aninditabasu">
     <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Anindita Basu's DEV Profile" height="30" width="30"></a>)</p>
+		<!-- The Mahabharat Modal -->
+		<div class="modal" id="mbModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">What is the Mahabharat?</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<!-- Modal body -->
+				<div class="modal-body">One of the two great Sanskrit epics. It describes a civil war between two branches of a noble family. It also contains the Bhagvad Gita, a mini-book that's sacred to the Hindus.</div>
+				<!-- Modal footer -->
+				<div class="modal-footer">
+				<button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>	
 	<p class="card-text text-center">&#x1F4DA; <i class="material-icons">arrow_right_alt</i> <i class="fa fa-database"></i> <i class="material-icons">arrow_right_alt</i> <i class="material-icons">chat</i> + <i class="material-icons">lock_open</i> API</p>
     </div>
   </div>
