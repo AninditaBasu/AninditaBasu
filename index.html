@@ -5,13 +5,8 @@ title: Anindita Basu
 <h1>{{ page.title}}</h1>
 <p>About</p>
 <ul>
-{% for entry in site.data.certification.certifications %}
+{% for entry in site.data.certification.certification %}
 <li>{{ certification.certificate }}, {{ certification.year }}, {{ certification.institution }},</li>
 {% endfor %}
 </ul>
 <p>---</p>
-<ul>
-{% for entry in site.data.certifications %}
-<li>{{ certification.certificate }}, {{ certification.year }}, {{ certification.institution }},</li>
-{% endfor %}
-</ul>
