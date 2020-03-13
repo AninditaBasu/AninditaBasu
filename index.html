@@ -5,13 +5,13 @@ title: About
 
 <h1>{{ page.title}}</h1>
 
-<div class="card" style="width:400px">
-<div class="card-body">
-<h4 class="card-title">Anindita Basu</h4>
-<p class="card-text">I've been a technical communicator since 2006. At various points during this journey, I've been a technical writer, technical editor, UI wireframes, and UI reviewer. At all times, I continue to be a learner and a self-taught coder.</p>
-</div><!-- div card-boddy -->
-<img class="card-img-bottom" src="./images/ab.jpg" alt="anindita basu's photo" style="width:100%">
-</div><!-- div card -->
+<div class="media border p-3">
+<img src="./images/ab.jpg" alt="anindita basu's photo" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+<div class="media-body">
+<h4>Anindita Basu</h4>
+<p>I've been a technical communicator since 2006. At various points during this journey, I've been a technical writer, technical editor, UI wireframes, and UI reviewer. At all times, I continue to be a learner and a self-taught coder.</p>   
+</div><!-- media-body-->
+</div><!--media-->
 
 <h2>Employment</h2>
 
@@ -19,8 +19,9 @@ title: About
 <div class="card">
 <div class="card-header">{{ entry.role }}, {{entry.year1}} to {{entry.year2}}, {{ entry.company }}</div>
 <div class="card-body">
+{% assign work = site.data.employment.employment[achievements] %}
 <ul>
-{% for item in site.data.employment.employment[achievements] %}
+{% for item in work %}
 <li>{{item}}</li>
 </ul>
 </div>
@@ -32,9 +33,12 @@ title: About
 {% for entry in site.data.education.education %}
 <div class="card">
 <div class="card-header">{{ entry.degree }}</div>
-<div class="card-body">{{entry.year1}} to {{entry.year2}}</div> 
-<div class="card-footer">{{entry.institution}}</div>
-</div>
+<div class="card-body">
+<p>{{entry.year1}} to {{entry.year2}}</p> 
+<p>{{entry.institution}}</p>
+</div><!--card-body-->
+</div><!--card-header-->
+</div><!--card-->
 {% endfor %}
 
 
