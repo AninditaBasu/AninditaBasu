@@ -11,12 +11,16 @@ title: About Anindita Basu
 
 <h2>Employment</h2>
 
-{% for entry in site.data.employment.employment reverse %}
+{% for entry in site.data.employment.employment reversed %}
 <div class="card">
-<div class="card-header">{{ entry.role }}, {{entry.year1}} to {{entry.year2}}</div>
-<div class="card-body">{{entry.achievements}}</div> 
-<div class="card-footer">{{entry.company}}</div>
+<div class="card-header">{{ entry.role }}, {{entry.year1}} to {{entry.year2}}, {{ entry.company }}</div>
+<div class="card-body">
+<ul>
+{% for item in site.data.employment.employment[achievements] %}
+<li>{{item}}</li>
+</ul>
 </div>
+<p>&nbsp;</p>
 {% endfor %}
 
 <h2>Education</h2>
