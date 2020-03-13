@@ -66,7 +66,7 @@
 	{
       "company": "Oracle Inc., Hyderabad",
       "year1": "2018",
-	  "year2": "-",
+	  "year2": "date",
       "role": "Principal Technical Writer",
 	  "achievements": ["Handle implementation guides, user guides, and REST API guides"
 	  ]
