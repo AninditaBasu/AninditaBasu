@@ -18,14 +18,14 @@ title: About
 {% for entry in site.data.employment.employment reversed %}
 <div class="card">
 <div class="card-header">{{ entry.role }}, {{entry.year1}} to {{entry.year2}} <br/> {{ entry.company }}</div>
-<div class="card-body">
 {% for item in entry.achievements %}
+<div class="card-body">
 <ul>
 <li>{{item}}</li>
 </ul>
 {% endfor %}
-{% endfor %}
 </div>
+{% endfor %}
 
 <h4>Education</h4>
 
@@ -41,7 +41,7 @@ title: About
 {% endfor %}
 
 
-<4>Certifications</h4>
+<h4>Certifications</h4>
 
 <ul>
 {% for entry in site.data.certification.certification %}
