@@ -1,0 +1,16 @@
+{
+  "app": [
+    {
+      "name": "Tarz-e-zindagi",
+	  "type": "web app",
+      "demo": "https://pesha.herokuapp.com/",
+      "code": "https://github.com/AninditaBasu/indica"
+    },
+	{
+      "name": "Alfaaz",
+	  "type": "Twitter bot",
+      "demo": "https://twitter.com/_alfaaz_",
+      "code": "https://github.com/AninditaBasu/_alfaaz_"
+    },
+  ]
+}
