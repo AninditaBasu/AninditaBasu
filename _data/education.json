@@ -1,0 +1,22 @@
+{
+  "education": [
+    {
+      "degree": "Bachelor of Science",
+      "year1": "1986",
+	  "year2": "1989",
+      "institution": "University of Allahabad"
+    },
+    {
+      "degree": "Master of Business Administration",
+      "year1": "1990",
+	  "year2": "1992",
+      "institution": "Birla Institute of Technology, Mesra"
+    },
+    {
+      "degree": "Diplôme de Langue",
+      "year1": "2004",
+	  "year2": "2006",
+      "institution": "Alliance Française de Bangalore"
+    }
+  ]
+}

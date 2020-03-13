@@ -1,0 +1,75 @@
+{
+  "employment": [
+    {
+      "company": "Taxmann Publications, New Delhi",
+      "year1": "1995",
+	  "year2": "1996",
+      "role": "Senior Editor",
+	  "achievements": ["Write, review, and edit digests of court judgements of Indian tax laws and corporate laws"
+	  ]
+    },
+    {
+      "company": "Bharatiya Reserve Bank Note Mudran Ltd, Bangalore",
+      "year1": "1996",
+	  "year2": "2005",
+      "role": "Deputy Manager",
+	  "achievements": ["Finance, accounts, administration vigilance"
+	  ]
+    },
+    {
+      "company": "Integra Micro Software Services, Bangalore",
+      "year1": "2006",
+	  "year2": "2008",
+      "role": "Senior Technical Writer",
+	  "achievements": ["user manuals",
+	  "localization"
+	  ]
+    },
+	{
+      "company": "IBM India, Bangalore",
+      "year1": "2008",
+	  "year2": "2011",
+      "role": "Information Developer",
+	  "achievements": ["Write and edit product documentation. Deliverables included online help files, embedded user-interface help, and videos",
+	  "Implement SEO practices, and lay down the process and guidelines",
+	  "Implement progressive disclosure"
+	  ]
+    },
+	{
+      "company": "IBM India, Bangalore",
+      "year1": "2011",
+	  "year2": "2016",
+      "role": "Technical Editor",
+	  "achievements": ["Train writers on IBM Style and on DITA",
+	  "Lay down style guidelines for emerging documentation deliverables such as videos and Cloud",
+	  "Create wireframes for the user interface for a web version of a product"
+	  ]
+    },
+	{
+      "company": "HCL Technologies, Bangalore",
+      "year1": "2016",
+	  "year2": "2017",
+      "role": "Technical Editor",
+	  "achievements": ["Edit the documentation for the testing suite of products that IBM India sold to HCL Technologies"
+	  ]
+    },
+	{
+      "company": "OpenText Technologies, Hyderabad",
+      "year1": "2017",
+	  "year2": "2018",
+      "role": "Staff Technical Writer",
+	  "achievements": ["Write and peer review product documentation",
+	  "Contribute to video language guidelines, review storyboards, and mentor video creators",
+	  "Review UI text"
+	  ]
+    },
+	{
+      "company": "Oracle Inc., Hyderabad",
+      "year1": "2018",
+	  "year2": "-",
+      "role": "Principal Technical Writer",
+	  "achievements": ["Handle implementation guides, user guides, and REST API guides"
+	  ]
+    }
+  ]
+}
