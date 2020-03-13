@@ -35,10 +35,11 @@
 
 <body>
 
+<div class="container">
+
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
     <ul class="navbar-nav">
     <li class="nav-item"><a class="nav-link active" href="{{ "index.html" | absolute_url }}">About</a></li>
-	<li class="nav-item"><hr/></li>
     <li class="nav-item"><a class="nav-link" href="{{ "/pages/portfolio.html" | absolute_url }}">Portfolio</a></li>
 	<li class="nav-item"><a class="nav-link" href="{{ "/pages/apps.html" | absolute_url }}">Apps</a></li>
 	<li class="nav-item"><a class="nav-link" href="{{ "/pages/contact.html" | absolute_url }}">Contact</a></li>
@@ -49,7 +50,7 @@
 
 {{ content }}
          
-</div><!-- /.container -->
+</div><!-- /.container (content)-->
 
 <div class="container">
 <hr/>
@@ -59,7 +60,9 @@
 <a href="{{ site.baseurl | prepend: url }}">GitHub repo</a>
 </p>
 </footer>
-</div><!-- /.container -->
+</div><!-- /.container (footer)-->
+
+</div><!-- /.container (body)-->
 
 </body>
 
