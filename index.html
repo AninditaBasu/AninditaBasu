@@ -2,14 +2,38 @@
 layout: default
 title: About Anindita Basu
 ---
+
 <h1>{{ page.title}}</h1>
-<p>About</p>
-<p>... {{page.title}} ...</p>
+
+<p>Lorem ipsum</p>
+
+<hr/>
+
+<h2>Employment</h2>
+
+{% for entry in site.data.employment.employment %}
+<div class="card">
+<div class="card-header">{{ entry.role }}, {{entry.year1}} to {{entry.year2}}</div>
+<div class="card-body">{{entry.achievements}}</div> 
+<div class="card-footer">{{entry.company}}</div>
+</div>
+{% endfor %}
+
+<h2>Education</h2>
+
+{% for entry in site.data.education.education %}
+<div class="card">
+<div class="card-header">{{ entry.degree }}</div>
+<div class="card-body">{{entry.year1}} to {{entry.year2}}</div> 
+<div class="card-footer">{{entry.institution}}</div>
+</div>
+{% endfor %}
+
+
+<h2>Certifications</h2>
+
 <ul>
 {% for entry in site.data.certification.certification %}
 <li>{{ entry.certificate }}, {{ entry.year }}, {{ entry.institution }}</li>
 {% endfor %}
 </ul>
-<p>---</p>
-<h1>h1</h1>
-<h2>h2</h2>
