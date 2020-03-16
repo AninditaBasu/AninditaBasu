@@ -12,7 +12,8 @@ title: Tools
     <div class="card-body">
       <h5>{{ entry.name }} </h5>
       <p>{{ entry.desc }}.</p>
-	  <p>See <a href = "{{ entry.demo }}">demo</a>. See <a href = "{{ entry.code }}">code</a>.</p>
+	  <p>See <a href = "{{ entry.demo }}">demo</a>.</p>
+	  <p>See <a href = "{{ entry.code }}">code</a>.</p>
     </div><!-- card-body  -->
   </div><!-- card -->
 </div><!-- container mt-3 -->

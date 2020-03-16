@@ -12,7 +12,7 @@ title: Writing samples
     <div class="card-body">
       <h5>{{ entry.name }} </h5>
       <p>{{ entry.desc }}.</p>
-	  <p>See <a href = "{{ entry.link }}">{{ entry.link_text }}</a></p>
+	  <p>See <a href = "{{ entry.link }}">{{ entry.link_text }}</a>.</p>
     </div><!-- card-body  -->
   </div><!-- card -->
 </div><!-- container mt-3 -->
