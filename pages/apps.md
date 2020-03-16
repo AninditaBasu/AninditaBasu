@@ -4,7 +4,6 @@ title: Apps
 ---
 # {{ page.title }}
 
-
 {% for entry in site.data.app.app 
 <div class="container mt-3">  
   <div class="media border p-3">
