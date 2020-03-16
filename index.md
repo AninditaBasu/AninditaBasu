@@ -11,7 +11,7 @@ title: About Anindita Basu
 
 <div class="container">  
   <!-- Button to open the modal -->
-  <a data-toggle="modal" data-target="#myCV">My CV</a>
+  <a data-toggle="modal" data-target="#myCV" class = "text-primary">My CV</a>
   <!-- The modal -->
   <div class="modal" id="myCV">
     <div class="modal-dialog modal-dialog-scrollable">
@@ -71,7 +71,7 @@ title: About Anindita Basu
 			<div class="card bg-light text-dark p-3">
 			<div class="card-header"><h5>{{ entry.role }}</h5></div>
 			<div class="card-body">
-			<h6>{ entry.company }}, {{entry.year1}} to {{entry.year2}}</h6>
+			<h6>{{ entry.company }}, {{entry.year1}} to {{entry.year2}}</h6>
 			{% for item in entry.achievements %}
 			<p> - {{item}}</p>
 			{% endfor %}
