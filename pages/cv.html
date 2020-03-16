@@ -1,0 +1,26 @@
+---
+layout: default
+title: Anindita Basu's CV
+---
+
+<h5>Certifications</h5>
+
+{% for entry in site.data.certification.certification reversed %}
+<p>{{ entry.certificate }} in {{ entry.year }} from {{ entry.institution }}</p>
+{% endfor %}
+
+<h5>Employment</h5>
+
+{% for entry in site.data.employment.employment reversed %}
+<p>{{ entry.role }}, {{entry.year1}} to {{entry.year2}}, at {{ entry.company }}</p>
+<p>Details:</p>
+{% for item in entry.achievements %}
+<p>{{item}}</p>
+{% endfor %}
+{% endfor %}
+
+<h5>Education</h5>
+{% for entry in site.data.education.education %}
+<p>{{ entry.degree }}, {{entry.year1}} to {{entry.year2}}, {{entry.institution}}</p>
+{% endfor %}
+
