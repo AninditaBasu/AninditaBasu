@@ -6,7 +6,7 @@
 	  "picture": "./images/pesha.png",
       "demo": "https://pesha.herokuapp.com/",
       "code": "https://github.com/AninditaBasu/indica",
-	  "desc": "A fun career advice app that uses material from vedic literature APIs"
+	  "desc": "Uses material from vedic literature APIs"
     },
 	{
       "name": "Alfaaz",
@@ -14,7 +14,7 @@
 	  "picture": "./images/alfaaz.png",
       "demo": "https://twitter.com/_alfaaz_",
       "code": "https://github.com/AninditaBasu/_alfaaz_",
-	  "desc": "A bot that tweets translations of Urdu words to English and transliteration to Hindi"
+	  "desc": "Tweets translations of Urdu words to English and transliteration to Hindi"
     },
   ]
 }
