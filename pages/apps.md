@@ -6,7 +6,7 @@ title: Apps
 
 <p>Or, weekend projects that stretch to fill all the time available</p>
 
-{% for entry in site.data.app.app }
+{% for entry in site.data.app.app %}
 <div class="container mt-3">  
   <div class="media border p-3">
     <img src="{{ entry.picture }}" alt="app screenshot" class="mr-3 mt-3 rounded-circle" style="width:100px;">
