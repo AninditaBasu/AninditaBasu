@@ -3,17 +3,32 @@ layout: default
 title: About
 ---
 
-<h1>{{ page.title}}</h1>
+<h1>Anindita Basu</h1>
 
 <div class="media p-3">
 <img src="./images/ab.jpg" alt="anindita basu's photo" class="mr-3 mt-3 rounded-circle" style="width:60px;">
 <div class="media-body">
-<h4>Anindita Basu</h4>
+<h4>Briefly,</h4>
 <p>I've been a technical communicator since 2006. At various points during this journey, I've been a technical writer, technical editor, UI prototyper, UI reviewer, and self-taught coder. At all times, I continue to be a learner.</p>   
 </div><!-- media-body-->
 </div><!--media-->
 
-<h4>Employment</h4>
+<hr/>
+
+<h2>Certifications</h2>
+
+{% for entry in site.data.certification.certification %}
+<div class="media p-3">
+<span class = "mr-3 mt-3 rounded-circle">{{ entry.institution }}</span>
+<div class="media-body">
+<p>{{ entry.certificate }}, {{ entry.year }}, {{ entry.institution }}</p>
+{% endfor %}
+</div><!-- media-body-->
+</div><!--media-->
+
+
+<h2>Employment</h2>
+
 <ul>
 {% for entry in site.data.employment.employment reversed %}
 <div class="card">
@@ -41,10 +56,3 @@ title: About
 {% endfor %}
 
 
-<h4>Certifications</h4>
-
-<ul>
-{% for entry in site.data.certification.certification %}
-<li>{{ entry.certificate }}, {{ entry.year }}, {{ entry.institution }}</li>
-{% endfor %}
-</ul>
