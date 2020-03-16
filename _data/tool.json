@@ -14,19 +14,16 @@
     },
 	{
       "name": "linkchecker-third-twin",
-      "demo": "",
       "code": "https://github.com/AninditaBasu/linkchecker-third-twin",
 	  "desc": "Scan a directory recursively to identify duplicate, triplicate, or n-cate topic-to-topic links in DITA files"
     },
 	{
       "name": "orphan-scan",
-      "demo": "",
       "code": "https://github.com/AninditaBasu/orphan-scan",
 	  "desc": "Identify files that are not referenced by any DITA file in a specified directory, recursively"
     },
 	{
       "name": "word-list-scan",
-      "demo": "",
       "code": "https://github.com/AninditaBasu/word-list-scan",
 	  "desc": "Scan all DITA files in a directory recursively for occurences of an entire list of words and phrases"
     }
