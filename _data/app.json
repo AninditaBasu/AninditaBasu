@@ -16,5 +16,13 @@
       "code": "https://github.com/AninditaBasu/_alfaaz_",
 	  "desc": "Translates Urdu words to English and translites them to Hindi"
     },
+	{
+      "name": "StopWords",
+	  "type": "Web app",
+	  "picture": "../images/stopWords.png",
+      "demo": "https://mattermost-hackathon-stopwords.herokuapp.com/",
+      "code": "https://github.com/AninditaBasu/mattermost-hackathon-stopWords",
+	  "desc": "Finds non-inclusive language in the docs of a GitHub repo you specify"
+    }
   ]
 }

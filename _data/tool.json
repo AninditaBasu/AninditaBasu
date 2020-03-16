@@ -1,0 +1,34 @@
+{
+  "tool": [
+    {
+      "name": "docs-as-code",
+      "demo": "https://aninditabasu.github.io/docs-as-code/",
+      "code": "https://github.com/AninditaBasu/docs-as-code",
+	  "desc": "Automatically propagate UI text changes to documentation"
+    },
+	{
+      "name": "jekyll-github-starter-pack",
+      "demo": "https://aninditabasu.github.io/jekyll-github-starter-pack/",
+      "code": "https://github.com/AninditaBasu/jekyll-github-starter-pack",
+	  "desc": "Build a website in minutes on GitHub by using Jekyll's support of Liquid variables and templates"
+    },
+	{
+      "name": "linkchecker-third-twin",
+      "demo": "",
+      "code": "https://github.com/AninditaBasu/linkchecker-third-twin",
+	  "desc": "Scan a directory recursively to identify duplicate, triplicate, or n-cate topic-to-topic links in DITA files"
+    },
+	{
+      "name": "orphan-scan",
+      "demo": "",
+      "code": "https://github.com/AninditaBasu/orphan-scan",
+	  "desc": "Identify files that are not referenced by any DITA file in a specified directory, recursively"
+    },
+	{
+      "name": "word-list-scan",
+      "demo": "",
+      "code": "https://github.com/AninditaBasu/word-list-scan",
+	  "desc": "Scan all DITA files in a directory recursively for occurences of an entire list of words and phrases"
+    }
+  ]
+}
