@@ -3,14 +3,18 @@
     {
       "name": "Tarz-e-zindagi",
 	  "type": "web app",
+	  "picture": "./images/pesha.png",
       "demo": "https://pesha.herokuapp.com/",
-      "code": "https://github.com/AninditaBasu/indica"
+      "code": "https://github.com/AninditaBasu/indica",
+	  "desc": "A fun career advice app that uses material from vedic literature APIs"
     },
 	{
       "name": "Alfaaz",
 	  "type": "Twitter bot",
+	  "picture": "./images/alfaaz.png",
       "demo": "https://twitter.com/_alfaaz_",
-      "code": "https://github.com/AninditaBasu/_alfaaz_"
+      "code": "https://github.com/AninditaBasu/_alfaaz_",
+	  "desc": "A bot that tweets translations of Urdu words to English and transliteration to Hindi"
     },
   ]
 }
