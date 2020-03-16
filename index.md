@@ -2,6 +2,12 @@
 layout: default
 title: About Anindita Basu
 ---
+<div class = "card p-3">
+<div class = "card-body">
+<h4>Anindita Basu</h4>
+<p>I've been a technical communicator since 2006. At various points during this journey, I've been a technical writer, technical editor, UI prototypers, UI reviewer, and self-taught coder. I continue to be a learner.</p>
+</div><!-- /card-body -->
+</div><!-- card -->
 
 <div class="container">  
   <!-- Button to open the modal -->
