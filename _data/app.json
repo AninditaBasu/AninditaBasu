@@ -2,8 +2,8 @@
   "app": [
     {
       "name": "Tarz-e-zindagi",
-	  "type": "web app",
-	  "picture": "./images/pesha.png",
+	  "type": "Web app",
+	  "picture": "../images/pesha.png",
       "demo": "https://pesha.herokuapp.com/",
       "code": "https://github.com/AninditaBasu/indica",
 	  "desc": "Uses material from vedic literature APIs"
@@ -11,7 +11,7 @@
 	{
       "name": "Alfaaz",
 	  "type": "Twitter bot",
-	  "picture": "./images/alfaaz.png",
+	  "picture": "../images/alfaaz.png",
       "demo": "https://twitter.com/_alfaaz_",
       "code": "https://github.com/AninditaBasu/_alfaaz_",
 	  "desc": "Tweets translations of Urdu words to English and transliteration to Hindi"

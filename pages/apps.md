@@ -16,8 +16,9 @@ title: Apps
 	  <p>See <a href = "{{ entry.demo }}">demo</a>. See <a href = "{{ entry.code }}">code</a>.</p>
     </div><!-- media-body  -->
   </div><!-- media -->
-{% endfor %}
+
 </div><!-- container mt-3 -->
+{% endfor %}
 
 
 
