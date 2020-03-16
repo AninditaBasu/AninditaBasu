@@ -8,8 +8,8 @@ title: Apps
 
 {% for entry in site.data.app.app %}
 <div class="container mt-3">
-  <div class="card bg-light text-dark p-3">
-    <div class="card-body">
+  <div class="media bg-light text-dark p-3">
+    <div class="media-body">
       <h5>{{ entry.name }} </h5>
       <p>{{ entry.type }}.</p>
 	  <p>{{ entry.desc }}.</p>
