@@ -6,7 +6,7 @@ title: Writing samples
 
 <p>Or, how I earn my bread and butter</p>
 
-{% for entry in site.data.docs.doc %}
+{% for entry in site.data.doc.doc %}
 <div class="container mt-3">
   <div class="card bg-light text-dark p-3">
     <div class="card-body">
