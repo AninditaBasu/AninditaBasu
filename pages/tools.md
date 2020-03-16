@@ -12,7 +12,7 @@ title: Tools
     <div class="card-body">
       <h5>{{ entry.name }} </h5>
       <p>{{ entry.desc }}.</p>
-	  <p>See <a href = "{{ entry.demo }}">demo</a>.</p>
+	  {% if entry.demo %}<p>See <a href = "{{ entry.demo }}">demo</a>.</p>{% endif %}
 	  <p>See <a href = "{{ entry.code }}">code</a>.</p>
     </div><!-- card-body  -->
   </div><!-- card -->
