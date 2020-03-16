@@ -11,7 +11,7 @@ title: Writing samples
   <div class="card bg-light text-dark p-3">
     <div class="card-body">
       <h5>{{ entry.name }} </h5>
-      <p>{{ entry.desc }}.</p>
+      <p>{{ entry.desc }}</p>
 	  <p>See <a href = "{{ entry.link }}">{{ entry.link_text }}</a>.</p>
     </div><!-- card-body  -->
   </div><!-- card -->
