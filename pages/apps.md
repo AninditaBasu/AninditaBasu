@@ -9,7 +9,7 @@ title: Apps
 {% for entry in site.data.app.app %}
 <div class="container mt-3">
   <div class="media border p-3">
-    <img src="{{ entry.picture }}" alt="app screenshot" class="mr-3 mt-3 rounded-circle" style="width:100px;">
+    <img src="{{ entry.picture }}" alt="app screenshot" class="mr-3 mt-3 rounded img-fluid">
     <div class="media-body">
       <h5>{{ entry.name }} </h5>
       <p>{{ entry.type }}. {{ entry.desc }}.</p>
