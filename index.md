@@ -9,7 +9,7 @@ title: About Anindita Basu
 <p>Sometimes, I make videos.</p>
 <p>At other times, I draw wireframes and prototypes for user interfaces.</p>
 <p>At all times, I remain curious. Because, that's what helps me write for my readers - they who will use my words to get their jobs done as fast as possible.</p>
-<p>And, I treat my document as code. I am a great fan of string interpolation, for example. My special area of interest is information architecture and content strategy.</p>
+<p>And, I treat my documents as code. I am a great fan of <a data-toggle="modal" data-target="#docsAsCodeModal">string interpolation</a>, for example. My special areas of interest are information architecture and content strategy.</p>
 <p>Also, I am tool agnostic. Tools are a means...</p>
 </div><!-- /container -->
 
@@ -23,4 +23,23 @@ title: About Anindita Basu
   </div><!-- /media -->
 </div><!-- /container mt-3 -->
 
-
+<!-- docsAsCodeModal -->
+  <div class="modal" id="docsAsCodeModal">
+    <div class="modal-dialog">
+      <div class="modal-content">      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Docs as code</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div><!-- /modal header -->       
+        <!-- Modal body -->
+        <div class="modal-body">
+          <img src = "./images/docsAScode.png"/>
+        </div><!-- /modal body -->      
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div><!-- /modal footer -->        
+      </div><!-- /modal content -->
+    </div><!-- /modal dialog -->
+  </div><!-- /modal -->
