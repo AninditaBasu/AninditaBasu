@@ -36,10 +36,10 @@ title: About Anindita Basu
         <!-- Modal body -->
         <div class="modal-body">
           <img src = "./images/docsAScode.png"/>
+		  <p>See an <a href="https://aninditabasu.github.io/docs-as-code/" target="_blank">implementation</a> of this theory.</p>
         </div><!-- /modal body -->      
         <!-- Modal footer -->
-        <div class="modal-footer">
-		  <p class="text-left">See an <a href="https://aninditabasu.github.io/docs-as-code/" target="_blank">implementation</a> of this theory.</p>
+        <div class="modal-footer">		  
           <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
         </div><!-- /modal footer -->        
       </div><!-- /modal content -->
