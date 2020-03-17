@@ -13,4 +13,14 @@ title: About Anindita Basu
 <p>Also, I am tool agnostic. Tools are a means...</p>
 </div><!-- /container -->
 
+<div class="container mt-3">
+  <div class="media border p-3">
+    <div class="media-body">
+      <h4>Tools are only tools</h4>
+      <p>Play chess without the pieces</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/5P3a0jiHEEs?start=29" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div><!-- /media body -->
+  </div><!-- /media -->
+</div><!-- /container mt-3 -->
+
 
