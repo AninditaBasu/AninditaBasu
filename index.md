@@ -39,7 +39,7 @@ title: About Anindita Basu
         </div><!-- /modal body -->      
         <!-- Modal footer -->
         <div class="modal-footer">
-		  <p>See an <a href = "https://aninditabasu.github.io/docs-as-code/" target = "_blank">implementation</a> of this theory.</p>
+		  <p class="text-left">See an <a href="https://aninditabasu.github.io/docs-as-code/" target="_blank">implementation</a> of this theory.</p>
           <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
         </div><!-- /modal footer -->        
       </div><!-- /modal content -->
