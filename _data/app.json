@@ -14,7 +14,7 @@
 	  "picture": "../images/alfaaz.png",
       "demo": "https://twitter.com/_alfaaz_",
       "code": "https://github.com/AninditaBasu/_alfaaz_",
-	  "desc": "Gives the English meanings of a Urdu and transliterates the word to the Hindi script"
+	  "desc": "Gives the English meanings of a Urdu word and transliterates the word to the Hindi script"
     },
 	{
       "name": "StopWords",
