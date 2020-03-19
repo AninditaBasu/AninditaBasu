@@ -14,7 +14,7 @@
 	  "picture": "../images/alfaaz.png",
       "demo": "https://twitter.com/_alfaaz_",
       "code": "https://github.com/AninditaBasu/_alfaaz_",
-	  "desc": "Translates Urdu words to English and translites them to Hindi"
+	  "desc": "Translates Urdu words to English and transliterates them to Hindi"
     },
 	{
       "name": "StopWords",
