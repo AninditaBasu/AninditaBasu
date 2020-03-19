@@ -13,10 +13,9 @@ title: Apps
       <h5>{{ entry.name }} </h5>
       <p>{{ entry.type }}.</p>
 	  <p>{{ entry.desc }}.</p>
-	  <p>See <a href = "{{ entry.demo }}">demo</a>.</p>
-	  <p>See <a href = "{{ entry.code }}">code</a>.</p>
-    </div><!-- media-body  -->
-	<img src="{{ entry.picture }}" alt="app screenshot" class="mr-3 mt-3 rounded img-fluid img-thumbnail">
+	  <img src="{{ entry.picture }}" alt="app screenshot" class="mr-3 mt-3 rounded img-fluid img-thumbnail">
+	  <p><a href = "{{ entry.demo }}" class="btn btn-success">See app</a>&nbsp;&nbsp;<a href = "{{ entry.code }}" class="btn btn-success">See code</a></p>
+    </div><!-- media-body  -->	
   </div><!-- media -->
 </div><!-- container mt-3 -->
 {% endfor %}
