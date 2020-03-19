@@ -11,15 +11,17 @@ title: About Anindita Basu
 <p>At all times, I remain curious. Because, that's what helps me write for my readers &mdash; they who will use my words to get their jobs done as fast as possible.</p>
 <p>And, I treat my documents as code. I am a great fan of <span style="color:blue; text-decoration:underline"><a data-toggle="modal" data-target="#docsAsCodeModal">string interpolation</a></span>, for example.</p>
 <p>My special areas of interest are information architecture and content strategy.</p>
-<p>Oh, and did I mention I'm tool agnostic? Tools are a means...</p>
+<p>Oh, and did I mention I'm tool agnostic? Tools are a only a means to an end...</p>
 </div><!-- /container -->
 
 <div class="container mt-3">
   <div class="media border p-3">
     <div class="media-body">
       <h4>Tools are only tools</h4>
+	  <div class="embed-responsive embed-responsive-1by1">
       <p>Play chess without the pieces</p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/5P3a0jiHEEs?start=29" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div><!-- embed responsive -->
     </div><!-- /media body -->
   </div><!-- /media -->
 </div><!-- /container mt-3 -->
@@ -35,7 +37,7 @@ title: About Anindita Basu
         </div><!-- /modal header -->       
         <!-- Modal body -->
         <div class="modal-body">
-          <img src = "./images/docsAScode.png"/>
+          <img src = "./images/docsAScode.png" class="img-fluid"/>
 		  <p>See an <a href="https://aninditabasu.github.io/docs-as-code/" target="_blank">implementation</a> of this theory.</p>
         </div><!-- /modal body -->      
         <!-- Modal footer -->
