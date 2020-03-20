@@ -7,7 +7,7 @@
     },
 	{
       "name": "Document template feature",
-      "demo": "..ui/ui_doctemplate.html",
+      "demo": "../ui/ui_doctemplate.html",
 	  "desc": "The project brief was to enhance the existing UI of the template-making feature of an enterprise-level software to prevent the Blank Page Syndrome that many first-time users complained about. The mockups were created around a persona. The project went live in 2016."
     },
 	{
