@@ -26,9 +26,9 @@ title: Anindita Basu's CV
   <div class="card bg-light text-dark p-3">
     <div class="card-body">
       <h5>Details</h5>
-      <p class="mt-2"><a data-toggle="modal" data-target="#myjobs" class="btn btn-success">Employment</a></p>
-      <p class="mt-2"><a data-toggle="modal" data-target="#mycertifications" class="btn btn-success">Certifications</a></p>
-      <p class="mt-2"><a data-toggle="modal" data-target="#myeducation" class="btn btn-success">Education</a></p>
+      <p class="mt-2"><a data-toggle="modal" data-target="#myjobs">Employment</a></p>
+      <p class="mt-2"><a data-toggle="modal" data-target="#mycertifications">Certifications</a></p>
+      <p class="mt-2"><a data-toggle="modal" data-target="#myeducation">Education</a></p>
     </div><!-- card-body  -->
   </div><!-- card -->
 </div><!-- container mt-3 -->
