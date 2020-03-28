@@ -5,7 +5,7 @@ title: Wireframes
 #### {{ page.title }}
 
 <p>Or, designing for users</p>
-<p class="small">The wireframes pages listed here are best viewed on a laptop or desktop; they aren't optimised for handheld devices</p>
+<p class="small">The wireframes pages listed here are best viewed on a laptop or desktop; they aren't optimised for handheld devices.</p>
 
 {% for entry in site.data.wireframe.wireframe %}
 <div class="container mt-3">
