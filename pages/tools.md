@@ -13,7 +13,7 @@ title: Doc tools
 	  <div class="row">
       <div class="col-sm-8">
       <h5>{{ entry.name }} </h5>
-      <p class="lead">{{ entry.desc }}.</p>
+      <p>{{ entry.desc }}.</p>
 	  {% if entry.demo %}<p class="mt-2"><a href="{{ entry.demo }}" class="btn btn-success" target="_blank">Demo</a></p>{% endif %}
 	  <p class="mt-2"><a href="{{ entry.code }}" class="btn btn-success" target="_blank">Download</a></p>
 	  </div><!-- col-sm-8 -->
