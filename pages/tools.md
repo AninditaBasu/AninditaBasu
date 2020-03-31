@@ -13,12 +13,12 @@ title: Doc tools
 	  <div class="row">
       <div class="col-sm-8">
       <h5>{{ entry.name }} </h5>
-      <p>{{ entry.desc }}.</p>
+      <p class="lead">{{ entry.desc }}.</p>
 	  {% if entry.demo %}<p class="mt-2"><a href="{{ entry.demo }}" class="btn btn-success" target="_blank">Demo</a></p>{% endif %}
 	  <p class="mt-2"><a href="{{ entry.code }}" class="btn btn-success" target="_blank">Download</a></p>
 	  </div><!-- col-sm-8 -->
 	  <div class="col-sm-4">
-	  <img src="{{ entry.picture }}" alt="app screenshot" class="mr-3 mt-3 rounded img-fluid img-thumbnail">
+	  <img src="{{ entry.picture }}" alt="tool screenshot" class="mr-3 mt-3 rounded img-fluid img-thumbnail">
 	  </div><!-- col-sm-4 -->
       </div><!-- row -->
     </div><!-- card-body  -->

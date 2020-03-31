@@ -5,7 +5,7 @@
       "demo": "https://aninditabasu.github.io/docs-as-code/",
       "code": "https://github.com/AninditaBasu/docs-as-code",
 	  "desc": "Automatically propagate UI text changes to documentation.<br/>Keep your technical documentation always in sync with UI changes. Pull the text of UI labels, hints, error messages, menu options, and so on from code and use them in your documentation as variables, so that when you build your techdoc pages, they are automatically updated with the code changes.",
-	  "picture": "../images/docsAscode.png"
+	  "picture": "../images/docsAScode.png"
     },
 	{
       "name": "jekyll-github-starter-pack",
