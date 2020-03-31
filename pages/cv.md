@@ -5,12 +5,27 @@ title: Anindita Basu's CV
 
 <h4>{{ page.title }}</h4>
 
-<p>Interests include <code>design thinking</code>, <code> information architecture</code>, <code>content strategy</code>, <code>docs like code</code>, <code>APIs</code>, <code>DITA</code></p>
+<p>I can write documentation from scratch. I can also coach, guide, and handhold non-writers (for example, coders) when they write.</p>
+
+<p>My interests include design thinking, information architecture, content strategy, APIs, and DITA.</p>
 
 <div class="container mt-3">
   <div class="card bg-light text-dark p-3">
-    <div class="card-body">
-      <h5>Highlights</h5>
+    <div class="card-body hoveff">
+      <h5>Skills</h5>
+      <ul class="list-unstyled">
+      <li><span class="badge badge-primary">Expert</span> DITA, Markdown, HTML, reStructured Text, Arbortext Editor, oXygen XML Editor, Viewlet Builder</li>
+      <li><span class="badge badge-primary">Advanced</span> Madcap Flare, Camtasia, Pencil, JustInMind, Maqetta</li>
+      <li><span class="badge badge-primary">Intermediate</span> Swagger, XML, XSL, Python, Git, Github, Liquid</li>
+      </ul>
+    </div><!-- card-body  -->
+  </div><!-- card -->
+</div><!-- container mt-3 -->
+
+<div class="container mt-3">
+  <div class="card bg-light text-dark p-3">
+    <div class="card-body hoveff">
+      <h5>Career highlights</h5>
       <ul>
       <li>Defined style guidelines for in-product text</li>
       <li>Defined style guidelines for videos</li>
@@ -24,8 +39,8 @@ title: Anindita Basu's CV
 
 <div class="container mt-3">
   <div class="card bg-light text-dark p-3">
-    <div class="card-body">
-      <h5>Details</h5>
+    <div class="card-body hoveff">
+      <h5>Professional details</h5>
       <ul>
       <li><a data-toggle="modal" data-target="#myjobs" class="text-primary">Employment</a></li>
       <li><a data-toggle="modal" data-target="#mycertifications" class="text-primary">Certifications</a></li>
@@ -37,11 +52,9 @@ title: Anindita Basu's CV
 
 <div class="container mt-3">
   <div class="card bg-light text-dark p-3">
-    <div class="card-body">
-      <h5>Contact</h5>
-      <p class="mt-2">
-      ab.techwriter@gmail.com
-      </p>
+    <div class="card-body hoveff">
+      <h5>Contact information</h5>
+      <p class="mt-2">ab.techwriter@gmail.com</p>
     </div><!-- card-body  -->
   </div><!-- card -->
 </div><!-- container mt-3 -->

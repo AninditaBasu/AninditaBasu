@@ -4,28 +4,33 @@
       "name": "docs-as-code",
       "demo": "https://aninditabasu.github.io/docs-as-code/",
       "code": "https://github.com/AninditaBasu/docs-as-code",
-	  "desc": "Automatically propagate UI text changes to documentation"
+	  "desc": "Automatically propagate UI text changes to documentation.<br/>Keep your technical documentation always in sync with UI changes. Pull the text of UI labels, hints, error messages, menu options, and so on from code and use them in your documentation as variables, so that when you build your techdoc pages, they are automatically updated with the code changes.",
+	  "picture": "../images/docsAscode.png"
     },
 	{
       "name": "jekyll-github-starter-pack",
       "demo": "https://aninditabasu.github.io/jekyll-github-starter-pack/",
       "code": "https://github.com/AninditaBasu/jekyll-github-starter-pack",
-	  "desc": "Build a website in minutes on GitHub by using Jekyll's support of Liquid variables and templates"
+	  "desc": "Build a website in minutes on GitHub by using Jekyll's support of Liquid variables and templates.<br/>No, you don't need to know either Jekyll or Liquid to get started. Once you've taken off with this starter pack, though, you'll learn as much as you need to along the way.",
+	  "picture": "../images/jekyllStarter.png"
     },
 	{
       "name": "linkchecker-third-twin",
       "code": "https://github.com/AninditaBasu/linkchecker-third-twin",
-	  "desc": "Scan a directory recursively to identify duplicate, triplicate, or n-cate topic-to-topic links in DITA files"
+	  "desc": "Scan a directory recursively to identify duplicate, triplicate, or n-cate topic-to-topic links in DITA files.<br/>Find the links that occur more than once in any DITA topic file. A link might have been inserted manually as an xref or related-links tag, or generated automatically during the DITA build through the collection type attribute or a reltable entry. This tool reports the cross-references that occur more than once. Relationship tables, topicref collections, inline cross-references, and links in the related-links tag are all reckoned.",
+	  "picture": "../images/thirdTwin.png"
     },
 	{
       "name": "orphan-scan",
       "code": "https://github.com/AninditaBasu/orphan-scan",
-	  "desc": "Identify files that are not referenced by any DITA file in a specified directory, recursively"
+	  "desc": "Identify files that are not referenced by any DITA file in a specified directory, recursively.<br/>Maybe you have several image files, topic files, and other files in the directory but hesitate to delete them because you are not sure if any of these files are referenced by the DITA files in that directory. This tool scans the directory you specify and gives you a report that you can read and act upon to clean up your workspace.",
+	  "picture": "../images/orphanScan.png"
     },
 	{
       "name": "word-list-scan",
       "code": "https://github.com/AninditaBasu/word-list-scan",
-	  "desc": "Scan all DITA files in a directory recursively for occurences of an entire list of words and phrases"
+	  "desc": "Scan all DITA files in a directory recursively for occurences of an entire list of words and phrases.<br/>Maybe these words are a list of do-not-use words that your style guide specifies, but you don't have an automated word checker to look for such occurences. Maybe you want to know if you've used certain DITA tags in your files but do not want to run a system search for each tag, one by one.",
+	  "picture": "../images/wordList.png"
     }
   ]
 }

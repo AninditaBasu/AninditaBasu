@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tools
+title: Doc tools
 ---
 #### {{ page.title }}
 
@@ -9,11 +9,18 @@ title: Tools
 {% for entry in site.data.tool.tool %}
 <div class="container mt-3">
   <div class="card bg-light text-dark p-3">
-    <div class="card-body">
+    <div class="card-body hoveff">
+	  <div class="row">
+      <div class="col-sm-8">
       <h5>{{ entry.name }} </h5>
       <p>{{ entry.desc }}.</p>
-	  {% if entry.demo %}<p class="mt-2"><a href = "{{ entry.demo }}" class="btn btn-success">See demo</a></p>{% endif %}
-	  <p class="mt-2"><a href = "{{ entry.code }}" class="btn btn-success">See code</a></p>
+	  {% if entry.demo %}<p class="mt-2"><a href="{{ entry.demo }}" class="btn btn-success" target="_blank">Demo</a></p>{% endif %}
+	  <p class="mt-2"><a href="{{ entry.code }}" class="btn btn-success" target="_blank">Download</a></p>
+	  </div><!-- col-sm-8 -->
+	  <div class="col-sm-4">
+	  <img src="{{ entry.picture }}" alt="app screenshot" class="mr-3 mt-3 rounded img-fluid img-thumbnail">
+	  </div><!-- col-sm-4 -->
+      </div><!-- row -->
     </div><!-- card-body  -->
   </div><!-- card -->
 </div><!-- container mt-3 -->

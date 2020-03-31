@@ -9,10 +9,10 @@ title: Writing samples
 {% for entry in site.data.doc.doc %}
 <div class="container mt-3">
   <div class="card bg-light text-dark p-3">
-    <div class="card-body">
+    <div class="card-body hoveff">
       <h5>{{ entry.name }} </h5>
       <p>{{ entry.desc }}</p>
-	  <p>See <a href = "{{ entry.link }}">{{ entry.link_text }}</a>.</p>
+	  <p>See <a href="{{ entry.link }}" target="_blank">{{ entry.link_text }}</a>.</p>
     </div><!-- card-body  -->
   </div><!-- card -->
 </div><!-- container mt-3 -->
