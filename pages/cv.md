@@ -16,7 +16,7 @@ title: Anindita Basu's CV
       <ul class="list-unstyled">
       <li><span class="badge badge-primary">Expert</span> DITA, Markdown, HTML, reStructured Text, Arbortext Editor, oXygen XML Editor, Viewlet Builder</li>
       <li><span class="badge badge-primary">Advanced</span> Madcap Flare, Camtasia, Pencil, JustInMind, Maqetta</li>
-      <li><span class="badge badge-primary">Intermediate</span> Swagger, XML, XSL, Python, Git, Github, Liquid</li>
+      <li><span class="badge badge-primary">Intermediate</span> Swagger, XML, XSL, Python, Git, GitHub, Liquid</li>
       </ul>
     </div><!-- card-body  -->
   </div><!-- card -->
