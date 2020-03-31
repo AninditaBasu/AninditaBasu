@@ -13,8 +13,8 @@ title: Fun apps
 	  <div class="row">
       <div class="col-sm-8">
       <h5>{{ entry.name }} </h5>
-      <p>{{ entry.type }}.</p>
-	  <p>{{ entry.desc }}.</p>
+      <p class="lead">{{ entry.type }}.</p>
+	  <p>{{ entry.desc }}</p>
 	  <p class="mt-2"><a href="{{ entry.demo }}" class="btn btn-success" target="_blank">App</a>&nbsp;&nbsp;<a href="{{ entry.code }}" class="btn btn-success" target="_blank">Code</a></p>
 	  </div><!-- col-sm-8 -->
 	  <div class="col-sm-4">
