@@ -21,7 +21,7 @@ title: About Anindita Basu
       <h4>Tools are only tools</h4>
 	  <p>Play chess without the pieces</p>
 	  <div class="embed-responsive embed-responsive-1by1">      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/5P3a0jiHEEs?start=29" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe title="Playing chess without chess pieces" width="560" height="315" src="https://www.youtube.com/embed/5P3a0jiHEEs?start=29" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	  </div><!-- embed responsive -->
     </div><!-- /media body -->
   </div><!-- /media -->

@@ -42,9 +42,9 @@ title: Anindita Basu's CV
     <div class="card-body hoveff">
       <h5>Professional details</h5>
       <ul>
-      <li><a data-toggle="modal" data-target="#myjobs" class="text-primary">Employment</a></li>
-      <li><a data-toggle="modal" data-target="#mycertifications" class="text-primary">Certifications</a></li>
-      <li><a data-toggle="modal" data-target="#myeducation" class="text-primary">Education</a></li>
+      <li class="p-4><a data-toggle="modal" data-target="#myjobs" class="text-primary">Employment</a></li>
+      <li class="p-4><a data-toggle="modal" data-target="#mycertifications" class="text-primary">Certifications</a></li>
+      <li class="p-4><a data-toggle="modal" data-target="#myeducation" class="text-primary">Education</a></li>
       </ul>
     </div><!-- card-body  -->
   </div><!-- card -->
