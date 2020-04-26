@@ -1,6 +1,13 @@
 {
   "app": [
     {
+      "name": "Mahabharat",
+	  "type": "Ongoing project",
+	  "picture": "../images/mb.png",
+      "demo": "https://mb-verse.herokuapp.com/",
+	  "desc": "Data from the Mahabharat.<br/>The intention is to build an API and a chat bot. Meanwhile, a minimum viable product (MVP) is out as a web app."
+    },
+	{
       "name": "Tarz-e-zindagi",
 	  "type": "Web app",
 	  "picture": "../images/pesha.png",
