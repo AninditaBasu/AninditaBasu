@@ -15,7 +15,7 @@ title: Fun apps
       <h5>{{ entry.name }} </h5>
       <p class="lead">{{ entry.type }}.</p>
 	  <p>{{ entry.desc }}</p>
-	  <p class="mt-2"><a href="{{ entry.demo }}" class="btn btn-success" target="_blank">App</a>&nbsp;&nbsp;<a href="{{ entry.code }}" class="btn btn-success" target="_blank">Code</a></p>
+	  <p class="mt-2"><a href="{{ entry.demo }}" class="btn btn-success" target="_blank">App</a>&nbsp;&nbsp;{% if entry.code %}<a href="{{ entry.code }}" class="btn btn-success" target="_blank">Code</a>{% endif %}</p>
 	  </div><!-- col-sm-8 -->
 	  <div class="col-sm-4">
 	  <img src="{{ entry.picture }}" alt="app screenshot" class="mr-3 mt-3 rounded img-fluid img-thumbnail">
