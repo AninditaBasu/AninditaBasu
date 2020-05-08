@@ -4,7 +4,7 @@ title: About Anindita Basu
 ---
 <div class = "container">
 <h1>Anindita Basu</h1>
-<p>Hi! I am a technical writer and editor.</p>
+<p>Hi! I am a technical writer and editor. I make unfamiliar things look less frightening.</p>
 <p>I write menu names, button names, option labels, dialog box headings, error messages, notifications, and every little thing you see on user interfaces.</p>
 <p>I also write HowTos, tutorials, API references, admin and deployment guides, and other long-form text that you need to read to get a software up, running, and usable.</p>
 <p>Sometimes, I make videos.</p>
