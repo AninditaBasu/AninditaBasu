@@ -15,7 +15,7 @@ title: Wireframes
       <p>{{ entry.desc }}</p>
 	  <p><a href="{{ entry.demo }}">More...</a></p>
 	  {% assign taglist = entry.tags | split: ", " %}	  
-	  <p>{% for item in taglist %}<span class="badge badge-secondary">{{ item }}&nbsp;&nbsp; </span>{% endfor %}</p>
+	  <p>{% for item in taglist %}<span class="badge badge-secondary">{{ item }}</span>&nbsp;&nbsp;{% endfor %}</p>
     </div><!-- card-body  -->
   </div><!-- card -->
 </div><!-- container mt-3 -->
