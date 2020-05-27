@@ -14,7 +14,7 @@ title: Writing samples
       <p>{{ entry.desc }}</p>
 	  <p>See <a href="{{ entry.link }}" target="_blank">{{ entry.link_text }}</a>.</p>
 	  {% assign taglist = entry.tags | split: ", " %}	  
-	  <p>{% for item in taglist %}<span class="badge badge-info">{{ item }}</span>{% endfor %}</p>
+	  <p>{% for item in taglist %}<span class="badge badge-secondary">{{ item }}&nbsp;&nbsp;</span>{% endfor %}</p>
     </div><!-- card-body  -->
   </div><!-- card -->
 </div><!-- container mt-3 -->

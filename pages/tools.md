@@ -16,6 +16,8 @@ title: Doc tools
       <p>{{ entry.desc }}</p>
 	  {% if entry.demo %}<p class="mt-2"><a href="{{ entry.demo }}" class="btn btn-success" target="_blank">Demo</a></p>{% endif %}
 	  <p class="mt-2"><a href="{{ entry.code }}" class="btn btn-success" target="_blank">Download</a></p>
+	  {% assign taglist = entry.tags | split: ", " %}	  
+	  <p>{% for item in taglist %}<span class="badge badge-secondary">{{ item }}&nbsp;&nbsp;</span>{% endfor %}</p>
 	  </div><!-- col-sm-8 -->
 	  <div class="col-sm-4">
 	  <img src="{{ entry.picture }}" alt="tool screenshot" class="mr-3 mt-3 rounded img-fluid img-thumbnail">

@@ -3,22 +3,26 @@
     {
       "name": "Report generation software",
       "demo": "../ui/ui_docgen.html",
-	  "desc": "The product is an enterprise-level software used for creating reports that contain data pulled from disparate sources. These sources can either be documents themselves (in .doc, .pdf., or .xml formats) or be other documents created through this software. Parts (or sections) of a report can contain data from more than one source. The project went live in 2015."
+	  "desc": "The product is an enterprise-level software used for creating reports that contain data pulled from disparate sources. These sources can either be documents themselves (in .doc, .pdf., or .xml formats) or be other documents created through this software. Parts (or sections) of a report can contain data from more than one source. The project went live in 2015.",
+	  "tags": "#wireframes, #task analysis"
     },
 	{
       "name": "Document template feature",
       "demo": "../ui/ui_doctemplate.html",
-	  "desc": "The project brief was to enhance the existing UI of the template-making feature of an enterprise-level software to prevent the Blank Page Syndrome that many first-time users complained about. The mockups were created around a persona. The project went live in 2016."
+	  "desc": "The project brief was to enhance the existing UI of the template-making feature of an enterprise-level software to prevent the Blank Page Syndrome that many first-time users complained about. The mockups were created around a persona. The project went live in 2016.",
+	  "tags": "#wireframes, #task analysis"
     },
 	{
       "name": "Kindle Reader",
       "demo": "../ui/ui_kindle.html",
-	  "desc": "Where I show how I'd like my Kindle Reader to be. The user tasks I picked are: browsing a library, adding books to collections, referring to bookmarks, notes, and highlights, and exploring a book, annotating, and sharing while reading it."
+	  "desc": "Where I show how I'd like my Kindle Reader to be. The user tasks I picked are: browsing a library, adding books to collections, referring to bookmarks, notes, and highlights, and exploring a book, annotating, and sharing while reading it.",
+	  "tags": "#wireframes, #task analysis"
     },
 	{
       "name": "Podcast website",
       "demo": "../ui/ui_podcast.html",
-	  "desc": "This website posts a podcast every week; the podcasts are Indian-language stories written and narrated by the storytellers themselves. Listeners can send in their own stories, and subscribe to email updates. Project went live in 2016."
+	  "desc": "This website posts a podcast every week; the podcasts are Indian-language stories written and narrated by the storytellers themselves. Listeners can send in their own stories, and subscribe to email updates. Project went live in 2016.",
+	  "tags": "#wireframes, #information architecture"
     }
   ]
 }
