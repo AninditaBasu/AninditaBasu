@@ -24,7 +24,7 @@
 	{
       "name": "Interactive walkthrough: How to use this API",      
 	  "desc": "Written in a question-and-answer format, to show the data the API serves, and the possible uses of that data.",
-	  "tags": "#get started, #FAQ, #cheatsheet",
+	  "tags": "#getting started, #FAQ, #cheatsheet",
 	  "link": "https://mybinder.org/repo/AninditaBasu/indica",
 	  "link_text": "the .ipynb files"
     }

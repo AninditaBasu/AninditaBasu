@@ -6,7 +6,7 @@
 	  "picture": "../images/mb.png",
       "demo": "https://mb-verse.herokuapp.com/",
 	  "desc": "Data from the Mahabharat.<br/>The intention is to build an API and a chat bot. Meanwhile, a minimum viable product (MVP) is out as a web app.",
-	  "tags": "#python, #data model design"
+	  "tags": "#data model design, #front-end, #python"
     },
 	{
       "name": "Mercury/Tarjuma",
@@ -15,7 +15,7 @@
       "demo": "https://tarjuma.herokuapp.com/",
 	  "code": "https://github.com/AninditaBasu/mercury",
 	  "desc": "Mercury is a customisable web app that uses the Oxford Dictionaries API to translate words to English. You enter a word in your language, and are shown a list of their English counterparts and how to pronounce them, together with examples to show how to use the words in English sentences. Tarjuma is a customised version of the app, which translates Urdu words to English.",
-	  "tags": "#python, #API, #i18n"
+	  "tags": "#task analysis, #front-end, #python, #API, #i18n"
     },
 	{
       "name": "StopWords",
@@ -24,7 +24,7 @@
       "demo": "https://mattermost-hackathon-stopwords.herokuapp.com/",
       "code": "https://github.com/AninditaBasu/mattermost-hackathon-stopWords",
 	  "desc": "Finds non-inclusive language in the docs of a GitHub repo you specify.<br/>The aim is to find (and review and, if needed, remove or rephrase) words and phrases that might not promote accessibility, diversity, or inclusiveness. The app can also be used as a consistency checker for spellings (for example, plug-in vs. plugin or color vs. colour) and phrasing (for example, we recommend vs. it is recommended).",
-	  "tags": "#content strategy, #python"
+	  "tags": "#content strategy, #documentation process, #python"
     },
 	{
       "name": "Tarz-e-zindagi",
@@ -33,7 +33,7 @@
       "demo": "https://pesha.herokuapp.com/",
       "code": "https://github.com/AninditaBasu/indica",
 	  "desc": "Funky career advice from the Vedas.<br/>Uses material from vedic literature to suggest a course to study, a place to study at, the teacher to study under, and the spells and chants needed during studentship.",
-	  "tags": "#python, #API"
+	  "tags": "#python, #API, #front-end"
     },
 	{
       "name": "Alfaaz",
@@ -42,7 +42,7 @@
       "demo": "https://twitter.com/_alfaaz_",
       "code": "https://github.com/AninditaBasu/_alfaaz_",
 	  "desc": "Gives the English meanings of an Urdu word and transliterates the word to the Hindi script.<br/>Word meanings are, in the first instance, from Oxford Dictionaries. If no meaning is found, the fallback dictionaries are the Urdu dictionaries hosted at the Digital South Asia Library by the University of Chicago.",
-	  "tags": "#python, #API, #i18n"
+	  "tags": "#python, #API, #languages"
     }
   ]
 }
