@@ -12,7 +12,7 @@ title: Writing samples
     <div class="card-body hoveff">
       <h5>{{ entry.name }} </h5>
       <p>{{ entry.desc }}</p>
-	  <p>See <a href="{{ entry.link }}" target="_blank">{{ entry.link_text }}</a>.</p>
+	  <p>See <a href="{{ entry.link }}" target="_blank" rel="noopener noreferrer">{{ entry.link_text }}</a>.</p>
 	  {% assign taglist = entry.tags | split: ", " %}	  
 	  <p>{% for item in taglist %}<span class="badge badge-secondary">{{ item }}</span>&nbsp;&nbsp;{% endfor %}</p>
     </div><!-- card-body  -->

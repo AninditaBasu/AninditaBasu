@@ -14,8 +14,8 @@ title: Doc tools
       <div class="col-sm-8">
       <h5>{{ entry.name }} </h5>
       <p>{{ entry.desc }}</p>
-	  {% if entry.demo %}<p class="mt-2"><a href="{{ entry.demo }}" class="btn btn-success" target="_blank">Demo</a></p>{% endif %}
-	  <p class="mt-2"><a href="{{ entry.code }}" class="btn btn-success" target="_blank">Download</a></p>
+	  {% if entry.demo %}<p class="mt-2"><a href="{{ entry.demo }}" class="btn btn-success" target="_blank" rel="noopener noreferrer">Demo</a></p>{% endif %}
+	  <p class="mt-2"><a href="{{ entry.code }}" class="btn btn-success" target="_blank" rel="noopener noreferrer">Download</a></p>
 	  {% assign taglist = entry.tags | split: ", " %}	  
 	  <p>{% for item in taglist %}<span class="badge badge-secondary">{{ item }}</span>&nbsp;&nbsp;{% endfor %}</p>
 	  </div><!-- col-sm-8 -->
