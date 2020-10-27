@@ -5,7 +5,7 @@ title: Fun apps
 #### {{ page.title }}
 
 <p>Or, weekend projects that stretch to fill all the time available.</p>
-<p class="small">These apps will not work for the rest of the month of September 2020 because all of the 550 hours of my free Heroku plan this month are used up (Tarjuma, Mahabharat, and Pesha seemed particularly popular). Things should be back on track from October 1, 2020 when you click the <b>App</b> button.</p>
+<p class="small">These apps will not work for the rest of the month of October 2020 because all of the 550 hours of my free Heroku plan this month are used up (Tarjuma, Mahabharat, and Pesha seemed particularly popular). Things should be back on track from November 1, 2020 when you click the <b>App</b> button.</p>
 
 {% for entry in site.data.app.app %}
 <div class="container mt-3">
