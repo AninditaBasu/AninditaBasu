@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: indexpage
 title: About Anindita Basu
 ---
 <div class = "container">
