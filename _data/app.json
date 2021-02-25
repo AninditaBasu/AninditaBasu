@@ -20,7 +20,7 @@
       "name": "Intro by an ancient child",
 	  "type": "Web app",
 	  "picture": "../images/pesha.png",
-	  "demo": "https://life-ancient-india.herokuapp.com/"
+	  "demo": "https://life-ancient-india.herokuapp.com/",
       "code": "https://github.com/AninditaBasu/indica",
 	  "desc": "A peek into life in ancient India.<br/>Uses material from vedic literature to craft how a child of those times might have written their 'About Me'.",
 	  "tags": "#python, #API, #stories"
