@@ -66,9 +66,17 @@
 	{
       "company": "Oracle Inc., Hyderabad",
       "year1": "2018",
-	  "year2": "date",
+	  "year2": "2020",
       "role": "Principal Technical Writer",
 	  "achievements": ["Handle implementation guides, user guides, and REST API guides"
+	  ]
+    },
+	{
+      "company": "Vymo Technologies, Hyderabad",
+      "year1": "2020",
+	  "year2": "date",
+      "role": "Principal Technical Writer",
+	  "achievements": ["Set up the authoring toolchain"
 	  ]
     }
   ]

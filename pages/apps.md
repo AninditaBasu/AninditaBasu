@@ -14,9 +14,9 @@ title: Fun apps
 	  <div class="row">
       <div class="col-sm-8">
       <h5>{{ entry.name }} </h5>
-      <p class="lead">{{ entry.type }}.</p>
+      <p class="lead">{{ entry.type }}</p>
 	  <p>{{ entry.desc }}</p>
-	  <p class="mt-2"><a href="{{ entry.demo }}" class="btn btn-success" target="_blank" rel="noopener noreferrer">App</a>&nbsp;&nbsp;{% if entry.code %}<a href="{{ entry.code }}" class="btn btn-success" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}</p>
+	  <p class="mt-2">{% if entry.demo %}<a href="{{ entry.demo }}" class="btn btn-success" target="_blank" rel="noopener noreferrer">App</a>{% endif %}&nbsp;&nbsp;{% if entry.code %}<a href="{{ entry.code }}" class="btn btn-success" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}</p>
 	  {% assign taglist = entry.tags | split: ", " %}	  
 	  <p>{% for item in taglist %}<span class="badge badge-secondary">{{ item }}</span>&nbsp;&nbsp;{% endfor %}</p>
 	  </div><!-- col-sm-8 -->
