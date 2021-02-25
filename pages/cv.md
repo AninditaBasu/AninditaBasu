@@ -27,6 +27,7 @@ title: Anindita Basu's CV
     <div class="card-body hoveff">
       <h5>Career highlights</h5>
       <ul>
+	  <li>Set up a docs-like-code authoring toolchain</li>
       <li>Defined style guidelines for in-product text</li>
       <li>Defined style guidelines for videos</li>
       <li>Implemented SEO practices, and laid down the process and guidelines</li>

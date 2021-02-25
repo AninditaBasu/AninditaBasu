@@ -13,13 +13,13 @@
 	  "type": "Web app",
 	  "picture": "../images/tarjuma.png",
 	  "code": "https://github.com/AninditaBasu/mercury",
-	  "desc": "Mercury is a customisable web app that uses the Oxford Dictionaries API to translate words to English. You enter a word in your language, and are shown a list of their English counterparts and how to pronounce them, together with examples to show how to use the words in English sentences. Tarjuma is a customised version of the app, which translates Urdu words to English.",
+	  "desc": "Mercury is a customisable web app that uses the Oxford Dictionaries API to translate words to English. You enter a word in your language, and are shown a list of their English counterparts and how to pronounce them, together with examples to show how to use the words in English sentences.",
 	  "tags": "#task analysis, #front-end, #python, #API, #i18n"
     },
 	{
       "name": "Intro by an ancient child",
 	  "type": "Web app",
-	  "picture": "../images/pesha.png",
+	  "picture": "../images/ancient_child.png",
 	  "demo": "https://life-ancient-india.herokuapp.com/",
       "code": "https://github.com/AninditaBasu/indica",
 	  "desc": "A peek into life in ancient India.<br/>Uses material from vedic literature to craft how a child of those times might have written their 'About Me'.",

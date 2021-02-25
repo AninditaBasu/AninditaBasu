@@ -72,11 +72,11 @@
 	  ]
     },
 	{
-      "company": "Vymo Technologies, Hyderabad",
+      "company": "Vymo Technologies, Bangalore",
       "year1": "2020",
 	  "year2": "date",
       "role": "Principal Technical Writer",
-	  "achievements": ["Set up the authoring toolchain"
+	  "achievements": ["Set up the authoring toolchain","Write the docs"
 	  ]
     }
   ]
