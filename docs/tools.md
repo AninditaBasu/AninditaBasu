@@ -8,14 +8,14 @@ nav_order: 4
 
 {: .no_toc }
 
+These scripts were written to make the everyday life of a writer easier.
+
 ## On this page
 
 {: .no_toc .text-delta }
 
 - TOC
    {:toc}
-   
-These scripts were written to make the everyday life of a writer easier.
 
 {% for entry in site.data.tools.tools %}
 

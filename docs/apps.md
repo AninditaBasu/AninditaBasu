@@ -32,6 +32,8 @@ If any of these apps don't work when you click **App**, it could be all 550 hour
 
 ![app screenshot]({{ entry.picture }})
 
+<hr/>
+
 {% endfor %}
 
 

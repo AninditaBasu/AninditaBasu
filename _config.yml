@@ -11,7 +11,7 @@ search_enabled: true
 search:
   heading_level: 2
   previews: 3
-footer_content: "Copyright &copy; 2015-2020 Anindita Basu."
+footer_content: "Copyright &copy; 2015-2022 Anindita Basu."
 back_to_top: true
 back_to_top_text: "Back to top"
 plugins:
