@@ -11,13 +11,15 @@ This is a design for a podcast website.
 
 The website has the following structure, which shows 1-level of nesting:
 
+```
 |-- Home page
-&nbsp;&nbsp;&nbsp;|-- Language 1 page
-&nbsp;&nbsp;&nbsp;|-- Language 2 page
-&nbsp;&nbsp;&nbsp;|-- ...
-&nbsp;&nbsp;&nbsp;|-- Storyteller 1 page
-&nbsp;&nbsp;&nbsp;|-- Storyteller 2 page
-&nbsp;&nbsp;&nbsp;|-- ...
+    |-- Language 1 page
+    |-- Language 2 page
+    |-- ...
+    |-- Storyteller 1 page
+    |-- Storyteller 2 page
+    |-- ...
+```
 
 This structure can be adapted to any podcast site, by replacing `language` and `storyteller` with appropriate categories like `genre` and `narrator`, `theme` and `composer`, and such pairings. I kept the categories to only two so that the structure remains simple: my logic is that it should be possible to give any podcast in this world just two broad attributes (in this website, it's `language` and `storyteller`).
 
@@ -30,10 +32,9 @@ The introductory paragraph contains text about the website, and is atleast 200 w
 
 ## Storyteller page
 
-<p>Each storyteller has a page to themselves. The introductory paragraph contains text about the storyteller, and is atleast 200 words long (for good SEO). All podcasts by a storyteller are listed as an endless-scroll list.
+Each storyteller has a page to themselves. The introductory paragraph contains text about the storyteller, and is atleast 200 words long (for good SEO). All podcasts by a storyteller are listed as an endless-scroll list.
 
 ![storyteller](./images/p_storyteller.png)
-
 
 ## Language page
 
@@ -58,6 +59,3 @@ I debated whether to give a Search option on the language pages and storyteller 
 ## Live implementation
 
 A live implementation of this design is at [https://afsanapodcast.github.io/afsana/](https://afsanapodcast.github.io/afsana/).
-
-   
-<hr/>

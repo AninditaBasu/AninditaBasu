@@ -13,68 +13,54 @@ I am a heavy reader and I own a Kindle Reader. I don't like the user interface b
 
 | List view | Grid view | Either view, with menu |
 | --- | --- | --- |
-|![Kindle list view](./images/k1.PNG) | ![Kindle grig view](./images/k2.PNG) | ![Kindle menu](./images/k3.PNG) |
+|![Kindle list view](./images/k1.PNG) | ![Kindle grid view](./images/k2.PNG) | ![Kindle menu](./images/k3.PNG) |
 
 
 ## Home page: Proposed UI
 
-<table>
-<tr>
-<td><h6>Bookshelf view</h6><img src = "./images/k1a.PNG" /></td>
-<td><h6>Bookshelf view with menu</h6><img src = "./images/k3a.PNG" /></td>
-<td>
-<h6>Improvements</h6>
-<ul>
-<li>Less time to browse the library: 3x more books than list view and 4x more books than grid view</li>
-<li>More user control: Go to a bookshelf non-sequentially through pagination at the bottom</li>
-<li>Visual appeal: Bookmarks peeping from the books show current reading position rather than percentages</li>
-<li>Less clutter:
-<ul><li>Actions are moved to a hamburger menu on top</li>
-<li>Most common action (Search) is separate, so needs fewer taps</li>
-<li>Actions not relevant on a bookshelf page are removed</li>
-</ul></li>
-</ul>
-</td>
-</tr>
-</table>
+| Bookshelf view | Bookshelf view with menu |
+| --- | --- |
+|![Bookshelf view](./images/k1a.PNG) | ![Bookshelf view with menu](./images/k3a.PNG) |
+
+### Improvements
+
+-  Less time to browse the library: 3x more books than list view and 4x more books than grid view</li>
+-  More user control: Go to a bookshelf non-sequentially through pagination at the bottom</li>
+-  Visual appeal: Bookmarks peeping from the books show current reading position rather than percentages</li>
+-  Less clutter:
+    -  Actions are moved to a hamburger menu on top</li>
+    -  Most common action (Search) is separate, so needs fewer taps</li>
+    -  Actions not relevant on a bookshelf page are removed</li>
 
 ## Book-open page: Reading
 
-<table>
-<tr>
-<td><h6>Current UI</h6><img src = "./images/k4.PNG" /></td>
-<td><h6>Proposed UI</h6><img src = "./images/k4a.PNG" /></td>
-<td>
-<h6>Improvements</h6>
-<ul>
-<li>Visual appeal: Indicator of unread pages on either side of current page </li>
-<li>Less clutter: Page number in 'Page X of Y' format for just-enough-information</li>
-</ul>
-</td>
-</tr>
-</table>
+| Current UI | Proposed UI |
+| --- | --- |
+|![Current UI](./images/k4.PNG) | ![Proposed UI](./images/k4a.PNG) |
+
+### Improvements
+
+-  Visual appeal: Indicator of unread pages on either side of current page </li>
+-  Less clutter: Page number in 'Page X of Y' format for just-enough-information</li>
+
 
 ## Book-open page: Menu options
 
-<table class = "table">
-<tr>
-<td><h6>Current UI: Menu</h6><img src = "./images/k5.PNG" /></td>
-<td><h6>Proposed UI: Menu</h6><img src = "./images/k5a.PNG" /></td>
-<td><h6>Improvements</h4>
-<ul>
-<li>Less thumb strain: Most frequent actions are at the bottom, less frequent ones are at the top</li>
-<li>Fewer taps: Common reading actions, such as notes and highlights are available upfront</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><h6>Current UI: More menu</h6><img src = "./images/k6.PNG" /></td>
-<td><h6>Proposed UI: More menu</h6><img src = "./images/k6a.PNG" /></td>
-<td><h6>Improvements</h6>
-<ul>
-<li>Less clutter: Actions not relevant to reading are removed from menu and pushed under the Home icon</li>
-<li>Fewer taps: Easy to access bookmarks, notes, highlights, and do other common reader actions when a book page is open and is being read</li>
-</ul>
-</td>
-</tr>
-</table>
+| Current UI: Menu | Proposed UI: Menu |
+| --- | --- |
+|![Current UI: Menu](./images/k5.PNG) | ![Proposed UI: Menu](./images/k5a.PNG) |
+
+### Improvements
+
+-  Less thumb strain: Most frequent actions are at the bottom, less frequent ones are at the top</li>
+-  Fewer taps: Common reading actions, such as notes and highlights are available upfront</li>
+
+| Current UI: More menu | Proposed UI: More menu |
+| --- | --- |
+|![Current UI: More menu](./images/k6.PNG) | ![Proposed UI: More menu](./images/k6a.PNG) |
+
+### Improvements
+
+-  Less clutter: Actions not relevant to reading are removed from menu and pushed under the Home icon</li>
+-  Fewer taps: Easy to access bookmarks, notes, highlights, and do other common reader actions when a book page is open and is being read</li>
+
