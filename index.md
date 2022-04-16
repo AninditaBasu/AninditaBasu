@@ -6,7 +6,7 @@ nav_order: 1
 
 # {{ page.title }}
 
-Hi! :wave:
+Hi!
 
 My name is Anindita Basu. I'm a technical writer. I make unfamiliar things look less frightening.
 
@@ -20,6 +20,12 @@ At other times, I draw wireframes and prototypes for user interfaces.
 
 At all times, I remain curious. Because, that's what helps me write for you &mdash; my reader &mdash; you who will use my words to get your task done as fast as possible.
 
-Oh, and my name is pronounced like this :point_right: **ʌnɪndɪtɑː** (uh-nin-di-taa)
+<hr/>
 
-:email: ab.techwriter@gmail.com
+How to pronounce my name: **ʌnɪndɪtɑː** (uh-nin-di-taa)
+
+My social IDs:
+
+-  GitHub: https://github.com/AninditaBasu
+-  Mail: ab.techwriter@gmail.com
+-  Twitter: https://twitter.com/anindita_basu
