@@ -6,18 +6,20 @@ nav_order: 5
 
 # {{ page.title }}
 
-These are weekend projects.
+{: .no_toc }
 
-If any of these apps don't work when you click the **App** button, it could be all 550 hours of my free Heroku plan this month are used up. Things should be back on track when the limits are reset on the 1st day of the next month.
-
-## Table of contents
+## On this page
 
 {: .no_toc .text-delta }
 
 - TOC
    {:toc}
+   
+These are weekend projects.
 
-{% for entry in site.data.app.app %}
+If any of these apps don't work when you click **App**, it could be all 550 hours of my free Heroku plan this month are used up. Things should be back on track when the limits are reset on the 1st day of the next month.
+
+{% for entry in site.data.apps.apps %}
 
 ## {{ entry.name }}
 
@@ -25,8 +27,8 @@ If any of these apps don't work when you click the **App** button, it could be a
 
 {{ entry.desc }}
 
-{% if entry.demo %}[App]({{ entry.demo }}){% endif %}&nbsp;&nbsp;
-{% if entry.code %}[Code]({{ entry.code }}){% endif %}
+[Code]({{ entry.code }}){: .btn .btn-purple }&nbsp;&nbsp;
+{% if entry.demo %}[App]({{ entry.demo }}){: .btn .btn-purple }{% endif %}
 
 ![app screenshot]({{ entry.picture }})
 

@@ -8,10 +8,8 @@ nav_order: 2
 
 These pieces are not owned by my employers unless thus mentioned.
 
-{% for entry in site.data.doc.doc %}
+{% for entry in site.data.writings.writings %}
 
--  {{ entry.name }}:
-
-    {{ entry.desc }} See [{{ entry.link_text }}]({{ entry.link }})
+-  {{ entry.name }}: {{ entry.desc }} See [{{ entry.link_text }}]({{ entry.link }}).
 
 {% endfor %}

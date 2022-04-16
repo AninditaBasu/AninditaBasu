@@ -1,5 +1,5 @@
 {
-  "tool": [
+  "tools": [
     {
       "name": "docs-as-code",
       "demo": "https://aninditabasu.github.io/docs-as-code/",
