@@ -6,7 +6,9 @@ nav_order: 1
 
 # {{ page.title }}
 
-Hi! My name is Anindita Basu. I am a technical writer. I make unfamiliar things look less frightening.
+Hi! :wave:
+
+My name is Anindita Basu. I'm a technical writer. I make unfamiliar things look less frightening.
 
 I write menu names, button names, option labels, dialog box headings, error messages, notifications, and every little thing you see on user interfaces.
 
@@ -17,3 +19,7 @@ Sometimes, I make videos.
 At other times, I draw wireframes and prototypes for user interfaces.
 
 At all times, I remain curious. Because, that's what helps me write for you &mdash; my reader &mdash; you who will use my words to get your task done as fast as possible.
+
+Oh, and my name is pronounced like this :point_right: **ʌnɪndɪtɑː** (uh-nin-di-taa)
+
+:email: ab.techwriter@gmail.com

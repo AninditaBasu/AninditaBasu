@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CV
+title: Anindita Basu
 nav_order: 6
 ---
 
