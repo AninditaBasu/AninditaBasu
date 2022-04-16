@@ -5,15 +5,6 @@ nav_order: 5
 ---
 
 # {{ page.title }}
-
-{: .no_toc }
-
-## On this page
-
-{: .no_toc .text-delta }
-
-- TOC
-   {:toc}
    
 These are weekend projects.
 

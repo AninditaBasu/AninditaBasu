@@ -6,16 +6,7 @@ nav_order: 4
 
 # {{ page.title }}
 
-{: .no_toc }
-
 These scripts were written to make the everyday life of a writer easier.
-
-## On this page
-
-{: .no_toc .text-delta }
-
-- TOC
-   {:toc}
 
 {% for entry in site.data.tools.tools %}
 

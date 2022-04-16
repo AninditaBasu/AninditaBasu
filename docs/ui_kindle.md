@@ -1,53 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: Kindle Reader
+parent: Wireframes
+nav_order: 3
+---
 
-<head>
+# {{ page.title }}
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+I am a heavy reader and I own a Kindle Reader. I don't like the user interface because it takes several taps to do common reading tasks such as browsing my library, jumping between pages of a book, or going back to bookmarks. The following wireframes show how I'd like my Kindle to be.
 
-<title>Anindita Basu: Wireframes: Kindle Reader</title>
+## Home page: Current UI
 
-<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
-<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+| List view | Grid view | Either view, with menu |
+| --- | --- | --- |
+|![Kindle list view](./images/k1.PNG) | ![Kindle grig view](./images/k2.PNG) | ![Kindle menu](./images/k3.PNG) |
 
-<script src="../js/jquery.min.js"></script>
-<script src="../js/popper.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
 
-<link rel="icon" type="image/png" href="../favicon.ico" />
+## Home page: Proposed UI
 
-</head>
-
-<body class="">
-
-<div class="container">
-
-<a name="top"></a>
-
-<hr/>
-<a href="https://aninditabasu.github.io/pages/wireframes.html" class="btn btn-primary">Back</a>
-<hr/>
-
-<!-- Content -->
-<div id="content">
-
-<div class="content-main">
-
-<h4>Wireframes: Kindle Reader</h4>
-<p>I am a heavy reader and I own a Kindle Reader, which I've been using for the past 3 years. I do not like the user interface because it takes several taps to do common reading tasks such as browsing my library, jumping between pages of a book, or going back to bookmarks. The following wireframes show how I'd like my Kindle to be.</p>
-
-<h5>Home page: Current UI</h5>
-<table class = "table">
-<tr>
-<td><h6>List view</h6><img src = "./images/k1.PNG" /></td>
-<td><h6>Grid view</h6><img src = "./images/k2.PNG" /></td>
-<td><h6>Either view, with menu</h6><img src = "./images/k3.PNG" /></td>
-</tr>
-</table>
-
-<h5>Home page: Proposed UI</h5>
-<table class = "table">
+<table>
 <tr>
 <td><h6>Bookshelf view</h6><img src = "./images/k1a.PNG" /></td>
 <td><h6>Bookshelf view with menu</h6><img src = "./images/k3a.PNG" /></td>
@@ -67,8 +38,9 @@
 </tr>
 </table>
 
-<h5>Book-open page: Reading</h5>
-<table class = "table">
+## Book-open page: Reading
+
+<table>
 <tr>
 <td><h6>Current UI</h6><img src = "./images/k4.PNG" /></td>
 <td><h6>Proposed UI</h6><img src = "./images/k4a.PNG" /></td>
@@ -82,7 +54,8 @@
 </tr>
 </table>
 
-<h5>Book-open page: Menu options</h5>
+## Book-open page: Menu options
+
 <table class = "table">
 <tr>
 <td><h6>Current UI: Menu</h6><img src = "./images/k5.PNG" /></td>
@@ -105,19 +78,3 @@
 </td>
 </tr>
 </table>
-
-<hr/>
-
-</div><!-- / "content-main" -->
-
-</div>
-<!-- END Content -->
-
-<a href="#top" class="btn btn-primary">Top</a>
-<hr/>
-
-</div><!-- ./container -->
-
-</body>
-
-</html>
