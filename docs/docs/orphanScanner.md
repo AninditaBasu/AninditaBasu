@@ -1,0 +1,26 @@
+# Orphan scanner
+
+This is a script that scans all DITA files in a directory and reports those files that are not referenced by any other file DITA in that directory. Such a check is useful for identifying image files or content files that are not called by any of your DITA files.
+
+## Use case
+
+You have several image files, topic files, and other files in the directory but hesitate to delete them because you are not sure if any of these files are referenced by the DITA files in that directory. 
+
+You tell the script which directory it should scan. The script runs the checks and gives you a report that you can read and act upon to clean up your workspace.
+
+## Limitations
+
+It is assumed that all DITA topic files have the `.dita` extension. If your files use the `.xml` extension, this script doesn't work.
+
+## How to use
+
+1.  Download the [orphan-scan ](https://github.com/AninditaBasu/orphan-scan) repository as a `ZIP` file and extract the contents to any directory on your computer.
+1.  Depending on whether you have Python 3.7 on your computer:
+    - If you have Python, go to the `source` directory of the extracted contents, and double-click `orphanscan.py`.
+    - If you don't have Python, go the `output` directory of the extracted contents, and double-click `orphanscan.exe`.
+1.  When prompted, enter the full path of the directory to be scanned, for example, `c:\documentation\myProduct\`. Do not forget to enter the trailing `\` for the directory. The script will scan all of the subdirectories of the specified directory. When the scan is complete, you see a message on the console: `Press any key to exit` Press any key.
+1.  Go to the directory that contains the script you used. Depending on your choice at a previous step, this directory is either `source` or `output`. You see a file called `orphanScan.html` in that directory. This is the report file for you to read and act upon.
+
+## Troubleshooting
+
+Raise an [issue](https://github.com/AninditaBasu/orphan-scan/issues).
