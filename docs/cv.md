@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Anindita Basu's CV
+title: CV
+nav_order: 6
 ---
 
-<h4>{{ page.title }}</h4>
+# {{ page.title }}
 
-<p>I can write documentation from scratch. I can also coach, guide, and handhold non-writers (for example, coders) when they write.</p>
+I can write documentation from scratch. I can also coach, guide, and handhold non-writers (for example, coders) when they write.
 
-<p>My interests include design thinking, information architecture, content strategy, APIs, and DITA.</p>
+My interests include design thinking, information architecture, content strategy, rest APIs, and DITA.
+
+_Page under construction_
 
 <div class="container mt-3">
   <div class="card bg-light text-dark p-3">

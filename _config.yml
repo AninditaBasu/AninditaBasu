@@ -2,3 +2,5 @@ name: Anindita Basu's website
 description: Anindita's professional interests
 markdown: kramdown
 url: "https://aninditabasu.github.io"
+remote_theme: just-the-docs/just-the-docs
+logo: "/images/ab.jpg"

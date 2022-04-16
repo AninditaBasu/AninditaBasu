@@ -5,16 +5,14 @@
 	  "type": "Ongoing project",
 	  "picture": "../images/mb.png",
       "demo": "https://mb-verse.herokuapp.com/",
-	  "desc": "Data from the Mahabharat.<br/>The intention is to build an API and a chat bot. Meanwhile, a minimum viable product (MVP) is out as a web app.",
-	  "tags": "#data model design, #front-end, #python"
+	  "desc": "Data from the Mahabharat.<br/>The intention is to build an API and a chat bot. Meanwhile, a minimum viable product (MVP) is out as a web app."
     },
 	{
       "name": "Mercury",
 	  "type": "Web app",
 	  "picture": "../images/tarjuma.png",
 	  "code": "https://github.com/AninditaBasu/mercury",
-	  "desc": "Mercury is a customisable web app that uses the Oxford Dictionaries API to translate words to English. You enter a word in your language, and are shown a list of their English counterparts and how to pronounce them, together with examples to show how to use the words in English sentences.",
-	  "tags": "#task analysis, #front-end, #python, #API, #i18n"
+	  "desc": "Mercury is a customisable web app that uses the Oxford Dictionaries API to translate words to English. You enter a word in your language, and are shown a list of their English counterparts and how to pronounce them, together with examples to show how to use the words in English sentences."
     },
 	{
       "name": "Intro by an ancient child",
@@ -22,33 +20,28 @@
 	  "picture": "../images/ancient_child.png",
 	  "demo": "https://life-ancient-india.herokuapp.com/",
       "code": "https://github.com/AninditaBasu/indica",
-	  "desc": "A peek into life in ancient India.<br/>Uses material from vedic literature to craft how a child of those times might have written their 'About Me'.",
-	  "tags": "#python, #API, #stories"
+	  "desc": "A peek into life in ancient India.<br/>Uses material from vedic literature to craft how a child of those times might have written their 'About Me'."
     },
 	{
       "name": "StopWords",
 	  "type": "Web app",
 	  "picture": "../images/stopWords.png",
       "code": "https://github.com/AninditaBasu/mattermost-hackathon-stopWords",
-	  "desc": "Finds non-inclusive language in the docs of a GitHub repo you specify.<br/>The aim is to find (and review and, if needed, remove or rephrase) words and phrases that might not promote accessibility, diversity, or inclusiveness. The app can also be used as a consistency checker for spellings (for example, plug-in vs. plugin or color vs. colour) and phrasing (for example, we recommend vs. it is recommended).",
-	  "tags": "#content strategy, #documentation process, #python"
+	  "desc": "Finds non-inclusive language in the docs of a GitHub repo you specify.<br/>The aim is to find (and review and, if needed, remove or rephrase) words and phrases that might not promote accessibility, diversity, or inclusiveness. The app can also be used as a consistency checker for spellings (for example, plug-in vs. plugin or color vs. colour) and phrasing (for example, we recommend vs. it is recommended)."
     },
 	{
       "name": "Tarz-e-zindagi",
 	  "type": "Web app",
 	  "picture": "../images/pesha.png",
       "code": "https://github.com/AninditaBasu/indica",
-	  "desc": "Funky career advice from the Vedas.<br/>Uses material from vedic literature to suggest a course to study, a place to study at, the teacher to study under, and the spells and chants needed during studentship.",
-	  "tags": "#python, #API, #front-end"
+	  "desc": "Funky career advice from the Vedas.<br/>Uses material from vedic literature to suggest a course to study, a place to study at, the teacher to study under, and the spells and chants needed during studentship."
     },
 	{
       "name": "Alfaaz",
 	  "type": "Twitter bot",
 	  "picture": "../images/alfaaz.png",
-      "demo": "https://twitter.com/_alfaaz_",
       "code": "https://github.com/AninditaBasu/_alfaaz_",
-	  "desc": "Gives the English meanings of an Urdu word and transliterates the word to the Hindi script.<br/>Word meanings are, in the first instance, from Oxford Dictionaries. If no meaning is found, the fallback dictionaries are the Urdu dictionaries hosted at the Digital South Asia Library by the University of Chicago.",
-	  "tags": "#python, #API, #languages"
+	  "desc": "Gives the English meanings of an Urdu word and transliterates the word to the Hindi script.<br/>Word meanings are, in the first instance, from Oxford Dictionaries. If no meaning is found, the fallback dictionaries are the Urdu dictionaries hosted at the Digital South Asia Library by the University of Chicago."
     }
   ]
 }

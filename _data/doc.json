@@ -1,32 +1,34 @@
 {
   "doc": [
     {
-      "name": "Task: Ask Watson what Twitter is telling you",      
+      "name": "Tutorial: Ask Watson what Twitter is telling you",      
 	  "desc": "A 4-part series with step-by-step instructions on how to build an app that gets data from Twitter and uses that data for cognitive insights through the IBM Watson services.",
-	  "tags": "#tutorial, #procedure, #API",
-	  "link": "https://www.ibm.com/developerworks/library/cc-ask-watson-part1-bluemix-trs/cc-ask-watson-part1-bluemix-trs-pdf.pdf",
-	  "link_text": "Part 1"
+	  "link": "https://drive.google.com/file/d/1QQT9HwmPo_DACSg2zdTorUTEHPIcZ-GQ/view?usp=sharing",
+	  "link_text": "Tutorial: Part 1"
     },
 	{
-      "name": "Style guide: UI text",      
-	  "desc": "A style guide for the in-code text for user interface elements.",
-	  "tags": "#content strategy",
-	  "link": "https://docs.mattermost.com/process/documentation-UItext-guidelines.html",
-	  "link_text": "User Interface Text Guidelines"
+      "name": "Task: Translating to English with Mercury",      
+	  "desc": "Procedure to install and use a translation app.",
+	  "link": "https://anibasu.gitlab.io/samples/topics/mercury_procedure/",
+	  "link_text": "Task"
+    },
+	{
+      "name": "Concept: Markup languages",      
+	  "desc": "An introduction to markup.",
+	  "link": "https://anibasu.gitlab.io/samples/topics/mercury_concept/",
+	  "link_text": "Task"
     },
 	{
       "name": "Reference: Vedic API",      
 	  "desc": "Complete documentation of a public API.",
-	  "tags": "#API",
 	  "link": "https://aninditabasu.github.io/indica/index.html",
-	  "link_text": "Vedic APIs"
+	  "link_text": "Reference: Vedic APIs"
     },
 	{
-      "name": "Interactive walkthrough: How to use this API",      
+      "name": "Walkthrough: How to use an API",      
 	  "desc": "Written in a question-and-answer format, to show the data the API serves, and the possible uses of that data.",
-	  "tags": "#getting started, #FAQ, #cheatsheet",
 	  "link": "https://mybinder.org/repo/AninditaBasu/indica",
-	  "link_text": "the .ipynb files"
+	  "link_text": "Interactive walkthrough"
     }
   ]
 }
