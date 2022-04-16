@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Anindita Basu
+title: CV
 nav_order: 6
 ---
 
-# {{ page.title }}
+# Anindita Basu
 
 I can write documentation from scratch. I can also coach, guide, and handhold non-writers (for example, coders) when they write.
 
