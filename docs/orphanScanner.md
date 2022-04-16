@@ -1,6 +1,6 @@
 # Orphan scanner
 
-This is a script that scans all DITA files in a directory and reports those files that are not referenced by any other file DITA in that directory. Such a check is useful for identifying image files or content files that are not called by any of your DITA files.
+Scan all DITA files in a directory to list those files that are not referenced by any other file DITA in that directory. This kind of check is useful for identifying image files or content files that are not called by any of your DITA files.
 
 ## Use case
 

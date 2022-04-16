@@ -1,8 +1,8 @@
 # Word list scanner
 
-This is a script that scans all DITA files in a directory for occurrences of all words and phrases that you specify, at one go. 
+Scan, at one go, all DITA files in a directory for all occurrences of all words and phrases that you specify. 
 
-Markup tags (without the angle brackets) are also reckoned as words.
+Markup tags (without the angle brackets) are also reckoned as words, for example `shortdesc`.
 
 ## Use case
 

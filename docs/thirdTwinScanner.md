@@ -1,6 +1,6 @@
 # Third twin scanner
 
-This is a script that scans all DITA files in a directory and find the links that occur more than once in any DITA topic file. Relationship tables, topicref collections, inline cross-references, and links in the related-links tag are all reckoned.
+Scan all DITA files in a directory to find links that occur more than once in any DITA topic file. Relationship tables, topicref collections, inline cross-references, and links in the related-links tag are all reckoned.
 
 ## Use case
 
