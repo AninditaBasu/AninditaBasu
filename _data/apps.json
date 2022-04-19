@@ -4,7 +4,7 @@
       "name": "Mahabharat",
 	  "type": "Ongoing project",
 	  "picture": "./images/mb.png",
-      "demo": "https://mb-verse.herokuapp.com/",
+      "demo": "https://mahabharat.onrender.com",
 	  "desc": "Data from the Mahabharat.<br/>The intention is to build an API and a chat bot. Meanwhile, a minimum viable product (MVP) is out as a web app."
     },
 	{
