@@ -20,7 +20,7 @@
 	  "picture": "./images/ancient_child.png",
 	  "demo": "https://life-ancient-india.herokuapp.com/",
       "code": "https://github.com/AninditaBasu/indica",
-	  "desc": "A fictional take on life in ancient India.<br/>This web app uses the [Rig Veda API](https://aninditabasu.github.io/indica/api_rv/) and [Vedic Society API](https://aninditabasu.github.io/indica/api_vs/) to generate an `About Me` of a child of those times. A new `About Me` is generated with every page refresh."
+	  "desc": "A fictional take on life in ancient India.<br/>This web app generates a fictional `About Me` of a child during the time of the Vedas. A new `About Me` is generated with every page refresh."
     },
 	{
       "name": "StopWords",
@@ -34,7 +34,7 @@
 	  "type": "Web app",
 	  "picture": "./images/pesha.png",
       "code": "https://github.com/AninditaBasu/indica",
-	  "desc": "Funky career advice from the Vedas.<br/>Tarz-e-zindagi (lit. manner of living) uses the [Vedic Society API](https://aninditabasu.github.io/indica/api_vs/) to suggest a course to study, a place to study at, the teacher to study under, and the spells and chants needed during the studentship."
+	  "desc": "Funky career advice from the Vedas.<br/>Tarz-e-zindagi suggests a course to study, a place to study at, the teacher to study under, and the spells and chants needed during the studentship."
     },
 	{
       "name": "Alfaaz",

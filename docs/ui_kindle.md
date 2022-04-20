@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kindle Reader
-parent: Wireframes
+parent: Wireframe samples
 nav_order: 3
 ---
 

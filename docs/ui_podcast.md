@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Podcast website
-parent: Wireframes
+parent: Wireframe samples
 nav_order: 4
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Document template feature
-parent: Wireframes
+parent: Wireframe samples
 nav_order: 2
 ---
 

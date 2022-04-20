@@ -16,7 +16,7 @@ If an app doesn't work when you click **See the app**, it could be because all m
 
 {{ entry.desc }}
 
-{% if entry.code %}[See the code]({{ entry.code }}){: .btn .btn-purple .mr-4  }{% endif %}&nbsp;&nbsp;
+{% if entry.code %}[See the code]({{ entry.code }}){: .btn .btn-purple .mr-4  }{% endif %}
 {% if entry.demo %}[See the App]({{ entry.demo }}){: .btn .btn-purple .mr-4  }{% endif %}
 
 ![app screenshot]({{ entry.picture }})

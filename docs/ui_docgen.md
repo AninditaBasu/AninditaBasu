@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Report generation software
-parent: Wireframes
+parent: Wireframe samples
 nav_order: 1
 ---
 
