@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CV
-nav_order: 6
+nav_exclude: true
 ---
 
 # Anindita Basu

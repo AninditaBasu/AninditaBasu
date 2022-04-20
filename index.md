@@ -24,8 +24,7 @@ At all times, I remain curious. Because, that's what helps me write for you &mda
 
 How to pronounce my name: **ʌnɪndɪtɑː** (uh-nin-di-taa)
 
-My social IDs:
-
--  GitHub: https://github.com/AninditaBasu
--  Mail: ab.techwriter@gmail.com
--  Twitter: https://twitter.com/anindita_basu
+[GitHub](https://github.com/AninditaBasu){: .btn .mr-4 }
+[Mail](mailto:ab.techwriter@gmail.com){: .btn .mr-4 }
+[Twitter](https://twitter.com/anindita_basu){: .btn .mr-4 }
+[CV](https://aninditabasu.github.io/AninditaBasu/docs/cv.html)

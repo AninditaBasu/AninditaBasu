@@ -8,13 +8,6 @@
 	  "picture": "./images/docsAScode.png"
     },
 	{
-      "name": "jekyll-github-starter-pack",
-      "demo": "https://aninditabasu.github.io/jekyll-github-starter-pack/",
-      "code": "https://github.com/AninditaBasu/jekyll-github-starter-pack",
-	  "desc": "Build a website in minutes on GitHub by using Jekyll's support of Liquid variables and templates.<br/>No, you don't need to know either Jekyll or Liquid to get started. Once you've taken off with this starter pack, though, you'll learn as much as you need to along the way.",
-	  "picture": "./images/jekyllStarter.png"
-    },
-	{
       "name": "linkchecker-third-twin",
       "code": "https://github.com/AninditaBasu/linkchecker-third-twin",
 	  "desc": "Scan a directory recursively to identify duplicate, triplicate, or n-cate topic-to-topic links in DITA files.<br/>Find the links that occur more than once in any DITA topic file. A link might have been inserted manually as an xref or related-links tag, or generated automatically during the DITA build through the collection type attribute or a reltable entry. This tool reports the cross-references that occur more than once. Relationship tables, topicref collections, inline cross-references, and links in the related-links tag are all reckoned.",
@@ -31,6 +24,13 @@
       "code": "https://github.com/AninditaBasu/word-list-scan",
 	  "desc": "Scan all DITA files in a directory recursively for occurences of an entire list of words and phrases.<br/>Maybe these words are a list of do-not-use words that your style guide specifies, but you don't have an automated word checker to look for such occurences. Maybe you want to know if you've used certain DITA tags in your files but do not want to run a system search for each tag, one by one.",
 	  "picture": "./images/wordList.png"
+    },
+	{
+      "name": "jekyll-github-starter-pack",
+      "demo": "https://aninditabasu.github.io/jekyll-github-starter-pack/",
+      "code": "https://github.com/AninditaBasu/jekyll-github-starter-pack",
+	  "desc": "Build a website in minutes on GitHub by using Jekyll's support of Liquid variables and templates.<br/>No, you don't need to know either Jekyll or Liquid to get started. Once you've taken off with this starter pack, though, you'll learn as much as you need to along the way.",
+	  "picture": "./images/jekyllStarter.png"
     }
   ]
 }

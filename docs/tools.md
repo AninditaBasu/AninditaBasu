@@ -1,14 +1,16 @@
 ---
 layout: default
-title: Doc tools
+title: Tooling ideas
 nav_order: 4
 ---
 
 # {{ page.title }}
 
-These scripts were written to make the everyday life of a writer easier.
+These scripts explore some ideas around documentation tooling.
 
 {% for entry in site.data.tools.tools %}
+
+<hr/>
 
 ## {{ entry.name }}
 
@@ -17,11 +19,9 @@ These scripts were written to make the everyday life of a writer easier.
 {{ entry.desc }}
 
 [Code]({{ entry.code }}){: .btn .btn-purple }&nbsp;&nbsp;
-{% if entry.demo %}[App]({{ entry.demo }}){: .btn .btn-purple }{% endif %}
+{% if entry.demo %}[Demo]({{ entry.demo }}){: .btn .btn-purple }{% endif %}
 
 ![tool screenshot]({{ entry.picture }})
-
-<hr/>
 
 {% endfor %}
 
