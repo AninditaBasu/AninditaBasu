@@ -8,18 +8,18 @@ nav_order: 5
    
 These are weekend projects.
 
-If any of these apps don't work when you click **App**, it could be all 550 hours of my free Heroku plan this month are used up. Things should be back on track when the limits are reset on the 1st day of the next month.
+If an app doesn't work when you click **App**, it could be because all my free hours this month at the hosting service are used up. The app should be back when limits are automatically reset on the 1st day of the next month.
+
+<hr/>
 
 {% for entry in site.data.apps.apps %}
 
 ## {{ entry.name }}
 
-{{ entry.type }}
-
 {{ entry.desc }}
 
-[Code]({{ entry.code }}){: .btn .btn-purple }&nbsp;&nbsp;
-{% if entry.demo %}[App]({{ entry.demo }}){: .btn .btn-purple }{% endif %}
+{% if entry.code %}[See the code]({{ entry.code }}){: .btn .btn-purple .mr-4  }{% endif %}&nbsp;&nbsp;
+{% if entry.demo %}[See the App]({{ entry.demo }}){: .btn .btn-purple .mr-4  }{% endif %}
 
 ![app screenshot]({{ entry.picture }})
 
