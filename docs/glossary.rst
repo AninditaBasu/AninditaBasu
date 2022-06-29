@@ -1,6 +1,3 @@
-Glossary
-======================
-
 .. glossary::
      collection
         A set of items, for example, a collection of feature films. See :doc:`concept_items`.
