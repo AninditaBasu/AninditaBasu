@@ -24,7 +24,7 @@ from recommonmark.transform import AutoStructify
 sys.path.insert(0, os.path.abspath('./internetarchive/'))
 import internetarchive
 from internetarchive import __version__
-import alabaster
+#import alabaster
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
