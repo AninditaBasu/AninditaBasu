@@ -25,6 +25,7 @@ sys.path.insert(0, os.path.abspath('./internetarchive/'))
 import internetarchive
 from internetarchive import __version__
 #import alabaster
+import sphinx_material
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -248,21 +249,27 @@ html_theme_options = {
 
     # Set the name of the project to appear in the navigation.
     'nav_title': 'Internet Archive Developer Portal',
-
+    
     # Specify a base_url used to generate sitemap.xml. If not
     # specified, then no sitemap will be built.
     'base_url': 'https://archive.org/services/docs/api/',
-
+    
     # Set the color and the accent color
     'color_primary': 'grey',
     'color_accent': 'deep-orange',
-
+    
     # Visible levels of the global TOC; -1 means unlimited
     'globaltoc_depth': 2,
+    
     # If False, expand all TOC entries
-    'globaltoc_collapse': True,
+    'globaltoc_collapse': False,
+    
     # If True, show hidden TOC entries
     'globaltoc_includehidden': True,
+    
+    #Include the master document at the top of the page in the breadcrumb bar. 
+    # Set this to true to override the rootrellink block, in which case the content of the overridden block will appear
+    'master_doc': True
 }
 html_sidebars = {
     "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
