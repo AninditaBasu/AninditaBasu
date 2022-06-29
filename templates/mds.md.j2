@@ -1,0 +1,68 @@
+# Internet Archive Metadata
+[Metadata](https://en.wikipedia.org/wiki/Metadata) is data about data. In the case of Internet Archive items, the metadata describes the contents of the items. Metadata can include information such as the performance date for a concert, the name of the artist, and a set list for the event.
+
+Metadata is a very important element of items in the Internet Archive. Metadata allows people to locate and view information. Items with little or poor metadata may never be seen and can become lost.
+
+Note that metadata keys must be valid XML tags. Please refer to the XML Naming Rules section [here](https://www.w3schools.com/xml/xml_elements.asp).
+
+All metadata for archive.org items are stored in `<identifier>_meta.xml` and `<identifier>_files.xml`.
+The meta.xml file contains all of the item-level metadata for an item (e.g. title, description, creator, etc.).
+The files.xml file contains all of the file-level metadata (e.g. track title, checksums, etc.).
+While these two files are the canonical sources of metadata for archive.org items, most users will interact with an item's metadata via [the metadata API](https://archive.org/services/docs/api/metadata.html).
+For example, [nasa_meta.xml](https://archive.org/download/nasa/nasa_meta.xml) correlates to [/metadata/nasa/metadata](https://archive.org/metadata/nasa/metadata) and [nasa_files.xml](https://archive.org/download/nasa/nasa_files.xml) to [/metadata/nasa/files](https://archive.org/metadata/nasa/files).
+
+This document describes common metadata fields used on archive.org.
+Refer to [the metadata API docs](https://archive.org/services/docs/api/metadata.html) for more details on reading and writing metadata to items.
+
+## Archive.org Identifiers
+
+Each item at Internet Archive has an identifier.
+An identifier is composed of a unique combination of alphanumeric characters (limited to ASCII), underscores (`_`), dashes (`-`), or periods (`.`).
+The first character of an identifier must be alphanumeric (e.g. it cannot start out with an underscore, dash, or period).
+The maximum length of an identifier is 100 characters, but we generally recommend that identifiers be between 5 and 80 characters in length.
+
+Identifiers must be unique across the entirety of Internet Archive, not simply unique within a single collection.
+
+We prefer human-readable identifiers where possible, as they are more useful for library patrons. For example, consider using the title and/or creators of the item in your identifier, or some shortened form of them.
+
+Once defined an identifier can not be changed.
+It will travel with the item or object and is involved in every manner of accessing or referring to the item.
+
+## Custom Metadata Fields
+
+Internet Archive strives to be metadata agnostic, enabling users to define the metadata format which best suits the needs of their material. In addition to the standard metadata fields listed above you may also define as many custom metadata fields as you require. These metadata fields can be defined ad hoc at item creation or metadata editing time and do not have to be defined in advance.
+
+## Metadata Schema
+Below are _meta.xml fields that have special meaning on archive.org.
+
+{% for f in item.schema['metadata_schema'] %}
+
+### {{ f['field'] }}
+        {% for k in f -%}
+            {% if k == 'example' -%}
+                - **{{ k }}**: {{ f[k] }}
+            {% elif k == 'field' -%}
+                {{ continue }}
+            {% else -%}
+                - **{{ k }}**: {{ f[k].replace('\n', ' ') }}
+            {% endif %}
+        {% endfor %}
+{% endfor %}
+
+## File Metadata Schema
+
+Below are _files.xml fields that have special meaning on archive.org.
+
+{% for f in item.schema['files_schema'] %}
+
+### {{ f['field'] }}
+        {% for k in f -%}
+            {% if k == 'example' -%}
+                - **{{ k }}**: {{ f[k] }}
+            {% elif k == 'field' -%}
+                {{ continue }}
+            {% else -%}
+                - **{{ k }}**: {{ f[k].replace('\n', ' ') }}
+            {% endif %}
+        {% endfor %}
+{% endfor %}

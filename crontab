@@ -1,0 +1,1 @@
+@hourly /usr/bin/python /home/jake/metadataschema/get_metadata_sheet.py

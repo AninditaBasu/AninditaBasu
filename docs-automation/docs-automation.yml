@@ -1,0 +1,31 @@
+---
+#
+#
+
+- hosts: docs_automation
+  remote_user: root
+
+  tasks:
+  - name: install nginx
+    apt: name=nginx-extras
+
+  - name: add role account
+    user:
+        name: robot
+        comment: automation role account
+        home: /opt/robot
+        system: yes
+
+  - name: copy ferm config into place
+    copy: src=www.ferm  dest=/etc/ferm/input/www
+    notify: reload ferm
+
+  - name: chown robot www
+    file:
+        path: /var/www
+        owner: robot
+
+  handlers:
+  - name: reload ferm
+    service: name=ferm state=reloaded
+
