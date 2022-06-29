@@ -6,7 +6,7 @@ This tutorial shows you how to retrieve two versions of the same website.
 
 ## API used
 
-- [Wayback CDX Server API - BETA](https://archive.org/services/docs/api/wayback-cdx-server.html?highlight=cdx)
+- [Wayback CDX Server API - BETA](https://archive.org/services/docs/api/wayback-cdx-server.html)
 
 ## Steps
 
@@ -68,58 +68,3 @@ From the list you generated in the previous step, pick two timestamps, and use t
     }
 }
 ```
-
-Method 
-
-`GET`
-
-Request Headers
-
-```
-Accept: */*
-accept-encoding: gzip, deflate |
-```
-
-URL	
-
-`https://archive.org/wayback/available?url=http%3A%2F%2Ftc.eserver.org%2F`
-
-Request Data	
-
-`{}`
-
-Status	
-
-`200 OK`
-
-Response Headers
-
-```
-server: nginx/1.18.0 (Ubuntu)
-date: Thu, 16 Jun 2022 12:24:30 GMT
-content-type: application/json
-content-length: 213
-connection: close
-access-control-allow-credentials: true
-access-control-allow-origin: *
-memento-location: http://web.archive.org/web/20180427130634/https://tc.eserver.org/
-x-app-server: nomad2
-x-ts: 200
-x-tr: 218
-x-location: available
-x-ip: 52.91.254.203
-x-cache-key: httpwwwb-api.archive.org/wayback/available?url=http%3A%2F%2Ftc.eserver.org%2FUS
-x-rl: 0
-x-na: 1
-x-page-cache: MISS
-x-nid: AWS
-referrer-policy: no-referrer-when-downgrade, no-referrer-when-downgrade
-permissions-policy: interest-cohort=()
-strict-transport-security: max-age=15724800
-expires: Thu, 16 Jun 2022 18:24:30 GMT
-cache-control: max-age=21600
-```
-
-## Questions
-
--  Can I retrieve a list of all snapshots of a specific website?
