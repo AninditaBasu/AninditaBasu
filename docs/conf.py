@@ -354,10 +354,13 @@ intersphinx_mapping = {
 }
 
 # Use read the docs theme
-html_theme = "sphinx_rtd_theme"
-html_theme_options = {}
-html_theme_options['prev_next_buttons_location'] = 'bottom'
-html_theme_options['display_version'] = False
+#html_theme = "sphinx_rtd_theme"
+#html_theme_options = {}
+#html_theme_options['prev_next_buttons_location'] = 'bottom'
+#html_theme_options['display_version'] = False
+
+# Use the sphinx material theme
+html_theme = "sphinx_material"
 
 def setup(app):
     app.add_config_value('recommonmark_config', dict(), True)
