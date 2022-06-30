@@ -4,12 +4,19 @@ Metadata is used, among other things, for fetching and viewing items. Sometimes,
 
 This tutorial shows you how to read the metadata of an item on Internet Archive.
 
-The instructions in this tutorial assume that you're using Python 3.
-
 ## Prerequisites 
 
-- The `internet archive` package in your environment. If it isn't, install it by running the following command: `pip install internetarchive`.
-- The unique identifier of the item you're reading the metadata for. If you don't have it, see [# Find the unique identifier of an item in a collection](tutorial-find-identifier-item.md).
+The instructions in this tutorial assume that you're using Python 3.
+
+The following things must be available:
+
+- The `internet archive` package in your environment. If it isn't, install it by running the following command:
+
+    ```python
+    pip install internetarchive
+    ```
+  
+- The unique identifier of the item you're reading the metadata for. If you don't have it, see [Find the unique identifier of an item in a collection](tutorial-find-identifier-item.md).
 
 ## Steps
 

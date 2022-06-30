@@ -5,20 +5,21 @@ Welcome to the Internet Archive Developer Portal.
 
 .. admonition:: What is Internet Archive?
 
-   Once upon a time, there was the Library of Alexandria, which housed thousands of papyrus scrolls and codices. It was available to scholars and students.
+   Once upon a time, there was the Library of Alexandria, which housed thousands of papyrus scrolls and codices 📜 It was available to scholars and students.
 
-   Today, there's Internet Archive, which contains thousands of books, videos, pictures, music, games, websites, cultural artifacts, and more. All of these are in digital form and freely available to anyone with an internet connection (`read about Internet Archive <https://archive.org/about/>`_).
+   Today, there's Internet Archive, which contains thousands of books, videos, pictures, music, games, websites, cultural artifacts, and more 📚 📜 🗞️ 📺 🎬 🎼  📼 📻 All of these are in digital form and freely available to anyone with an internet connection (`read more about Internet Archive... <https://archive.org/about/>`_).
 
 This portal contains information to help you access data from, integrate with, or contribute to Internet Archive.
 
 Some of the things that you can do are:
 
--  Use the APIs and services to read data, for example, see what the first edition of Shakespeare's *Hamlet* looked like.
+-  Use the APIs and services to read data, for example, see what the first edition of Shakespeare's *Hamlet* 💀 looked like.
 -  Update or modify data, for example, change the metadata of an item.
 -  Upload items. For example, add a video file to Internet Archive.
 
 .. tip::
-   A complete list of the APIs and services is at :doc:`index-apis`, and some step-by-step tutorials are at :doc:`index-tutorials`.
+   -  A complete list of the APIs and services is at :doc:`index-apis`.
+   -  Some step-by-step tutorials are at :doc:`index-tutorials`.
 
 How to use this portal
 -----------------------
@@ -32,15 +33,21 @@ To browse the portal, use the navigation at the left.
 Definitions
 -----------
 
-.. glossary::
-     collection
-        A set of items, for example, a collection of feature films. See :doc:`concept_items`.
-     file
-        See :doc:`concept_files`
-     item
-        A thing that has metadata, for example, a song or a book. An item can have one or more files. See :doc:`concept_collections`.
-     metadata
-        Information that describes an item, for example, the title of a song or a book. See :doc:`concept_metadata`
+Before you start using the Internet Archive APIs, you might want to become familiar with some terms that have a special meaning at Internet Archive.
+
+Item
+*****
+
+Things on Internet Archive are called `items`. A song, a book, or a video is an item. Every item can have one or more files. For example, an item called `Euclid's Geometry` can have a `PDF` file, an `HTML` file, and a `TXT` file. See :doc:`items`.
+
+Collection
+***********
+
+Items can be placed in `collections`. For example, a collection called `European Libraries` can contain several items, one of which can be `Euclid's Geometry`. An item can belong to more than one collection. See :doc:`items`.
+
+Metadata
+**********
+Information that describes an item is called `metadata`. For example, the name of the writer is metadata for a book. Internet Archive has a schema for metadata for files and items. Additionally, you can specify your own metadata when creating or updating an item. See :doc:`metadata-schema/index.rst`
 
 Quick start with the `ia` command line tool
 --------------------------------------------
@@ -59,7 +66,7 @@ Prerequisites
 Steps
 *****
 
-These steps assume you're using a Unix-like environment.
+These steps assume you're using a Unix-like environment, and are comfortable with the command line interface of your computer.
 
 #.  Download the Python binary by running the following command: ``curl -LOs https://archive.org/download/ia-pex/ia``
 

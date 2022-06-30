@@ -4,16 +4,15 @@ Tutorials
 Here's a set of tutorials to help you get a feel of the things that you can do with all of the stuff available at Internet Archive.
 
 .. csv-table::
-   :header: "What's the tutorial about?", "Why should I read it?", "Where is it?"
-   :widths: 25, 35, 20
+   :header: "What's the tutorial about?", "Why is it useful?"
+   :widths: 35, 45
 
-   "Getting your Internet Archive credentials", "Some operations, such as modifying metadata, need access keys.", :doc:`tutorial-get-ia-credentials`
-   "Finding the unique identifier of an item in a collection", "To fetch and update the various elements of any item, you need its identifier.", :doc:`tutorial-find-identifier-item`
-   "Reading the metadata of an item", "Metadata is used, among other things, for fetching and viewing items. Review the metadata to see if you can improve it.", :doc:`tutorial-read-item-metadata`
-   "Creating an item", "To upload an item to Internet Archive.", :doc:`tutorial-create-item`
-   "Retrieving a dead website", "If you got a 404 error when accessing a website, you can, maybe, still see that website if Internet Archive stored it.",  :doc:`tutorial-get-snapshot-wayback`
-   "Compare two versions of a website", "To see what changed on the website between two dates. ", :doc:`tutorial-compare-snapshot-wayback`
-
+   :doc:`Getting your Internet Archive credentials <tutorial-get-ia-credentials>`, "Some operations, such as modifying metadata, need access keys."
+   :doc:`Finding the unique identifier of an item in a collection <tutorial-find-identifier-item>`, "To fetch and update the various elements of any item, you need its identifier."
+   :doc:`Reading the metadata of an item <tutorial-read-item-metadata>`, "Metadata is used, among other things, for fetching and viewing items. You can review this metadata to see if you can improve it."
+   :doc:`Creating an item <tutorial-create-item>`, "To upload an item to Internet Archive."
+   :doc:`Seeing whether a website exists in the archives <tutorial-get-snapshot-wayback>`, "If you got a 404 error when accessing a website, you can, maybe, still see that website if Internet Archive stored it."
+   :doc:`Comparing two versions of a website <tutorial-compare-snapshot-wayback>`, "To see what changed on the website between two dates. "
 
 .. toctree::
     :caption: Tutorials

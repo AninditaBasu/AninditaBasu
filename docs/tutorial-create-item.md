@@ -4,9 +4,9 @@ Every item on Internet Archive corresponds to a thing such as a book, a movie, o
 
 This tutorial shows you how to upload an item to Internet Archive.
 
-The instructions in this tutorial assume that you're using Python 3.
-
 ## Prerequisites 
+
+The instructions in this tutorial assume that you're using Python 3.
 
 - IA-S3 keys. If you don't have them, see [Get your Internet Archive credentials](tutorial-get-ia-credentials.md).
 - The `internet archive` package in your environment. If it isn't, install it by running the following command: `pip install internetarchive`.

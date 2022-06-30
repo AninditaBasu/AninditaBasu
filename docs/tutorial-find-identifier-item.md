@@ -4,17 +4,20 @@ Every item in a collection on Internet Archive has a unique identifier. When you
 
 This tutorial shows how to fetch the unique identifiers of all items in the collection that contains committee hearing videos of the United States Senate.
 
-The instructions in this tutorial assume that you're using Python 3.
-
 ## Prerequisites 
 
-1. Install the `internet archive` package in your environment by running the following command: `pip install internetarchive`.
-1. Get the unique identifier of the collection that contains the videos of committee hearings of the United States senate.
+The instructions in this tutorial assume that you're using Python 3.
+
+1. Install the `internet archive` package in your environment by running the following command: 
+    ```python
+    pip install internetarchive
+    ```
+2. Get the unique identifier of the collection that contains the videos of committee hearings of the United States senate.
     1. Go to the Internet Archive home page at https://archive.org.
     1. In the search bar, type `United States Senate`.
     1. On the results page, on the **Media Type** list, select the **Collections** check box.
     1. On the narrowed search results page, click the collection called **U. S. Senate**.
-    1. Click **ABOUT**, and make a note of the value in the `Identifier` field. You'll use this value to fetch all items in this collection.
+    1. Click **ABOUT**, and make a note of the value in the `Identifier` field. In this example, the value is `us_senate`. You'll use this value to fetch all items in this collection.
 
 ## Steps
 
@@ -46,7 +49,7 @@ appropsA031120_1
 ## What to do next
 
 - Read the metadata of an item. See [Read the metadata of an item](tutorial-read-item-metadata.md).
-- Get the contents of a file. See ...
+- Get the contents of a file. See ...link to tutorial...
 
 ## Reference
 

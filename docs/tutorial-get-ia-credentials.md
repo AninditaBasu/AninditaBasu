@@ -9,7 +9,7 @@ This tutorial shows you how to get your IA-S3 keys.
 
 ## Prerequisites 
 
-An `archive.org` account. If you don't have one, go to [https://archive.org/account/login](https://archive.org/account/login) and sign up.
+You need `archive.org` login credentials. If you don't have an account yet, go to [https://archive.org/account/login](https://archive.org/account/login) and sign up.
 
 ## Steps
 
