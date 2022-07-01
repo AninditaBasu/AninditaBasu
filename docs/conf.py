@@ -243,7 +243,7 @@ html_static_path = ['_static']
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = '_static/ia.png'
+html_logo = 'docs/_static/ia.png'
 
 # Material theme options (see theme.conf for more information)
 html_theme_options = {
