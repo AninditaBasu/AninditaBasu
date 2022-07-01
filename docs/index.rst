@@ -3,22 +3,22 @@ Home
 
 Welcome to the Internet Archive Developer Portal.
 
-.. admonition:: What is Internet Archive?
+.. admonition:: What is the Internet Archive?
 
-   Once upon a time, there was the Library of Alexandria, which housed thousands of papyrus scrolls and codices 📜 It was available to scholars and students.
+   Once upon a time, there was the Library of Alexandria, which housed thousands of papyrus scrolls and codices. It's resources were available to scholars and students.
 
-   Today, there's Internet Archive, which contains thousands of books, videos, pictures, music, games, websites, cultural artifacts, and more 📚 📜 🗞️ 📺 🎬 🎼  📼 📻 All of these are in digital form and freely available to anyone with an internet connection (`read more about Internet Archive... <https://archive.org/about/>`_).
+   Today, there's the Internet Archive, which contains thousands of books, videos, pictures, music, games, websites, cultural artifacts, and more. All of these are in digital form and freely available to anyone with an internet connection. `More about the Internet Archive... <https://archive.org/about/>`_
 
-This portal contains information to help you access data from, integrate with, or contribute to Internet Archive.
+This portal contains information to help you access data from, integrate with, or contribute to the Internet Archive.
 
-Some of the things that you can do are:
+Some of the things that you can do with the information on this Developer Portal are:
 
--  Use the APIs and services to read data, for example, see what the first edition of Shakespeare's *Hamlet* 💀 looked like.
+-  Use the APIs and services to read data, for example, see what the first edition of Shakespeare's *Hamlet* looked like.
 -  Update or modify data, for example, change the metadata of an item.
--  Upload items. For example, add a video file to Internet Archive.
+-  Upload items. For example, add a video file to the Internet Archive.
 
 .. tip::
-   -  A complete list of the APIs and services is at :doc:`index-apis`.
+   -  A complete list of the Internet Archive APIs and services is at :doc:`index-apis`.
    -  Some step-by-step tutorials are at :doc:`index-tutorials`.
 
 How to use this portal
@@ -28,17 +28,17 @@ To locate something on this portal, type a phrase in the Search bar at the top r
 
 To move between the sections on a page, use the links under **Contents** at the right of the page.
 
-To browse the portal, use the navigation at the left.
+To browse the portal, use the links on the navigation pane at the left.
 
 Definitions
------------
+------------
 
-Before you start using the Internet Archive APIs, you might want to become familiar with some terms that have a special meaning at Internet Archive.
+Before you start using the Internet Archive APIs, you might want to become familiar with some terms that are used frequently on this portal.
 
 Item
 *****
 
-Things on Internet Archive are called `items`. A song, a book, or a video is an item. Every item can have one or more files. For example, an item called `Euclid's Geometry` can have a `PDF` file, an `HTML` file, and a `TXT` file. See :doc:`items`.
+Things on the Internet Archive are called `items`. A song, a book, or a video is an item. Every item can have one or more files. For example, an item called `Euclid's Geometry` can have a `PDF` file, an `HTML` file, and a `TXT` file. See :doc:`items`.
 
 Collection
 ***********
@@ -47,41 +47,54 @@ Items can be placed in `collections`. For example, a collection called `European
 
 Metadata
 **********
-Information that describes an item is called `metadata`. For example, the name of the writer is metadata for a book. Internet Archive has a schema for metadata for files and items. Additionally, you can specify your own metadata when creating or updating an item. See :doc:`metadata-schema/index.rst`
+Information that describes an item is called `metadata`. For example, the name of the writer is metadata for a book. The Internet Archive has a schema for the metadata for files and also for items. Additionally, you can specify your own metadata when creating or updating an item. See :doc:`metadata-schema/index.rst`
+
+WARC (web archive)
+******************
+
+...
 
 Quick start with the `ia` command line tool
 --------------------------------------------
 
-Get started with the various Internet Archive services by using the command-line interface (CLI). (For details on the CLI tool, see :doc:`internetarchive/cli`.)
+One of the most common ways that we've seen developers use to access and manage the content at the Internet Archive is by using the command-line interface (CLI) tool. The following steps help you get started quickly with this tool. (For details on the CLI tool, see :doc:`internetarchive/cli`.)
 
-Prerequisites
-*************
+These steps assume these things:
 
-*  Python 3
-*  `archive.org` credentials if you're doing the following actions:
-    *  Uploading, searching, and modifying metadata
-    *  Downloading access-restricted content
-    *  Viewing your task history
+* You're using a Unix-like environment.
+* You're comfortable with the command line interface and `cURL`.
+* You're using Python 3.
 
-Steps
-*****
+To get started with the `ia` CLI:
 
-These steps assume you're using a Unix-like environment, and are comfortable with the command line interface of your computer.
+#.   Download the Python binary by running the following command::
 
-#.  Download the Python binary by running the following command: ``curl -LOs https://archive.org/download/ia-pex/ia``
+      curl -LOs https://archive.org/download/ia-pex/ia
 
-#.  Make the binary an executable file by running the following commands: ``chmod +x ia``
+#.   Make the binary an executable file by running the following command::
 
-#.  Try out some operations:
+      chmod +x ia
 
-    - To read the metadata of an item, run the following command: ``ia metadata <unique_item_identifier>``. For example, to read the metadata of the song called *We are the world*, run the following command: ``ia metadata U_S_A_For_Africa_We_Are_The_World``.
-    - To upload an item, run a command with the following syntax: ``ia upload <identifier> file1 file2 --metadata="mediatype:texts" --metadata="param:arg"``
-        where ``<identifier>`` is a unique string. See `Item`_.
+#.   Try out some operations:
+      - Read the metadata of an item by running the following command::
+
+         ia metadata <unique_item_identifier>
+        For example, to read the metadata of the song called `We are the world`, run::
+
+         ia metadata U_S_A_For_Africa_We_Are_The_World
+
+        (Here's a more detailed tutorial on :doc:`finding the unique item identifier <tutorial-find-identifier-item>`.)
+      - Upload an item to the Internet Archive by running a command with the following syntax::
+
+         ia upload <identifier> file1 file2 --metadata="mediatype:texts" --metadata="param:arg"
+
+        where ``<identifier>`` is a unique string.
+        (Here's a more detailed tutorial :doc:`on creating an item <tutorial-create-item>`.)
 
 Licensing
----------
+----------
 
-The Internet Archive does not assert any new copyright or other proprietary rights over any of the material in its database. The legal issues for community projects like Internet Archive can be confusing, but Internet Archive aims to make available database that can be freely used.
+The Internet Archive does not assert any new copyright or other proprietary rights over any of the material in its database. The legal issues for community projects like the Internet Archive can be confusing, but the Internet Archive aims to make available database that can be freely used.
 
 .. toctree::
     :caption: Developer Portal

@@ -1,8 +1,8 @@
 # Create an item
 
-Every item on Internet Archive corresponds to a thing such as a book, a movie, or a song. Each item can contain one or more file. For example, a book called `Euclid's geometry` can be an item that contains files such as `euclid_geometry_part1.txt`, `euclid_geometry_part2.txt`, and `euclid_geometry_part1.pdf`. Optionally, an item can belong to a collection.
+Every item on the Internet Archive corresponds to a thing such as a book, a movie, or a song. Each item can contain one or more file. For example, a book called `Euclid's geometry` can be an item that contains files such as `euclid_geometry_part1.txt`, `euclid_geometry_part2.txt`, and `euclid_geometry_part1.pdf`. Optionally, an item can belong to a collection.
 
-This tutorial shows you how to upload an item to Internet Archive.
+This tutorial shows you how to upload an item to the Internet Archive.
 
 ## Prerequisites 
 

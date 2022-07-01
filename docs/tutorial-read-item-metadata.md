@@ -2,7 +2,7 @@
 
 Metadata is used, among other things, for fetching and viewing items. Sometimes, an item might not contain rich metadata and, consequently, not show up in search results.
 
-This tutorial shows you how to read the metadata of an item on Internet Archive.
+This tutorial shows you how to read the metadata of an item on the Internet Archive.
 
 ## Prerequisites 
 

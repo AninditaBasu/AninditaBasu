@@ -3,5 +3,4 @@ sphinx
 sphinx-autobuild
 sphinx-material
 recommonmark>=0.5
-sphinxemoji
 sphinx-copybutton

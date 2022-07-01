@@ -1,8 +1,8 @@
 # See whether a website exists in the archives
 
-Ever since the [first website](http://info.cern.ch/hypertext/WWW/TheProject.html) was born, the worldwide web has seen many sites being created every day. Sometimes, websites die. However, if Internet Archive crawled and stored a dead website when the website was still available, you can still access that website.
+Ever since the [first website](http://info.cern.ch/hypertext/WWW/TheProject.html) was born, the worldwide web has seen many sites being created every day. Sometimes, websites die. However, if the Internet Archive crawled and stored a dead website when the website was still available, you can still access that website.
 
-This tutorial shows you how to see if a website was crawled and stored by Internet Archive.
+This tutorial shows you how to see if a website was crawled and stored by the Internet Archive.
 
 ## API used 
 

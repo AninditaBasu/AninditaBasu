@@ -1,6 +1,6 @@
 # Find the unique identifier of an item in a collection
 
-Every item in a collection on Internet Archive has a unique identifier. When you know the identifier of an item, you can fetch and update the various elements of that item.
+Every item in a collection on the Internet Archive has a unique identifier. When you know the identifier of an item, you can fetch and update the various elements of that item.
 
 This tutorial shows how to fetch the unique identifiers of all items in the collection that contains committee hearing videos of the United States Senate.
 

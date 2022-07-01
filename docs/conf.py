@@ -49,7 +49,6 @@ extensions = [
     'sphinx.ext.intersphinx',
 #    'alabaster',
     'recommonmark',
-    'sphinxemoji.sphinxemoji',
     'sphinx_copybutton',
 ]
 
@@ -244,7 +243,7 @@ html_static_path = ['_static']
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = '_static/ia.png'
+html_logo = '_static/ia.svg'
 
 # Material theme options (see theme.conf for more information)
 html_theme_options = {
