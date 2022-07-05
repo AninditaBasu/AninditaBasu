@@ -5,6 +5,8 @@ Overview and welcome content for API reference.
 
 .. caution:: This page is still under development. It will list all the tools and APIs, and a 2-3 line description.
 
+Test playground: `Test Swagger <../_static/test-swagger.html>`_
+
 .. glossary::
      Metadata
         Lorem ipsum. See :doc:`metadata-schema/index`.
