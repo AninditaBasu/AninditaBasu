@@ -1,6 +1,10 @@
 Tools and APIs
 ======================
 
+.. admonition:: NEEDS REVIEW
+
+   The table on this page needs review by the maintainers of these APIs and services.
+
 Here's a list of the Internet Archive APIs, tools, and services.
 
 .. csv-table::
