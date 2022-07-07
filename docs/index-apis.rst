@@ -3,7 +3,7 @@ Tools and APIs
 
 .. admonition:: Testing interactive doc ... work-in-progress ...
 
-   `Swagger UI <./_static/test-swagger.html>`_
+   `Swagger UI <./_static/test-wayback.html>`_
 
 Here's a list of the Internet Archive APIs, tools, and services.
 
