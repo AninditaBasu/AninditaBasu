@@ -47,12 +47,12 @@ Items can be placed in `collections`. For example, a collection called `European
 
 Metadata
 **********
-Information that describes an item is called `metadata`. For example, the name of the writer is metadata for a book. The Internet Archive has a schema for the metadata for files and also for items. Additionally, you can specify your own metadata when creating or updating an item. See :doc:`metadata-schema/index.rst`
+Information that describes an item is called `metadata`. For example, the name of the writer is metadata for a book. The Internet Archive has a schema for the metadata for files and also for items. Additionally, you can specify your own metadata when creating or updating an item. See :doc:`metadata-schema/index.rst`.
 
-WARC (web archive)
+WARC (Web ARChive)
 ******************
 
-...
+Web pages crawled by the Internet Archive are stored as `WARC`. This is a file format for concatenating several resources, each consisting of a set of simple text headers and an arbitrary data block, into one long file. The WARC format is an extension of the ARC file format (ARC) that has traditionally been used to store web crawls as sequences of content blocks harvested from the World Wide Web. Each capture in an ARC file is preceded by a one-line header that briefly describes the harvested content and its length. This header is directly followed by the retrieval protocol response messages and content. See `The WARC Format 1.1 <https://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/>`_.
 
 Quick start with the `ia` command line tool
 --------------------------------------------
@@ -79,6 +79,7 @@ To get started with the `ia` CLI:
       - Read the metadata of an item by running the following command::
 
          ia metadata <unique_item_identifier>
+
         For example, to read the metadata of the song called `We are the world`, run::
 
          ia metadata U_S_A_For_Africa_We_Are_The_World

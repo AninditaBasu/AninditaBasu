@@ -4,7 +4,7 @@ Tools and APIs
 Here's a list of the Internet Archive APIs, tools, and services.
 
 .. csv-table::
-   :header: "Name", "Description", "Available as", "Sandbox", "Tutorials"
+   :header: "Name", "Description", "Available as", "Interactive documentation", "Tutorials"
    :widths: 15, 30, 15, 20, 20
 
    :doc:`metadata-schema/index`, "Metadata is used for locating and viewing information.", "XML", "N/A", ""
@@ -24,7 +24,7 @@ Here's a list of the Internet Archive APIs, tools, and services.
    :doc:`reviews`, "This API is for storing reviews of items. Registered users can review items.", "", "", ""
    :doc:`OCR module <ocr>`, "", "", "N/A", ""
    :doc:`PDF generation module<pdf>`, "", "", "N/A", ""
-   "Wayback machine API", "", "", "`Wayback API tryout page <./_static/test-wayback.html>`_", ":doc:`tutorial-get-snapshot-wayback`, :doc:`tutorial-compare-snapshot-wayback`"
+   "Wayback machine APIs", "These APIs are for determining if a URL is stored on the Wayback Machine and for querying, filtering and analysis of snapshot data.", "REST API", "`Wayback API reference <./_static/test-wayback.html>`_", ":doc:`tutorial-get-snapshot-wayback`, :doc:`tutorial-compare-snapshot-wayback`"
    "Book Services", "", "", "", ""
    "Books API", "", "", "", ""
    "Works API", "", "", "", ""
