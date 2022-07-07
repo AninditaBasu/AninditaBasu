@@ -1,10 +1,6 @@
 Tools and APIs
 ======================
 
-.. admonition:: Testing interactive doc ... work-in-progress ...
-
-   `Swagger UI <./_static/test-wayback.html>`_
-
 Here's a list of the Internet Archive APIs, tools, and services.
 
 .. csv-table::
@@ -28,7 +24,7 @@ Here's a list of the Internet Archive APIs, tools, and services.
    :doc:`reviews`, "This API is for storing reviews of items. Registered users can review items.", "", "", ""
    :doc:`OCR module <ocr>`, "", "", "N/A", ""
    :doc:`PDF generation module<pdf>`, "", "", "N/A", ""
-   "Wayback machine API", "", "", "", ":doc:`tutorial-get-snapshot-wayback`, :doc:`tutorial-compare-snapshot-wayback`"
+   "Wayback machine API", "", "", "`Wayback API tryout page <./_static/test-wayback.html>`_", ":doc:`tutorial-get-snapshot-wayback`, :doc:`tutorial-compare-snapshot-wayback`"
    "Book Services", "", "", "", ""
    "Books API", "", "", "", ""
    "Works API", "", "", "", ""
