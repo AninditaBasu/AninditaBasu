@@ -50,6 +50,15 @@ extensions = [
 #    'alabaster',
     'recommonmark',
     'sphinx_copybutton',
+    'sphinx-favicon',
+]
+
+favicons = [
+    {
+        "rel": "icon",
+        "static-file": "logo.jpg",
+        "type": "image/jpg",
+    },
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -243,7 +252,7 @@ html_static_path = ['_static']
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = '_static/ia.png'
+html_logo = '_static/Internet Archive Logo.png'
 
 # Material theme options (see theme.conf for more information)
 html_theme_options = {
