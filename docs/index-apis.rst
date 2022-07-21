@@ -3,7 +3,7 @@ Tools and APIs
 
 .. admonition:: NEEDS REVIEW
 
-   The table on this page needs review by the maintainers of these APIs and services.
+   The table on this page needs review by the maintainers of these APIs and services. `Please edit this spreadsheet <https://docs.google.com/spreadsheets/d/1dPnLzDbNz6ISdIWa41gc0Iehu03C2_hs_kuwBCyNT9k/edit?usp=sharing>`_.
 
 Here's a list of the Internet Archive APIs, tools, and services.
 

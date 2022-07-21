@@ -199,7 +199,8 @@ html_title = 'Internet Archive Developer Portal'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-#html_static_path = []  # No static files currentl. Leave empty to silence warning.
+#html_static_path = []  # No static files currently. Leave empty to silence warning.
+#html_css_files = ['css/custom.css']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
