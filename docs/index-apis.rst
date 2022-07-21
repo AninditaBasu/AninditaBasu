@@ -28,7 +28,7 @@ Here's a list of the Internet Archive APIs, tools, and services.
    :doc:`reviews`, "This API is for storing reviews of items. Registered users can review items.", "", "", ""
    :doc:`OCR module <ocr>`, "", "", "N/A", ""
    :doc:`PDF generation module<pdf>`, "", "", "N/A", ""
-   "Wayback machine APIs", "These APIs are for determining if a URL is stored on the Wayback Machine and for querying, filtering and analysis of snapshot data.", "REST API", "`Wayback API reference <./_static/test-wayback.html>`_", ":doc:`tutorial-get-snapshot-wayback`, :doc:`tutorial-compare-snapshot-wayback`"
+   "Wayback machine APIs", "These APIs are for determining if a URL is stored on the Wayback Machine and for querying, filtering and analysis of snapshot data.", "REST API", "`Wayback API reference <./_static/test-wayback.html>`_ and `Wayback API visualization <./_static/vis/vis_wayback.html>`_", ":doc:`tutorial-get-snapshot-wayback`, :doc:`tutorial-compare-snapshot-wayback`"
    "Book Services", "", "", "", ""
    "Books API", "", "", "", ""
    "Works API", "", "", "", ""
