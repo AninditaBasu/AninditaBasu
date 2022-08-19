@@ -7,10 +7,6 @@ This tutorial shows you how to do these tasks:
 - Retrieve a list of all available versions of a website.
 - Compose the URLs for the versions to compare.
 
-.. contents:: On this page
-   :depth: 2
-   :local:
-
 ## API used
 
 [Wayback CDX Server API - BETA](https://archive.org/services/docs/api/wayback-cdx-server.html)

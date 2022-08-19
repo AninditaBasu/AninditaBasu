@@ -14,10 +14,6 @@ Here's a set of tutorials to help you get a feel of the things that you can do w
    :doc:`Seeing whether a website exists in the archives <tutorial-get-snapshot-wayback>`, "If you got a 404 error when accessing a website, you can, maybe, still see that website if the Internet Archive stored it."
    :doc:`Comparing two versions of a website <tutorial-compare-snapshot-wayback>`, "To see what changed on the website between two dates. "
 
-.. contents:: On this page
-   :depth: 3
-   :local:
-
 .. toctree::
     :caption: Tutorials
     :maxdepth: 2
