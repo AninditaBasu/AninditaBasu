@@ -15,11 +15,11 @@ Some of the things that you can do with the information on this Developer Portal
 
 -  Use the APIs and services to read data, for example, see what the first edition of Shakespeare's *Hamlet* looked like.
 -  Update or modify data, for example, change the metadata of an item.
--  Upload items. For example, add a video file to the Internet Archive.
+-  Upload items, for example, add a video file to the Internet Archive.
 
 .. tip::
    -  A complete list of the Internet Archive APIs and services is at :doc:`index-apis`.
-   -  Some step-by-step tutorials are at :doc:`index-tutorials`.
+   -  Some step-by-step How-Tos are at :doc:`index-tutorials`.
 
 How to use this portal
 -----------------------
@@ -29,9 +29,9 @@ To locate something on this portal, type a phrase in the Search bar at the top r
 To browse the portal, use the links on the navigation pane at the left. Every page also has breadcrumbs at the top.
 
 .. contents:: On this page
-   :depth: 3
-   :local:
-   :backlinks: none
+    :depth: 3
+    :local:
+    :backlinks: none
 
 Definitions
 ------------
