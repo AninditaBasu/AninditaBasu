@@ -6,7 +6,7 @@ This tutorial shows you how to see if a website was crawled and stored by the In
 
 ## API used 
 
-- [Wayback machine APIs](https://archive.org/help/wayback_api.php)
+[Wayback machine APIs](https://archive.org/help/wayback_api.php)
 
 ## Prerequisites
 
