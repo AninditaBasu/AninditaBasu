@@ -9,9 +9,7 @@ Welcome to the Internet Archive Developer Portal.
 
    Today, there's the Internet Archive, which contains thousands of books, videos, pictures, music, games, websites, cultural artifacts, and more. All of these are in digital form and freely available to anyone with an internet connection. `More about the Internet Archive... <https://archive.org/about/>`_
 
-This portal contains information to help you access data from, integrate with, or contribute to the Internet Archive.
-
-Some of the things that you can do with the information on this Developer Portal are:
+This portal contains information to help you access data from, integrate with, or contribute to the Internet Archive. Some of the things that you can do with the information on this Developer Portal are:
 
 -  Use the APIs and services to read data, for example, see what the first edition of Shakespeare's *Hamlet* looked like.
 -  Update or modify data, for example, change the metadata of an item.
@@ -20,6 +18,7 @@ Some of the things that you can do with the information on this Developer Portal
 .. tip::
    -  A complete list of the Internet Archive APIs and services is at :doc:`index-apis`.
    -  Some step-by-step How-Tos are at :doc:`index-tutorials`.
+   -  A quick-start guide is included later on this page.
 
 .. contents:: On this page
    :local:

@@ -16,12 +16,12 @@ Here's a set of tutorials to help you get a feel of the things that you can do w
 
 .. toctree::
    :caption: Tutorials
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
 
    tutorial-get-ia-credentials.md
    tutorial-find-identifier-item.md
-    tutorial-read-item-metadata.md
+   tutorial-read-item-metadata.md
    tutorial-create-item.md
    tutorial-get-snapshot-wayback.md
    tutorial-compare-snapshot-wayback.md
