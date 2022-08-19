@@ -45,25 +45,25 @@ Here's a list of the Internet Archive APIs, tools, and services.
 
 .. toctree::
     :caption: Tools and APIs
-    :maxdepth: 3
+    :maxdepth: 2
     :hidden:
 
-    items.rst
-    metadata-schema/index.rst
-    internetarchive/cli.rst
-    internetarchive/index.rst
-    ias3.rst
-    metadata.rst
-    md-read.rst
-    md-write.rst
-    md-record.rst
-    md-write-adv.rst
-    changes.rst
-    views_api.rst
-    views.rst
-    iarest.rst
-    tasks.rst
-    simplelists.rst
-    reviews.rst
-    ocr.rst
-    pdf.rst
+    items
+    metadata-schema/index
+    internetarchive/cli
+    internetarchive/index
+    ias3
+    metadata
+    md-read
+    md-write
+    md-record
+    md-write-adv
+    changes
+    views_api
+    views
+    iarest
+    tasks
+    simplelists
+    reviews
+    ocr
+    pdf

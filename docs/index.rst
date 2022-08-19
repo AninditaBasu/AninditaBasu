@@ -26,9 +26,12 @@ How to use this portal
 
 To locate something on this portal, type a phrase in the Search bar at the top right and press Enter. You're shown a list of pages that contain the search term.
 
-To move between the sections on a page, use the links under **Contents** at the right of the page.
+To browse the portal, use the links on the navigation pane at the left. Every page also has breadcrumbs at the top.
 
-To browse the portal, use the links on the navigation pane at the left.
+.. contents:: On this page
+   :depth: 3
+   :local:
+   :backlinks: none
 
 Definitions
 ------------

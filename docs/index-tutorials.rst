@@ -16,7 +16,7 @@ Here's a set of tutorials to help you get a feel of the things that you can do w
 
 .. toctree::
     :caption: Tutorials
-    :maxdepth: 3
+    :maxdepth: 2
     :hidden:
 
     tutorial-get-ia-credentials.md
