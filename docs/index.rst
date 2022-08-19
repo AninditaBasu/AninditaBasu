@@ -21,15 +21,15 @@ Some of the things that you can do with the information on this Developer Portal
    -  A complete list of the Internet Archive APIs and services is at :doc:`index-apis`.
    -  Some step-by-step How-Tos are at :doc:`index-tutorials`.
 
+.. contents:: On this page
+   :local:
+
 How to use this portal
 -----------------------
 
+Every page has breadcrumbs at the top. The navigation pane at the left has a short table of contents.
+
 To locate something on this portal, type a phrase in the Search bar at the top right and press Enter. You're shown a list of pages that contain the search term.
-
-To browse the portal, use the links on the navigation pane at the left. Every page also has breadcrumbs at the top.
-
-.. contents:: On this page
-   :local:
 
 Definitions
 ------------
