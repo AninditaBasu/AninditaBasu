@@ -98,11 +98,9 @@ Licensing
 The Internet Archive does not assert any new copyright or other proprietary rights over any of the material in its database. The legal issues for community projects like the Internet Archive can be confusing, but the Internet Archive aims to make available database that can be freely used.
 
 .. toctree::
-    :caption: Developer Portal
-    :maxdepth: 2
+    :maxdepth: 3
     :hidden:
 
-    index.rst
-    index-tutorials.rst
-    index-apis.rst
-    glossary.rst
+    index
+    index-tutorials
+    index-apis

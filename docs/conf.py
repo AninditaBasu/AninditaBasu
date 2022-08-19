@@ -87,7 +87,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Internet Archive item APIs'
-copyright = u'2018-2022, Internet Archive'
+copyright = u'2018-2022, Internet Archive.'
 author = u'Internet Archive'
 
 
@@ -152,7 +152,7 @@ html_permalinks_icon = '<span>#</span>'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation at https://sphinxawesome.xyz/.
-#html_theme_options = {"show_scrolltop": True, "nav_include_hidden": True, "show_nav": True, "breadcrumbs_separator": ">"}
+#html_theme_options = {"show_scrolltop": True}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []

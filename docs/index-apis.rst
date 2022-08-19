@@ -45,7 +45,7 @@ Here's a list of the Internet Archive APIs, tools, and services.
 
 .. toctree::
     :caption: Tools and APIs
-    :maxdepth: 2
+    :maxdepth: 3
     :hidden:
 
     items.rst
