@@ -15,14 +15,14 @@ Here's a set of tutorials to help you get a feel of the things that you can do w
    :doc:`Comparing two versions of a website <tutorial-compare-snapshot-wayback>`, "To see what changed on the website between two dates. "
 
 .. toctree::
-    :caption: Tutorials
-    :maxdepth: 2
-    :hidden:
+   :caption: Tutorials
+   :maxdepth: 2
+   :hidden:
 
-    tutorial-get-ia-credentials.md
-    tutorial-find-identifier-item.md
+   tutorial-get-ia-credentials.md
+   tutorial-find-identifier-item.md
     tutorial-read-item-metadata.md
-    tutorial-create-item.md
-    tutorial-get-snapshot-wayback.md
-    tutorial-compare-snapshot-wayback.md
+   tutorial-create-item.md
+   tutorial-get-snapshot-wayback.md
+   tutorial-compare-snapshot-wayback.md
     

@@ -44,26 +44,26 @@ Here's a list of the Internet Archive APIs, tools, and services.
    "Editions API", "", "", "", ""
 
 .. toctree::
-    :caption: Tools and APIs
-    :maxdepth: 2
-    :hidden:
+   :caption: Tools and APIs
+   :maxdepth: 2
+   :hidden:
 
-    items
-    metadata-schema/index
-    internetarchive/cli
-    internetarchive/index
-    ias3
-    metadata
-    md-read
-    md-write
-    md-record
-    md-write-adv
-    changes
-    views_api
-    views
-    iarest
-    tasks
-    simplelists
-    reviews
-    ocr
-    pdf
+   items
+   metadata-schema/index
+   internetarchive/cli
+   internetarchive/index
+   ias3
+   metadata
+   md-read
+   md-write
+   md-record
+   md-write-adv
+   changes
+   views_api
+   views
+   iarest
+   tasks
+   simplelists
+   reviews
+   ocr
+   pdf
