@@ -29,9 +29,9 @@ To locate something on this portal, type a phrase in the Search bar at the top r
 To browse the portal, use the links on the navigation pane at the left. Every page also has breadcrumbs at the top.
 
 .. contents:: On this page
-    :depth: 3
-    :local:
-    :backlinks: none
+   :depth: 3
+   :local:
+   :backlinks: none
 
 Definitions
 ------------
@@ -101,9 +101,9 @@ Licensing
 The Internet Archive does not assert any new copyright or other proprietary rights over any of the material in its database. The legal issues for community projects like the Internet Archive can be confusing, but the Internet Archive aims to make available database that can be freely used.
 
 .. toctree::
-    :maxdepth: 3
-    :hidden:
+   :maxdepth: 2
+   :hidden:
 
-    index
-    index-tutorials
-    index-apis
+   index
+   index-tutorials
+   index-apis
