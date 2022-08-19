@@ -99,7 +99,7 @@ The Internet Archive does not assert any new copyright or other proprietary righ
 
 .. toctree::
     :caption: Developer Portal
-    :maxdepth: 1
+    :maxdepth: 2
     :hidden:
 
     index.rst
