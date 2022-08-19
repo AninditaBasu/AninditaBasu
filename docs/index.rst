@@ -29,9 +29,7 @@ To locate something on this portal, type a phrase in the Search bar at the top r
 To browse the portal, use the links on the navigation pane at the left. Every page also has breadcrumbs at the top.
 
 .. contents:: On this page
-   :depth: 3
    :local:
-   :backlinks: none
 
 Definitions
 ------------
