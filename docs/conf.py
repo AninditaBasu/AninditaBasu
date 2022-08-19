@@ -24,8 +24,6 @@ from recommonmark.transform import AutoStructify
 sys.path.insert(0, os.path.abspath('./internetarchive/'))
 import internetarchive
 from internetarchive import __version__
-#import alabaster
-import sphinx_material
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -47,7 +45,6 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.viewcode',
     'sphinx.ext.intersphinx',
-#    'alabaster',
     'recommonmark',
     'sphinx_copybutton',
     'sphinx-favicon',
@@ -149,27 +146,8 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#html_theme_path = [alabaster.get_path()]
-#html_theme = 'alabaster'
-#"""
-#html_sidebars = {
-#    '**': [
-#        'sidebarlogo.html',
-#        'about.html',
-#        'navigation.html',
-#        'usefullinks.html',
-#        'searchbox.html',
-#    ]
-#}
-#"""
-#html_theme_options = {
-#    'github_user': 'jjjake',
-#    'github_repo': 'internetarchive',
-#    'travis_button': True,
-#    'github_button': True,
-#    'show_powered_by': 'false',
-#    'sidebar_width': '200px',
-#}
+html_theme = 'sphinxawesome_theme'
+html_permalinks_icon = '<span>#</span>'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -186,10 +164,6 @@ html_title = 'Internet Archive Developer Portal'
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
 
-# The name of an image file (relative to this directory) to place at the top
-# of the sidebar.
-#html_logo = '_static/ia.png'
-
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
@@ -199,8 +173,7 @@ html_title = 'Internet Archive Developer Portal'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-#html_static_path = []  # No static files currently. Leave empty to silence warning.
-#html_css_files = ['css/custom.css']
+html_css_files = ['css/custom.css']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -255,36 +228,6 @@ html_static_path = ['_static']
 # of the sidebar.
 html_logo = '_static/Internet Archive Logo.png'
 
-# Material theme options (see theme.conf for more information)
-html_theme_options = {
-
-    # Set the name of the project to appear in the navigation.
-    'nav_title': 'Internet Archive Developer Portal',
-    
-    # Specify a base_url used to generate sitemap.xml. If not
-    # specified, then no sitemap will be built.
-    'base_url': 'https://archive.org/services/docs/api/',
-    
-    # Set the color and the accent color
-    'color_primary': 'grey',
-    'color_accent': 'deep-orange',
-    
-    # Visible levels of the global TOC; -1 means unlimited
-    'globaltoc_depth': 2,
-    
-    # If False, expand all TOC entries
-    'globaltoc_collapse': False,
-    
-    # If True, show hidden TOC entries
-    'globaltoc_includehidden': True,
-    
-    #Include the master document at the top of the page in the breadcrumb bar. 
-    # Set this to true to override the rootrellink block, in which case the content of the overridden block will appear
-    'master_doc': True
-}
-html_sidebars = {
-    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
-}
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -370,15 +313,6 @@ intersphinx_mapping = {
     'python': ('https://docs.python.org/2.7', None),
     'requests': ('http://docs.python-requests.org/en/latest/', None)
 }
-
-# Use read the docs theme
-#html_theme = "sphinx_rtd_theme"
-#html_theme_options = {}
-#html_theme_options['prev_next_buttons_location'] = 'bottom'
-#html_theme_options['display_version'] = False
-
-# Use the sphinx material theme
-html_theme = "sphinx_material"
 
 def setup(app):
     app.add_config_value('recommonmark_config', dict(), True)
