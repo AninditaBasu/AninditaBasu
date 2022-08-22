@@ -35,7 +35,7 @@ for k,v in item.metadata.items():
 
 ## Sample output
 
-```
+```terminal
 identifier : appropsA013019_1
 collection : ['us_senate', 'usgovfilms', 'newsandpublicaffairs']
 creator : United States Senate Committee on Appropriations

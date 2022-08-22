@@ -15,13 +15,13 @@ This tutorial shows you how to do these tasks:
 
 The instructions in this tutorial use the `cURL` command. Most computers have this protocol pre-installed. To see if it's installed on your computer, at the command prompt, run the following command: 
 
-```bash
+```terminal
 curl
 ```
 
 You should get an output similar to this:
 
-```
+```terminal
 curl: try 'curl --help' for more information
 ```
 
@@ -35,7 +35,7 @@ This task is has two steps.
 
 Run a command in the following syntax: 
 
-```bash
+```terminal
 curl -X GET "http://web.archive.org/cdx/search/cdx?url=<URL>"
 ```
 
@@ -55,13 +55,13 @@ The result has the following components, separated by a single space:
 
 #### Example request
 
-```bash
+```terminal
 curl -X GET "http://web.archive.org/cdx/search/cdx?url=tc.eserver.org"
 ```
 
 #### Example response
 
-```bash
+```terminal
 org,eserver,tc)/ 20180515033912 http://tc.eserver.org:80/ text/html 302 RK36SX4X6VJ44FMUWDK4QYFPYGBYUJUH 404
 org,eserver,tc)/ 20180716082607 http://tc.eserver.org:80/ text/html 302 RK36SX4X6VJ44FMUWDK4QYFPYGBYUJUH 405
 org,eserver,tc)/ 20180915160723 http://tc.eserver.org:80/ text/html 302 RK36SX4X6VJ44FMUWDK4QYFPYGBYUJUH 404

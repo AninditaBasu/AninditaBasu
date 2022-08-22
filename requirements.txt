@@ -5,3 +5,4 @@ sphinxawesome-theme
 recommonmark>=0.5
 sphinx-copybutton
 sphinx-favicon
+myst-parser==0.18.0; python_version >= "3.7"

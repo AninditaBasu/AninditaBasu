@@ -12,13 +12,13 @@ This tutorial shows you how to see if a website was crawled and stored by the In
 
 The instructions in this tutorial use the `cURL` command. Most computers have this protocol pre-installed. To see if it's installed on your computer, at the command prompt, run the following command: 
 
-```bash
+```terminal
 curl
 ```
 
 You should get an output similar to this:
 
-```
+```terminal
 curl: try 'curl --help' for more information
 ```
 
@@ -28,7 +28,7 @@ If you don't see this output, install `cURL`.
 
 Run a command in the following syntax: 
 
-```bash
+```terminal
 curl -X GET "https://archive.org/wayback/available?url=<url>"
 ```
 where `<url>` is the URL of the website you're looking for.
@@ -43,7 +43,7 @@ The result is a JSON dictionary that has the following objects:
 
 ## Example request
 
-```bash
+```terminal
 curl -X GET "https://archive.org/wayback/available?url=http://tc.eserver.org/"
 ```
 

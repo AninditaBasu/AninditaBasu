@@ -36,7 +36,7 @@ for result in search:
 
 ## Sample output
 
-```
+```terminal
 appropsA022520_1
 appropsA022819_1
 appropsA030320_1

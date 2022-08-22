@@ -48,7 +48,11 @@ extensions = [
     'recommonmark',
     'sphinx_copybutton',
     'sphinx-favicon',
+    'myst_parser',
 ]
+
+myst_enable_extensions = ["colon_fence", "deflist", "replacements", "substitution"]
+
 
 favicons = [
     {
