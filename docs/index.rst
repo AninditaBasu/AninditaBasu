@@ -1,5 +1,5 @@
-Home
-=====
+Internet Archive Developer Portal
+==================================
 
 Welcome to the Internet Archive Developer Portal.
 
@@ -64,17 +64,16 @@ These steps assume these things:
 
 To get started with the `ia` CLI:
 
-#.   Download the Python binary by running the following command::
+#.  Download the Python binary by running the following command::
 
-      curl -LOs https://archive.org/download/ia-pex/ia
+     curl -LOs https://archive.org/download/ia-pex/ia
 
-#.   Make the binary an executable file by running the following command::
+#.  Make the binary an executable file by running the following command::
 
-      chmod +x ia
+     chmod +x ia
 
-#.   Try out some operations:
-
-      - Read the metadata of an item by running the following command::
+#.  Try out some operations:
+     - Read the metadata of an item by running the following command::
 
          ia metadata <unique_item_identifier>
 
@@ -83,7 +82,7 @@ To get started with the `ia` CLI:
          ia metadata U_S_A_For_Africa_We_Are_The_World
 
         (Here's a more detailed tutorial on :doc:`finding the unique item identifier <tutorial-find-identifier-item>`.)
-      - Upload an item to the Internet Archive by running a command with the following syntax::
+     - Upload an item to the Internet Archive by running a command with the following syntax::
 
          ia upload <identifier> file1 file2 --metadata="mediatype:texts" --metadata="param:arg"
 

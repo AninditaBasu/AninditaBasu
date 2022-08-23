@@ -138,34 +138,33 @@ pygments_style = 'sphinx'
 
 # -- Options for HTML output ----------------------------------------------
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-html_theme = "sphinx_book_theme"
-html_copy_source = True
-
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for this theme, see the
 # documentation at https://sphinx-book-theme.readthedocs.io/en/stable/index.html.
+
+html_theme = "sphinx_book_theme"
+html_copy_source = True
+html_sourcelink_suffix = ""
+html_title = "Internet Archive Developer Portal"
+html_logo = "_static/Internet Archive Logo.png"
 
 html_sidebars = {
     "**": ["sidebar-logo.html", "search-field.html", "sbt-sidebar-nav.html"]
 }
 
 html_theme_options = {
+    "logo_only": True,
     "show_navbar_depth": 2,
     "home_page_in_toc": True,
     "toc_title": "On this page",
     "show_toc_level": 2,
 }
 
-html_title = 'Internet Archive Developer Portal'
 html_static_path = ['_static']
 html_css_files = ['css/custom.css']
-html_logo = '_static/Internet Archive Logo.png'
 
 # Output file base name for HTML help builder.
 #htmlhelp_basename = 'internetarchivedoc'
-
 
 
 # -- Options for LaTeX output ---------------------------------------------
