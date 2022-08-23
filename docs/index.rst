@@ -1,4 +1,4 @@
-Internet Archive Developer Portal
+Home
 ==================================
 
 Welcome to the Internet Archive Developer Portal.
@@ -72,22 +72,22 @@ To get started with the `ia` CLI:
 
      chmod +x ia
 
-#.  Try out some operations:
+#.  Try out some operations.
      - Read the metadata of an item by running the following command::
 
          ia metadata <unique_item_identifier>
 
-        For example, to read the metadata of the song called `We are the world`, run::
+       For example, to read the metadata of the song called `We are the world`, run::
 
          ia metadata U_S_A_For_Africa_We_Are_The_World
 
-        (Here's a more detailed tutorial on :doc:`finding the unique item identifier <tutorial-find-identifier-item>`.)
+       (Here's a more detailed tutorial on :doc:`finding the unique item identifier <tutorial-find-identifier-item>`.)
      - Upload an item to the Internet Archive by running a command with the following syntax::
 
          ia upload <identifier> file1 file2 --metadata="mediatype:texts" --metadata="param:arg"
 
-        where ``<identifier>`` is a unique string.
-        (Here's a more detailed tutorial :doc:`on creating an item <tutorial-create-item>`.)
+       where ``<identifier>`` is a unique string.
+       (Here's a more detailed tutorial :doc:`on creating an item <tutorial-create-item>`.)
 
 Licensing
 ----------
