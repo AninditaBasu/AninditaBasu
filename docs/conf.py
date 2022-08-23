@@ -153,7 +153,6 @@ html_sidebars = {
 }
 
 html_theme_options = {
-    "logo_only": True,
     "home_page_in_toc": True,
     "show_navbar_depth": 2,
     "toc_title": "On this page",

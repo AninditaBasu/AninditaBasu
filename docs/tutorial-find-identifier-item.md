@@ -50,7 +50,3 @@ appropsA031120_1
 
 - Read the metadata of an item. See [Read the metadata of an item](tutorial-read-item-metadata.md).
 - Get the contents of a file. See ...link to tutorial...
-
-## Reference
-
-- [Metadata API](metadata-schema/index)
