@@ -146,7 +146,7 @@ html_theme = "sphinx_book_theme"
 html_copy_source = True
 html_sourcelink_suffix = ""
 html_title = "Internet Archive Developer Portal"
-html_logo = "_static/Internet Archive Logo.png"
+html_logo = "_static/logo.jpg"
 
 html_sidebars = {
     "**": ["sidebar-logo.html", "search-field.html", "sbt-sidebar-nav.html"]
@@ -155,13 +155,13 @@ html_sidebars = {
 html_theme_options = {
     "logo_only": True,
     "show_navbar_depth": 2,
-    "home_page_in_toc": True,
+    "home_page_in_toc": False,
     "toc_title": "On this page",
     "show_toc_level": 2,
 }
 
-html_static_path = ['_static']
-html_css_files = ['css/custom.css']
+html_static_path = ["_static"]
+html_css_files = ["css/custom.css"]
 
 # Output file base name for HTML help builder.
 #htmlhelp_basename = 'internetarchivedoc'
