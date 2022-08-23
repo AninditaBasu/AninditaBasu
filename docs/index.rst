@@ -98,6 +98,5 @@ The Internet Archive does not assert any new copyright or other proprietary righ
    :maxdepth: 2
    :hidden:
 
-   index
    index-tutorials
    index-apis
