@@ -146,27 +146,13 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = "sphinx_book_theme"
-html_copy_source = True
+html_theme = 'sphinxawesome_theme'
+html_permalinks_icon = '<span>#</span>'
 
 # Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for this theme, see the
-# documentation at https://sphinx-book-theme.readthedocs.io/en/stable/index.html.
-
-html_sidebars = {
-    "**": [
-        "sidebar-logo.html",
-        "search-field.html",
-        "sbt-sidebar-nav.html",
-    ]
-}
-
-html_theme_options = {
-    "home_page_in_toc": True,
-    "show_navbar_depth": 3,
-    "show_toc_level": 2,
-    "toc_title": "On this page",
-}
+# further.  For a list of options available for each theme, see the
+# documentation at https://sphinxawesome.xyz/.
+html_theme_options = {"show_scrolltop": True, "breadcrumbs_separator": "&gt;"}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
