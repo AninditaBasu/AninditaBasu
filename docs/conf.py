@@ -160,7 +160,7 @@ html_theme_options = {
 }
 
 html_static_path = ["_static"]
-html_css_files = ["css/custom.css"]
+html_css_files = ["custom.css"]
 
 # Output file base name for HTML help builder.
 #htmlhelp_basename = 'internetarchivedoc'
