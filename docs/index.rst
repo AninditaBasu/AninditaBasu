@@ -73,6 +73,7 @@ To get started with the `ia` CLI:
       chmod +x ia
 
 #.   Try out some operations:
+
       - Read the metadata of an item by running the following command::
 
          ia metadata <unique_item_identifier>

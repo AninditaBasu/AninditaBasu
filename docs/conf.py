@@ -74,7 +74,6 @@ source_suffix = {
     '.md': 'markdown',
 }
 
-
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
 
@@ -82,14 +81,9 @@ source_suffix = {
 master_doc = 'index'
 
 # General information about the project.
-#project = 'internetarchive'
-#copyright = '2015, Internet Archive'
-
-# General information about the project.
 project = u'Internet Archive item APIs'
-copyright = u'2018-2022, Internet Archive.'
+copyright = u'2018-2022, Internet Archive'
 author = u'Internet Archive'
-
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -158,84 +152,20 @@ html_sidebars = {
 }
 
 html_theme_options = {
-    "show_navbar_depth": 3,
-    "show_toc_level": 2,
+    "show_navbar_depth": 2,
+    "home_page_in_toc": True,
     "toc_title": "On this page",
+    "show_toc_level": 2,
 }
 
-# Add any paths that contain custom themes here, relative to this directory.
-#html_theme_path = []
-
-# The name for this set of Sphinx documents.  If None, it defaults to
-# "<project> v<release> documentation".
 html_title = 'Internet Archive Developer Portal'
-
-# A shorter title for the navigation bar.  Default is the same as html_title.
-#html_short_title = None
-
-# The name of an image file (within the static path) to use as favicon of the
-# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
-# pixels large.
-#html_favicon = None
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_css_files = ['css/custom.css']
-
-# Add any extra paths that contain custom files (such as robots.txt or
-# .htaccess) here, relative to this directory. These files are copied
-# directly to the root of the documentation.
-#html_extra_path = []
-
-# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
-# using the given strftime format.
-#html_last_updated_fmt = '%b %d, %Y'
-
-# If true, SmartyPants will be used to convert quotes and dashes to
-# typographically correct entities.
-#html_use_smartypants = True
-
-# Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
-
-# Additional templates that should be rendered to pages, maps page names to
-# template names.
-#html_additional_pages = {}
-
-# If false, no module index is generated.
-#html_domain_indices = True
-
-# If false, no index is generated.
-#html_use_index = True
-
-# If true, the index is split into individual pages for each letter.
-#html_split_index = False
-
-# If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
-
-# If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-#html_show_sphinx = True
-
-# If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-#html_show_copyright = False
-
-# If true, an OpenSearch description file will be output, and all pages will
-# contain a <link> tag referring to it.  The value of this option must be the
-# base URL from which the finished HTML is served.
-#html_use_opensearch = ''
-
-# This is the file name suffix for HTML files (e.g. ".xhtml").
-#html_file_suffix = None
+html_logo = '_static/Internet Archive Logo.png'
 
 # Output file base name for HTML help builder.
 #htmlhelp_basename = 'internetarchivedoc'
 
-# The name of an image file (relative to this directory) to place at the top
-# of the sidebar.
-html_logo = '_static/Internet Archive Logo.png'
 
 
 # -- Options for LaTeX output ---------------------------------------------
