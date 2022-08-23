@@ -154,15 +154,10 @@ html_copy_source = True
 # documentation at https://sphinx-book-theme.readthedocs.io/en/stable/index.html.
 
 html_sidebars = {
-    "**": [
-        "sidebar-logo.html",
-        "search-field.html",
-        "sbt-sidebar-nav.html",
-    ]
+    "**": ["sidebar-logo.html", "search-field.html", "sbt-sidebar-nav.html"]
 }
 
 html_theme_options = {
-    "home_page_in_toc": True,
     "show_navbar_depth": 3,
     "show_toc_level": 2,
     "toc_title": "On this page",

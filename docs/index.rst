@@ -20,15 +20,12 @@ This portal contains information to help you access data from, integrate with, o
    -  Some step-by-step How-Tos are at :doc:`index-tutorials`.
    -  A quick-start guide is included later on this page.
 
-.. contents:: On this page
-   :local:
-
 How to use this portal
 -----------------------
 
-Every page has breadcrumbs at the top. The navigation pane at the left has a short table of contents.
+The navigation pane at the left contains all the topics. Every page also has a navigation list near the top right.
 
-To locate something on this portal, type a phrase in the Search bar at the top right and press Enter. You're shown a list of pages that contain the search term.
+To locate something on this portal, type a phrase in the Search bar near the top of the navigation pane at the left, and press Enter. You're shown a list of pages that contain the search term.
 
 Definitions
 ------------
