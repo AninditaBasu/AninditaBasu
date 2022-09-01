@@ -5,4 +5,3 @@ sphinx-book-theme
 recommonmark>=0.5
 sphinx-copybutton
 sphinx-favicon
-sphinx-thebe

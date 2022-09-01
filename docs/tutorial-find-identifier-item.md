@@ -1,17 +1,3 @@
----
-jupytext:
-  formats: ipynb,md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.12
-    jupytext_version: 1.8.2
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
-
 # Find the unique identifier of an item in a collection
 
 Every item in a collection on the Internet Archive has a unique identifier. When you know the identifier of an item, you can fetch and update the various elements of that item.
@@ -65,30 +51,6 @@ appropsA031120_1
 - Read the metadata of an item. See [Read the metadata of an item](tutorial-read-item-metadata.md).
 - Get the contents of a file. See ...link to tutorial...
 
-## Code test
+## Code test for interactive Python
 
-<!-- Configure and load Thebe !-->
-<script type="text/x-thebe-config">
-  {
-      requestKernel: true,
-      mountActivateWidget: true,
-      mountStatusWidget: true,
-      binderOptions: {
-      repo: "binder-examples/requirements",
-      },
-  }
-</script>
-
-<script src="https://unpkg.com/thebe@latest/lib/index.js"></script>
-
-<div class="thebe-activate"></div>
-<div class="thebe-status"></div>
-
-<pre data-executable="true" data-language="python">
-%matplotlib inline
-import numpy as np
-import matplotlib.pyplot as plt
-x = np.linspace(0,10)
-plt.plot(x, np.sin(x))
-plt.plot(x, np.cos(x))
-</pre>
+...
