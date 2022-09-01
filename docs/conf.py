@@ -48,6 +48,7 @@ extensions = [
     'recommonmark',
     'sphinx_copybutton',
     'sphinx-favicon',
+    'sphinx-thebe',
 ]
 
 favicons = [
@@ -157,6 +158,9 @@ html_theme_options = {
     "show_navbar_depth": 2,
     "toc_title": "On this page",
     "show_toc_level": 2,
+    "launch_buttons": {
+        "thebe": True,
+    },
 }
 
 html_static_path = ["_static"]
