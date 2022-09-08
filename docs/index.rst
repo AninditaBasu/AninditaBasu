@@ -18,7 +18,7 @@ This portal contains information to help you access data from, integrate with, o
 .. tip::
    -  A complete list of the Internet Archive APIs and services is at :doc:`index-apis`.
    -  Some step-by-step How-Tos are at :doc:`index-tutorials`.
-   -  A quick-start guide is included later on this page.
+   -  Quick-start guides are at :doc:`index-quickstart`.
 
 How to use this portal
 -----------------------
@@ -51,44 +51,6 @@ WARC (Web ARChive)
 
 Web pages crawled by the Internet Archive are stored as `WARC`. This is a file format for concatenating several resources, each consisting of a set of simple text headers and an arbitrary data block, into one long file. The WARC format is an extension of the ARC file format (ARC) that has traditionally been used to store web crawls as sequences of content blocks harvested from the World Wide Web. Each capture in an ARC file is preceded by a one-line header that briefly describes the harvested content and its length. This header is directly followed by the retrieval protocol response messages and content. See `The WARC Format 1.1 <https://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/>`_.
 
-Quick start with the `ia` command line tool
---------------------------------------------
-
-One of the most common ways that we've seen developers use to access and manage the content at the Internet Archive is by using the command-line interface (CLI) tool. The following steps help you get started quickly with this tool. (For details on the CLI tool, see :doc:`internetarchive/cli`.)
-
-These steps assume these things:
-
-* You're using a Unix-like environment.
-* You're comfortable with the command line interface and `cURL`.
-* You're using Python 3.
-
-To get started with the `ia` CLI:
-
-#.  Download the Python binary by running the following command::
-
-     curl -LOs https://archive.org/download/ia-pex/ia
-
-#.  Make the binary an executable file by running the following command::
-
-     chmod +x ia
-
-#.  Try out some operations.
-     - Read the metadata of an item by running the following command::
-
-         ia metadata <unique_item_identifier>
-
-       For example, to read the metadata of the song called `We are the world`, run::
-
-         ia metadata U_S_A_For_Africa_We_Are_The_World
-
-       (Here's a more detailed tutorial on :doc:`finding the unique item identifier <tutorial-find-identifier-item>`.)
-     - Upload an item to the Internet Archive by running a command with the following syntax::
-
-         ia upload <identifier> file1 file2 --metadata="mediatype:texts" --metadata="param:arg"
-
-       where ``<identifier>`` is a unique string.
-       (Here's a more detailed tutorial :doc:`on creating an item <tutorial-create-item>`.)
-
 Licensing
 ----------
 
@@ -98,5 +60,6 @@ The Internet Archive does not assert any new copyright or other proprietary righ
    :maxdepth: 2
    :hidden:
 
+   index-quickstart
    index-tutorials
    index-apis
