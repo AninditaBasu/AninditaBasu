@@ -6,18 +6,19 @@ One of the most common ways that we've seen developers use for accessing and man
 
 It's assumed that:
 
-* You're using a Unix-like environment.
-* You're comfortable with the command line interface and `cURL`.
+-  You're using a Unix-like environment.
+-  You're comfortable with the command line interface and the `cURL` command.
+-  You're familiar with the nomenclature used at the Internet Archive. If not, see [Definitions](index.html#definitions).
 
-It's also assumed that you're familiar with the nomenclature used at the Internet Archive. If not, see [Definitions](index.html#definitions).
+``` important:: If you don’t have an Internet Archive account yet, go to https://archive.org/account/login and sign up. You'll need these credentials for the quick start steps.
+```
 
-To quickly get started with the `ia` CLI:
+To quickly get started with the `ia` CLI tool:
 
 1.  Download the Python binary by running the following command: `curl -LOs https://archive.org/download/ia-pex/ia`
 1.  Make the binary an executable file by running the following command: `chmod +x ia`.
 1.  Create a configuration file with your `archive.org` login credentials by running the following command: `ia configure`. When prompted, enter the credentials that you used for creating an Internet Archive account.
-    The information is saved to `$HOME/.config/ia.ini` or, if you don't have a `.config` directory in `$HOME`, to `$HOME/.ia`.
-    If you don’t have an Internet Archive account yet, go to [https://archive.org/account/login](https://archive.org/account/login) and sign up.
+    The information is saved to `$HOME/.config/ia.ini`. If you don't have a `.config` directory in `$HOME`, the info is saved to `$HOME/.ia`.
 1.  Try out some operations:
     -  Get the metadata of an item by running the following command: `ia metadata <unique_item_identifier>`.
         For example, to read the metadata of the song called `We are the world`, run: `ia metadata U_S_A_For_Africa_We_Are_The_World`. (Here's a more detailed tutorial on [finding the unique item identifier](tutorial-find-identifier-item).)

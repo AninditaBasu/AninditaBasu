@@ -19,5 +19,5 @@ You need `archive.org` login credentials. If you don't have an account yet, go t
 
 ## What to do next
 
-- Use the keys to upload an item to the Internet Archive. See [Create an item](tutorial-create-item.md).
+Now that you have these keys, maybe try uploading an item to the Internet Archive? See [Create an item](tutorial-create-item.md).
 

@@ -50,6 +50,6 @@ publicdate : 2022-06-02 17:39:38
 addeddate : 2022-06-02 17:39:38
 ```
 
-## What to do next
+## Related
 
--  Improve the metadata of an item. See ...link to tutorial...
+See [Find the unique identifier of an item in a collection](tutorial-find-identifier-item.md).

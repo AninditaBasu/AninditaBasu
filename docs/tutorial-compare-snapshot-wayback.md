@@ -79,3 +79,7 @@ Snapshots archived by the Wayback machine contain the following prefix to  URLs:
 2. Open your favourite diff tool, and use compare the two versions.
 
 If you don't see any difference, it might be that the digests of both the websites are the same. If so, pick two versions that have different digests, and compare them.
+
+## Related
+
+[See whether a website exists in the archives](tutorial-get-snapshot-wayback.md).
