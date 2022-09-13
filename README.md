@@ -28,12 +28,12 @@ internetarchive github project.
 
 ## To create an interactive experience for your API
 
-You'll need an API specifications file in the JSON format.
+You'll need an API specifications file in the `JSON` format.
 
-1.  Put the JSON file in the `docs/_static` folder.
+1.  Put your `JSON` specs file in the `docs/_static` folder.
 2.  In the same folder, create a copy of the `api_sandbox_template.html` file, and name it to whatever you want.
-3.  In a text editor, open the file you created in the previous step, and specify the name of your JSON file in line 19 (the `url` parameter).
-4.  Add a link to this `HTML` file on the APIs page of the portal. To do so:
+3.  In a text editor, open the file you created in the previous step, and specify the name of your `JSON` file in line 19 (for the `url` parameter).
+4.  Add a link to this `HTML` file on the APIs index page of the docs portal. To do so:
     1.  Open the `docs/index-apis.rst` file.
 	2.  Locate your API in the table of that page.
-	3.  In the row for your API, add the `HTML` file in the fourth column (the one titled 'Interactive documentation).
+	3.  In the row for your API, add the `HTML` file in the fourth column (the one titled 'Interactive documentation').
