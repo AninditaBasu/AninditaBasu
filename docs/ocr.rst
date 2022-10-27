@@ -3,8 +3,8 @@ OCR at the Internet Archive with Tesseract and hOCR
 
 :authors: Merlijn Wajer <merlijn@archive.org>
 :date: 2020-01-29
-:last-updated: 2021-04-15
-:version: 1.0
+:last-updated: 2022-09-07
+:version: 1.1
 
 
 Introduction
@@ -46,8 +46,8 @@ and libraries exist, as do hOCR viewers, such as `hocrviewer-miradoc
 
 We have also created our own tooling to work on (large) hOCR files, as some of
 the existing tooling ran out of memory rather quickly; see `archive-hocr-tools
-<https://git.archive.org/merlijn/archive-hocr-tools>`_ (`documentation
-temporarily hosted here <https://archive.org/~merlijn/archive-hocr-tools/>`_).
+<https://github.com/internetarchive/archive-hocr-tools>`_ (`documentation
+hosted here <https://archive-hocr-tools.readthedocs.io/en/latest/>`_).
 
 We intend to keep around the older (pre-tesseract) OCR results, but will attempt
 to convert them to hOCR as well, providing a hOCR file for each item with OCR
@@ -294,7 +294,11 @@ ocr_degraded
 If OCRing a specific page fails, this value will get set to the error that
 caused the page failure. Currently can get set to:
 
-* ``page-timeout``
+* ``page-timeout``: OCR process timed out
+* ``tesseract-crash``: Tesseract crashed during OCR, an empty page was produced
+* ``script-only``: OCR is done only on script datasets
+* ``pdf-text-convert``: The PDF text layer contained one or more issues
+* ``pdf-text-garbage``: The PDF text layer was not used to create the chOCR file
 
 Task arguments
 --------------
@@ -361,6 +365,29 @@ ocr-page-timeout
 Set the maximum running time (in seconds) for any given page, default is ``30``
 minutes (``1800`` seconds). Applies to both script detection and the actual OCR
 process. If the timeout is set to ``0``, no timeout is used.
+
+ocr-additional-languages
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Some collections of items could benefit from using additional languages or
+scripts during OCR. For example, older works (from the 18th century) might use
+the `Long S <https://en.wikipedia.org/wiki/Long_s>`_, but otherwise might not be
+written in the Fraktur script. In this case Tesseract will not detect the Fraktur
+script and as such the "Long S" won't be picked up properly, and will instead be
+read as ``f``.
+Setting ``Fraktur`` in the item ``language`` metadata could result in the "Long S"
+being picked up, but that would be an awkward fit, as ``Fraktur`` isn't really a
+language, but rather a script. Instead, setting the following
+`ocr_default_parameters`_ metadata on a collection of an item::
+
+    ocr-additional-languages:Fraktur
+
+will cause the OCR process of every item contained in the collection to use the
+Fraktur script data set, in addition to the languages of an item, which in turn
+would likely cause the "Long S" to be picked up properly.
+
+The `ocr-additional-languages` parameter can also be used as a (one off) task
+parameter, but that might not be a particularly sensible use case.
 
 
 Searching
@@ -441,6 +468,20 @@ If an Abbyy XML file is present, the module can instead create a hOCR from an
 existing ``_abbyy.gz`` file. Whether this happens or not is decided externally
 (by the ``sourceFormat`` provided to the module).
 
+Conversion from Text PDF
+------------------------
+
+If a Text PDF file is present, the module can instead create a hOCR from the
+text layers of a PDF document. Whether this happens or not is decided
+externally (by the ``sourceFormat`` provided to the module).
+
+If minor errors occur during the conversion, `ocr_degraded`_ will get set to
+``pdf-text-convert``.
+
+In case the text layer of the PDF is deemed unacceptable (for example due to
+encoding problems), the module may decide to just perform OCR on rasterised
+images of the PDF. `ocr_degraded`_ will also be set to ``pdf-text-garbage`` in
+this case.
 
 
 Supported languages
@@ -469,7 +510,7 @@ Code repositories
 * https://git.archive.org/www/tesseract
 * https://git.archive.org/www/hocr-fts-text
 * https://git.archive.org/www/hocr-pageindex
-* https://git.archive.org/merlijn/archive-hocr-tools
+* https://github.com/internetarchive/archive-hocr-tools
 * https://git.archive.org/merlijn/python-derivermodule
 * https://git.archive.org/merlijn/hocr-char-to-word
 

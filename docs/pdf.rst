@@ -1,10 +1,10 @@
-PDF generation and compression at the Internet Archive
-######################################################
+PDF analysis, generation and compression at the Internet Archive
+################################################################
 
 :authors: Merlijn Wajer <merlijn@archive.org>
 :date: 2021-08-13
-:last-updated: 2021-08-13
-:version: 1.0
+:last-updated: 2022-09-07
+:version: 1.1
 
 
 Introduction
@@ -12,7 +12,8 @@ Introduction
 
 This document outlines the PDF generation module and its features as used to
 generate PDF documents for the Internet Archive items and elaborates on design
-decisions and how various solutions were picked.
+decisions and how various solutions were picked. Additionally, the document
+elaborates on the PDF analysis module that generates "PDF Metadata JSON" files.
 
 Motivation
 ==========
@@ -151,13 +152,161 @@ The PDF module currently supports no special task arguments.
 
 .. Summary of the PDF module functionality
 .. =======================================
-.. 
+..
 .. (This would contain a basic explanation of MRC, and how the text layers are
 ..  created/rendered)
 
 
+PDF Analysis module
+===================
+
+User uploaded PDFs may be analyzed by this module, which attempts to derive
+relevant information from a PDF and stores said information in a JSON file.
+This file can then be used by downstream modules to analyze the PDF without
+actually having to read the PDF, saving time and complexity.
+
+These files are called ``Image-Only PDF Metadata JSON`` and ``Text PDF
+Metadata JSON`` - to differentiate between PDFs with just images and PDFs with a
+text layer. The contents of the `PDF Metadata JSON`_ files will be the same.
+
+PDF Metadata JSON
+-----------------
+
+This file contains structured information derived from PDFs, which can be used
+to (but is not limited to):
+
+* estimate the image size per page
+* understand the color usage of the PDF
+* extract any hyperlinks from the PDF
+* analyze various properies of the images of a PDF
+* check if a PDF page has a text layer
+
+
+Metadata JSON Structure
+-----------------------
+
+The PDF metadata has the following top-level values:
+
+* ``version``: string key-value pairs for the various versions used to perform the
+  analysis:
+
+  * ``analysis``: version of the code analysis
+  * ``spec``: version of the PDF Metadata JSON that this document adheres to
+  * ``pymupdf``: PyMuPDF version
+  * ``mupdf``: MuPDF version
+
+* ``page_count``: number of pages in the PDF
+* ``page_data``: list of metadata per page, see below for detailed information
+* ``imagestack_image_format``: string value containing the suggested format for
+  the imagestack based on analysis of the image contents:
+
+  * ``RGB``
+  * ``Grayscale``
+  * ``Bitonal``
+
+The ``page_data`` has the following values for each page:
+
+* ``page_number``: The number of the page, 0-indexed
+* ``page_rotation``: Degrees the page is rotated by, if any
+* ``page_language``: The language of the page, if any
+* ``page_rect``: The rectangle defining the page, in ``(x0, y0, x1, y1)``
+  format, in points.
+* ``estimated_scale``: By how much to scale the page to make it comfortable to
+  read for a human on a computer
+* ``estimated_ppi``: The estimated PPI of the page when scaled by the
+  ``estimated_scale`` value
+* ``estimated_default_render_res``: The estimated resolution in **pixels** when
+  applying the suggested ``estimated_scale`` parameter, in ``(x0, y0, x1, y1)``
+  format.
+* ``has_text_layer``: boolean indicating whether the page has a text layer
+* ``page_without_images_color_mode``: string value of the color mode of the
+  page, with any images removed:
+
+  * ``RGB``
+  * ``Grayscale``
+  * ``Bitonal``
+
+* ``image_data``: list of image metadata per page, see below for detailed
+  information
+* ``hyperlinks``: list of hyperlinks per page, see below for detailed
+  information
+
+``image_data`` has the following values for each image:
+
+* ``xref``: The xref of the image in the PDF
+* ``width``: The width of the image (in pixels) in the PDF -- this can be
+  different from how large the image is rendered on the page itself
+* ``height``: The height of the image (in pixels) in the PDF -- this can be
+  different from how large the image is rendered on the page itself
+* ``depth``: Integer value representing the bit-depth of the image:
+
+  * ``1``: bitonal (black/white) image (typical depth for masks and heavily compressed images)
+  * ``8``: typical depth for grayscale and colored images
+* ``label``: The label of the image in the PDF
+* ``bbox``: Bounding box of the image on the page, in ``(x0, y0, x1, y1)`` format, in points
+* ``transform``: matrix transforming image rect to bbox
+* ``mode``: string value representing the mode of the image, mimicking `Pillow image modes <https://pillow.readthedocs.io/en/stable/handbook/concepts.html#modes>`_, currently limited to:
+
+  * ``1``: Bitonal
+  * ``L``: Grayscale
+  * ``LA``: Grayscale with transparency layer
+  * ``RGB``: RGB
+  * ``RGBA``: RGB with transparency layer
+
+* ``mask``: has the following key-values (if the image has a mask):
+
+  * ``xref``: The xref of the mask image in the PDF
+  * ``width``: the width of the mask in pixels
+  * ``height``: the height of the mask in pixels
+  * ``depth``: the bit-depth of the mask (typically ``1``, but can vary)
+  * ``mode``: the image mode of the mask (typically ``"1"`` but can vary)
+
+``hyperlinks`` have the following values for each hyperlink:
+
+* ``uri``: string value of target of the link
+* ``xref``: xref of link in the PDF
+* ``bbox``: bounding box of the link, in ``(x0, y0, x1, y1)`` format, in points
+
+
+
 Release history
 ===============
+
+PDF module 0.0.19
+-----------------
+
+Date: 2022-08-01
+
+Changes:
+
+* Switch to archive-pdf-tools 1.4.16
+* Extend downsample collection to the `microfilm` collection
+* Handle items without title metadata
+* Pull in Pillow 9.2.0
+
+PDF module 0.0.17 / 0.0.18
+--------------------------
+
+Date: 2022-02-03
+
+Changes:
+
+* Switch to archive-pdf-tools 1.4.12
+* Switch to PyMuPDF 1.19.2
+* Add fast denoising, turned on by default
+* Fix noise estimation on very small images
+
+
+PDF module 0.0.16
+-----------------
+
+Date: 2021-10-28
+
+Changes:
+
+* Switch to PyMuPDF 1.19.0
+* Fetch versions of our software from pypi
+* Add Kakadu fallback in case Pillow fails
 
 PDF module 0.0.15
 -----------------

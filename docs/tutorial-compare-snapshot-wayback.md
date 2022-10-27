@@ -80,6 +80,17 @@ Snapshots archived by the Wayback machine contain the following prefix to  URLs:
 
 If you don't see any difference, it might be that the digests of both the websites are the same. If so, pick two versions that have different digests, and compare them.
 
+## Wayback Changes
+
+"Wayback Changes" is a tool you can use to identify, and display, changes in the content of archives
+of URLs.
+To access it use the following URL syntax: `https://web.archive.org/web/changes/<URL>`.
+
+First you can select two different archives for a URL, based on an interface that shows the degree of
+relative change from one archive to another.
+
+Then you can see the replay of the two URLs you select, side-by-side, with changes highlighted in Blue and Yellow.
+
 ## Related
 
 [See whether a website exists in the archives](tutorial-get-snapshot-wayback.md).
