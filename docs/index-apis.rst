@@ -11,7 +11,7 @@ Here's a list of the Internet Archive APIs, tools, and services.
    :doc:`internetarchive/cli`, "The Command-Line Tool (CLI) is for interacting with various archive.org services from the command-line.", "Binary program", "N/A", ":doc:`Quick start with the ia command line tool<index>`"
    :doc:`internetarchive/index`, "This is a Python interface for interacting with various archive.org services.", "Python library", "N/A", ":doc:`tutorial-find-identifier-item`, :doc:`tutorial-read-item-metadata`, :doc:`tutorial-create-item`"
    :doc:`S3-like API <ias3>`, "This API is for creating items, uploading files, and managing metadata on an Amazon S3-like server.", "Python library, REST API, SOAP API", "", ""
-   :doc:`metadata`, "This API is for fetching the entire metadata of an item in a single transaction.", "PHP library, REST API", "", ""
+   :doc:`metadata`, "This API is for fetching the entire metadata of an item in a single transaction.", "PHP library, REST API", "`Item Metadata API reference <./_static/item_api.html>`_", ""
    :doc:`md-read`, "This API is for fetching metadata.", "PHP library, REST API", "", ""
    :doc:`md-write`, "This API is for updating metadata.", "PHP library, REST API", "", ""
    :doc:`md-record`, "This API is for fetching number of fields for an item.", "PHP library, REST API", "", ""
