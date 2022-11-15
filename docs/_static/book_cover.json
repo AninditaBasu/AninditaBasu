@@ -19,7 +19,7 @@
             "description": "An archive.org item identifier having mediatype text (for example, the ID of a book).",
             "parameters": [
                 {
-                    "name": "id",
+                    "name": "itemid",
                     "description": "Try with `theworksofplato01platiala` as the ID. Or, see <a href = 'https://archive.org/developers/tutorial-find-identifier-item.html'>how to find the unique identifier of an item</a>.",
                     "in": "path",
                     "type": "string",
