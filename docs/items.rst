@@ -72,3 +72,7 @@ currently redirects to::
 **DO NOT LINK** to any archive.org URL that begins with numbers like this.
 This refers to the particular machine that we're serving the file from right now, but we move items to new servers all the time.
 If you link to this sort of URL, instead of the archival URL, your link **WILL** break at some point.
+
+Related links
+--------------
+-   `How Archive.org items are structured <https://blog.archive.org/2011/03/31/how-archive-org-items-are-structured/>`_

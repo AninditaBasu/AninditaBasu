@@ -1,0 +1,41 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Items API",
+    "description": "API for fetching the entire metadata of an Internet Archive item in a single transaction"
+  },
+  "host": "archive.org",
+  "schemes": [
+    "https"
+  ],
+  "basePath": "/",
+  "produces": [
+    "application/json",
+    "application/javascript"
+  ],
+  "paths": {
+    "/metadata/{id}": {
+        "get": {
+            "description": "The identifier for the Archive.org item for which you want metadata.",
+            "parameters": [
+                {
+                    "name": "id",
+                    "description": "Try with `appropsA022520_1` as the ID. Or, see <a href = 'https://archive.org/developers/tutorial-find-identifier-item.html'>how to find the unique identifier of an item</a>.",
+                    "in": "path",
+                    "type": "string",
+                    "required": true
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Item metadata"
+                },
+                "400": {
+                    "description": "Invalid request"
+                }
+            }
+        }
+    }
+  }
+}

@@ -5,7 +5,6 @@
 body {
   background-color: #fff;
   font-size: calc((14/16) * 1rem);
-  /* --sbt-sidebar-font-size: calc((14/16) * 1rem); */
 }
 .bd-sidebar__content, .header-article, .bd-toc nav {
   background-color: #f5f5f7;
