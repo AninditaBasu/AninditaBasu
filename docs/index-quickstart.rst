@@ -13,4 +13,5 @@ There's more than one way to quickly start using the Internet Archive for access
 
    quick-start-cli.md
    quick-start-pip.md
+   quick-start-sandbox.md
     

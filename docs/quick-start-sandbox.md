@@ -1,7 +1,9 @@
-# Quick start with interactive pages
+# Quick start with the APIs
 
-Here are some interactive pages that you can use to quickly get a sense of the resources that the various APIs make available to you.
+Use these interactive pages to quickly get a sense of the API resources available to you.
 
--  [Item metadata API reference](/_static/item_api.html)
--  [Wayback API reference](/_static/wayback_api.html)
--  [Book cover API reference](/_static/book_cover_api.html)
+<ul>
+<li><a href = "./_static/item_api.html">Item metadata API</a></li>
+<li><a href = "./_static/wayback_api.html">Wayback API</a></li>
+<li><a href = "./_static/book_cover_api.html">Book cover API</a></li>
+</ul>
