@@ -2,8 +2,8 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "Items API",
-    "description": "API for retrieving book cover images"
+    "title": "Book cover API",
+    "description": "API for retrieving book cover images<br/><a href = 'https://archive.org/developers/'>Internet Archive Developer Portal</a>"
   },
   "host": "archive.org",
   "schemes": [
@@ -11,7 +11,8 @@
   ],
   "basePath": "/",
   "produces": [
-    "application/json"
+    "application/json",
+    "application/javascript"
   ],
   "paths": {
     "/services/img/{itemid}": {
