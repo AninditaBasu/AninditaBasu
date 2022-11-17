@@ -5,6 +5,10 @@
     "title": "Items API",
     "description": "API for fetching the entire metadata of an Internet Archive item in a single transaction"
   },
+    "externalDocs": {
+    "description": "Internet Archive Developer Portal",
+    "url": "https://archive.org/developers/"
+  },
   "host": "archive.org",
   "schemes": [
     "https"

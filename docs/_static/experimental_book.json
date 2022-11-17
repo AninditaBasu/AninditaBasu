@@ -1,0 +1,39 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Experimental book API",
+    "description": "API for fetching all availavle archive.org services and API endpoints into a single response"
+  },
+  "externalDocs": {
+    "description": "Internet Archive Developer Portal",
+    "url": "https://archive.org/developers/"
+  },
+  "host": "api.archivelab.org",
+  "schemes": [
+    "https"
+  ],
+  "basePath": "/",
+  "produces": [
+    "application/json",
+    "application/javascript"
+  ],
+  "paths": {
+    "/v1/books": {
+        "get": {
+            "description": "No input parameters needed.<br/><br/>See <a href = 'https://doc-tools.readthedocs.io/en/ia-test-gsod/experimental-book-apis.html'>Experimental book APIs</a>\n\n",
+            "parameters": [
+
+            ],
+            "responses": {
+                "200": {
+                    "description": "APIs list"
+                },
+                "400": {
+                    "description": "Invalid request"
+                }
+            }
+        }
+    }
+  }
+}

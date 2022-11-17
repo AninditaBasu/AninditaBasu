@@ -99,3 +99,4 @@ Here's a list of the Internet Archive APIs, tools, and services.
    memento
    book-services
    book-manifests
+   experimental-book-apis
