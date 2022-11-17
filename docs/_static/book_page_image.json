@@ -3,7 +3,7 @@
   "info": {
     "version": "1.0.0",
     "title": "Book page image API",
-    "description": "API for fetching a book page image, which you can then manipulate (see the OpenLibrary Book API reference on the <a href = ''>Community resources</a> page), for example, crop or rotate"
+    "description": "API for fetching a book page image, which you can then manipulate (see the OpenLibrary Book API reference on the <a href = ''>Community resources</a> page), for example, crop or rotate<br/><br/>This API causes a redirect. Make sure that your request mechanisms are configured to follow redirects as the above call will trigger a url redirect from the canonical /download path to the server on which the actual book page resides on disk.<br/><br/>Therefore, when you use this sandbox to enter the parameters and press 'Execute', you'll get a CORS error. But, you can copy the generated Request URL to a browser, and see the result."
   },
     "externalDocs": {
     "description": "Internet Archive Developer Portal",
