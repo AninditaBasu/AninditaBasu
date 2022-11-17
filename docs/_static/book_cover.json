@@ -3,7 +3,11 @@
   "info": {
     "version": "1.0.0",
     "title": "Book cover API",
-    "description": "API for retrieving book cover images<br/><a href = 'https://archive.org/developers/'>Internet Archive Developer Portal</a>"
+    "description": "API for retrieving book cover images"
+  },
+  "externalDocs": {
+    "description": "Internet Archive Developer Portal",
+    "url": "https://archive.org/developers/"
   },
   "host": "archive.org",
   "schemes": [
@@ -29,7 +33,7 @@
             ],
             "responses": {
                 "200": {
-                    "description": "Item metadata"
+                    "description": "Book cover"
                 },
                 "400": {
                     "description": "Invalid request"
