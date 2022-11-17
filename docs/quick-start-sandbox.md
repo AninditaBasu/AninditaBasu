@@ -7,4 +7,5 @@ Use these interactive pages to quickly get a sense of the API resources availabl
 <li><a href = "./_static/wayback_api.html">Wayback API</a></li>
 <li><a href = "./_static/book_cover_api.html">Book cover API</a></li>
 <li><a href = "./_static/experimental_book_api.html">Experimental book API</a></li>
+<li><a href = "./_static/snapshot_api.html">Snapshot API</a></li>
 </ul>

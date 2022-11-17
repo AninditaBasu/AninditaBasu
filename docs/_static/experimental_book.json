@@ -21,7 +21,7 @@
   "paths": {
     "/v1/books": {
         "get": {
-            "description": "No input parameters needed.<br/><br/>See <a href = 'https://doc-tools.readthedocs.io/en/ia-test-gsod/experimental-book-apis.html'>Experimental book APIs</a>\n\n",
+            "description": "No input parameters needed.<br/><br/>See <a href = 'https://doc-tools.readthedocs.io/en/ia-test-gsod/experimental-book-apis.html'>Experimental book APIs</a>",
             "parameters": [
 
             ],
