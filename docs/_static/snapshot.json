@@ -19,7 +19,7 @@
     "application/javascript"
   ],
   "paths": {
-    "/": {
+    "/capture": {
         "post": {
             "description": "The URL you want archive. For details, see ",
             "parameters": [
