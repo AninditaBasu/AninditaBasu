@@ -49,16 +49,16 @@ Here's a list of the Internet Archive APIs, tools, and services.
    :doc:`md-record`, "This API is for fetching number of fields for an item.", "--", "--"
    :doc:`md-write-adv`, "This API is for updating item metadata through JSON patches.", "--", "--"
    :doc:`Changes API <changes>`, "This API is for  fetching identifiers that have changed within a particular time period.", "--", "--"
-   :doc:`views_api`, "This API is for fetching the view data of items and collections.", "", ""
+   :doc:`views_api`, "This API is for fetching the view data of items and collections.", "--", "--"
    :doc:`iarest`, "These microservices are stateless, representational programming interfaces that accept and return JSON payloads.", "--", "--"
    :doc:`Tasks API <tasks>`, "This API is for fetching information about running, pending, and completed tasks.", "--", "--"
    :doc:`Relationships API <simplelists>`, "This API is for creating relationships between items on the Internet Archive.", "--", "--"
    :doc:`reviews`, "This API is for storing reviews of items. Registered users can review items.", "--", "--"
-   :doc:`OCR module <ocr>`, "", "--", "--"
-   :doc:`PDF generation module<pdf>`, "", "--", "--"
+   :doc:`OCR module <ocr>`, "--", "--", "--"
+   :doc:`PDF generation module<pdf>`, "--", "--", "--"
    "Wayback machine APIs", "These APIs are for determining if a URL is stored on the Wayback Machine and for querying, filtering and analysis of snapshot data.", "`Wayback API reference <./_static/wayback_api.html>`_ and `Wayback API visualization <./_static/vis/wayback_vis.html>`_", ":doc:`tutorial-get-snapshot-wayback`, :doc:`tutorial-compare-snapshot-wayback`"
    :doc:`Book services <book-services>`, "--","`Book cover API reference <./_static/book_cover_api.html>`_", "--"
-   :doc:`Books, experimental <book-services>`, "--","`Experimental book API reference <./_static/experimental_book_api.html>`_", "--"
+   :doc:`Experimental books API <experimental-book-api>`, "--","`Experimental books API reference <./_static/experimental_book_api.html>`_", "--"
 
 .. toctree::
    :caption: Tools and APIs
