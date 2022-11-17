@@ -1,0 +1,51 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Book page image API",
+    "description": "API for fetching a book page image, which you can then manipulate (see the OpenLibrary Book API reference on the <a href = ''>Community resources</a> page), for example, crop or rotate"
+  },
+    "externalDocs": {
+    "description": "Internet Archive Developer Portal",
+    "url": "https://archive.org/developers/"
+  },
+  "host": "archive.org",
+  "schemes": [
+    "https"
+  ],
+  "basePath": "/",
+  "produces": [
+    "application/json",
+    "application/javascript"
+  ],
+  "paths": {
+    "/download/{itemid}/page/page_:page.jpg": {
+        "get": {
+            "description": "The identifier for the Archive.org item for which you want the image.",
+            "parameters": [
+                {
+                    "name": "itemid",
+                    "description": "Try with `theworksofplato01platiala` as the ID. Or, see <a href = 'https://archive.org/developers/tutorial-find-identifier-item.html'>how to find the unique identifier of an item</a>.",
+                    "in": "path",
+                    "type": "string",
+                    "required": true
+                },
+				{
+                    "name": "page",
+                    "description": "The specific page that has an image you want to retrieve.",
+                    "in": "query",
+                    "type": "integer"
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "image retrieve"
+                },
+                "400": {
+                    "description": "Invalid request"
+                }
+            }
+        }
+    }
+  }
+}

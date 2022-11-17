@@ -107,7 +107,7 @@
       "name": "url",
       "in": "query",
       "type": "string",
-      "description": "A single URL to query.",
+      "description": "A single URL to query. Must be the full URL, including `https://` or `http://`.",
       "required": true
     },
     "closest": {

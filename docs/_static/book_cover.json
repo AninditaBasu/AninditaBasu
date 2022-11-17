@@ -25,7 +25,7 @@
             "parameters": [
                 {
                     "name": "itemid",
-                    "description": "Try with `theworksofplato01platiala` as the ID. Or, see <a href = 'https://archive.org/developers/tutorial-find-identifier-item.html'>how to find the unique identifier of an item</a>.",
+                    "description": "Try with `hamlet0000shak_v1r4` as the ID. Or, see <a href = 'https://archive.org/developers/tutorial-find-identifier-item.html'>how to find the unique identifier of an item</a>.",
                     "in": "path",
                     "type": "string",
                     "required": true
