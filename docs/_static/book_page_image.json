@@ -34,8 +34,7 @@
                     "name": "page",
                     "description": "The specific page that has an image you want to retrieve.",
                     "in": "query",
-                    "type": "integer",
-					"default": 1
+                    "type": "integer"
                 }
             ],
             "responses": {
