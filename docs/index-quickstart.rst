@@ -5,6 +5,7 @@ There's more than one way to quickly start using the Internet Archive for access
 
 - Through the command line interface. See :doc:`Quick start with the ia command line tool <quick-start-cli>`.
 - With the Python package. See :doc:`Quick start with the Python package <quick-start-pip>`.
+- Through API sandboxes. See :doc:`Quick start with the APIs <quick-start-sandbox>`.
 
 .. toctree::
    :caption: Tutorials

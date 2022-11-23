@@ -1,6 +1,6 @@
 # Quick start with the APIs
 
-Use these interactive pages to quickly get a sense of the API resources available to you.
+Use the following interactive pages to quickly get a sense of the API resources available to you.
 
 <ul>
 <li><a href = "./_static/item_api.html">Item metadata API</a></li>
@@ -10,4 +10,8 @@ Use these interactive pages to quickly get a sense of the API resources availabl
 <li><a href = "./_static/book_page_image_api.html">Book page image API</a></li>
 </ul>
 
-For a full list, see [Tools and APIs](index-apis.rst).
+``` tip:: 
+   -  A complete list of the Internet Archive APIs and services is at :doc:`index-apis`.
+   -  Some step-by-step How-Tos are at :doc:`index-tutorials`.
+   -  Quick-start guides are at :doc:`index-quickstart`.
+```
