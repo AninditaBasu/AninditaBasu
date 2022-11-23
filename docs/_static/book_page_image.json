@@ -21,7 +21,7 @@
   "paths": {
     "/download/{itemid}/page/page_:page.jpg": {
         "get": {
-            "description": "The identifier for the Archive.org item for which you want the image.",
+            "description": "The identifier for the Archive.org item for which you want the image.<br/><br/>This API causes a redirect. Make sure that your request mechanisms are configured to follow redirects as the above call will trigger a url redirect from the canonical /download path to the server on which the actual book page resides on disk.<br/><br/>Therefore, when you use this sandbox to enter the parameters and press 'Execute', you'll get a CORS error. But, you can copy the generated 'Request URL' to a browser, and see the result.",
             "parameters": [
                 {
                     "name": "itemid",
@@ -32,7 +32,7 @@
                 },
 				{
                     "name": "page",
-                    "description": "The specific page that has an image you want to retrieve.",
+                    "description": "The specific page that has an image that you want to retrieve.",
                     "in": "query",
                     "type": "integer"
                 }

@@ -55,10 +55,12 @@ Here's a list of the Internet Archive APIs, tools, and services.
    :doc:`Relationships API <simplelists>`, "This API is for creating relationships between items on the Internet Archive.", "--", "--"
    :doc:`reviews`, "This API is for storing reviews of items. Registered users can review items.", "--", "--"
    :doc:`OCR module <ocr>`, "--", "--", "--"
-   :doc:`PDF generation module<pdf>`, "--", "--", "--"
-   "Wayback machine APIs", "These APIs are for determining if a URL is stored on the Wayback Machine and for querying, filtering and analysis of snapshot data.", "`Wayback API reference <./_static/wayback_api.html>`_ and `Wayback API visualization <./_static/vis/wayback_vis.html>`_", ":doc:`tutorial-get-snapshot-wayback`, :doc:`tutorial-compare-snapshot-wayback`"
+   :doc:`PDF generation module <pdf>`, "--", "--", "--"
+   :doc:`Wayback machine APIs <memento>`, "These APIs are for determining if a URL is stored on the Wayback Machine and for querying, filtering and analysis of snapshot data.", "`Wayback API reference <./_static/wayback_api.html>`_ and `Wayback API visualization <./_static/vis/wayback_vis.html>`_", ":doc:`tutorial-get-snapshot-wayback`, :doc:`tutorial-compare-snapshot-wayback`"
    :doc:`Book services <book-services>`, "--","`Book cover API reference <./_static/book_cover_api.html>`_", "--"
-   :doc:`Experimental books API <experimental-book-api>`, "--","`Experimental books API reference <./_static/experimental_book_api.html>`_", "--"
+   :doc:`Experimental books API <experimental-book-apis>`, "--","`Experimental books API reference <./_static/experimental_book_api.html>`_", "--"
+   :doc:`Snapshots API <snapshots>`, "--","--", "--"
+   :doc:`Archive Labs IIIF service <ia-iiif-faqs>`, "--","--", "--"
 
 .. toctree::
    :caption: Tools and APIs
