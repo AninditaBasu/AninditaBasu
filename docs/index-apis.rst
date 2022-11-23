@@ -61,7 +61,6 @@ Here's a list of the Internet Archive APIs, tools, and services.
    :doc:`Experimental books API <experimental-book-apis>`, "These APIs are an attempt to wrap existing Archive.org services and  endpoints into a single experience.","`Experimental books API reference <./_static/experimental_book_api.html>`_", "--"
    :doc:`Snapshots API <snapshots>`, "This API is for citing Wayback snapshots using OpenAnnotations.","--", "--"
    :doc:`Archive Labs IIIF service <ia-iiif-faqs>`, "--","--", "--"
-   :doc:`Book Do-We-Want-It API <book-do-we-want-it-dwwi-api>`, "This is an API to find out whether the Internet Archive needs a specific physical book","--", "--"
 
 .. toctree::
    :caption: Tools and APIs
@@ -94,4 +93,3 @@ Here's a list of the Internet Archive APIs, tools, and services.
    experimental-book-apis
    snapshots
    ia-iiif-faqs
-   book-do-we-want-it-dwwi-api

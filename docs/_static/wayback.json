@@ -5,6 +5,10 @@
     "title": "Wayback API",
     "description": "API for Internet Archive's Wayback Machine"
   },
+  "externalDocs": {
+    "description": "Internet Archive Developer Portal",
+    "url": "https://archive.org/developers/"
+  },
   "host": "archive.org",
   "schemes": [
     "https"
