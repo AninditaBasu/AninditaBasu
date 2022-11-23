@@ -13,5 +13,4 @@ Use the following interactive pages to quickly get a sense of the API resources 
 ``` tip:: 
    -  A complete list of the Internet Archive APIs and services is at :doc:`index-apis`.
    -  Some step-by-step How-Tos are at :doc:`index-tutorials`.
-   -  Quick-start guides are at :doc:`index-quickstart`.
 ```
