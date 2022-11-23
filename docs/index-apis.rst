@@ -37,7 +37,7 @@ Here's a list of the Internet Archive APIs, tools, and services.
 
 .. csv-table::
    :header: "Name", "Description", "Interactive documentation", "Tutorials"
-   :widths: 15, 30, 15, 20, 20
+   :widths: 15, 45, 20, 20
 
    :doc:`metadata-schema/index`, "Metadata is used for locating and viewing information.", "--", "--"
    :doc:`internetarchive/cli`, "The Command-Line Tool (CLI) is for interacting with various archive.org services from the command-line.", "--", ":doc:`Quick start with the ia command line tool<index>`"
@@ -90,3 +90,4 @@ Here's a list of the Internet Archive APIs, tools, and services.
    book-manifests
    experimental-book-apis
    snapshots
+   ia-iiif-faqs
