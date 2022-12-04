@@ -20,4 +20,14 @@ See [Serving Images](https://openlibrary.org/dev/docs/bookreader#serving-image).
 
 See [Search inside individual book API](https://openlibrary.org/dev/docs/api/search_inside).
 
+## Book URLs
 
+Bookreader URLs have the following goals:
+
+-  Permanency: Should be stable over time
+-  Compactness: Short enough to be printed on the cover of a book or included in an academic paper
+-  Translucency: While not being fully descriptive, BookReader URLs should give some indication to a human what they point to
+-  Resilience: Display and other options should be accepted in any order
+-  Minimal/sufficient features: Keep the supported feature set small yet sufficient for core tasks
+
+See [Book URLs](https://openlibrary.org/dev/docs/bookurls).

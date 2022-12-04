@@ -93,4 +93,5 @@ Then you can see the replay of the two URLs you select, side-by-side, with chang
 
 ## Related
 
-[See whether a website exists in the archives](tutorial-get-snapshot-wayback.md).
+-  [Interactive API sandbox](./_static/wayback_api.html).
+-  [See whether a website exists in the archives](tutorial-get-snapshot-wayback.md).

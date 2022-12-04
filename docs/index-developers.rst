@@ -15,9 +15,6 @@ Git repositories
 
 -   `CDX server API <https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server/>`_
 -   `OpenLibrary official repo <https://github.com/internetarchive/openlibrary>`_
--   `OpenLibrary official repo <https://github.com/internetarchive/openlibrary>`_
--   `OpenLibrary official repo <https://github.com/internetarchive/openlibrary>`_
--   `OpenLibrary official repo <https://github.com/internetarchive/openlibrary>`_
 -   `OpenLibrary client library <https://github.com/internetarchive/openlibrary-client>`_
 -   `OpenLibrary APIs <https://openlibrary.org/developers/api>`_
 -   `WARC utility <https://github.com/internetarchive/warc>`_
