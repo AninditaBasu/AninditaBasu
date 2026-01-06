@@ -4,7 +4,7 @@ I am a technical writer :page_with_curl: :pencil2: and completely in love with m
 
 GitHub is where I:
 
--  Teach myself to write code that'll help me try out my documentation ideas. For example, here's an experiment in data-driven hierarchy trees: [roots-and-branches](https://github.com/AninditaBasu/roots-and-branches).
+-  Try out my documentation ideas. For example, a specification that I created for expressing semantic relationships ([Knowledge Graph Schema](https://github.com/AninditaBasu/kgs)) and also an implementation of that specification ([roots-and-branches](https://github.com/AninditaBasu/roots-and-branches)).
 
 -  Play around with APIs that are easy enough for a low-grade coder like me to use, and are related to my interest areas: languages, words, ancient history. For example, here's an experiment with the Gemini API for some multimodal AI stuff: [Inkslate](https://aninditabasu.github.io/inkslate/)
 
